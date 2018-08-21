@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Shield</title>
+	<style type="text/css">
+		body, html {
+			box-sizing: border-box;
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		.shield {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 105px;
+			height: 105px;
+			margin-top: -25px;
+			margin-left: -25px;
+			border-radius: 50%;
+			background: #000066;
+			text-align: center;
+			box-shadow:
+				0 0 0 20px #aa1428,
+				0 0 0 40px white,
+				0 0 0 60px #aa1428,
+				0 0 30px 65px #aa1428;
+			animation: appear 1s;
+		}
+		.star {
+			display: inline-block;
+			font-size: 100px;
+			color: white;
+		}
+		@keyframes appear {
+			from {
+				top: 0;
+				left: 0;
+				width: 0;
+				height: 0;
+				opacity: 0;
+				transform: rotateX(90deg) rotateY(90deg) rotateZ(90deg);
+			}
+			to {
+				top: 50%;
+				left: 50%;
+				width: 105px;
+				height: 105px;
+				opacity: 1;
+				transform: rotate(360deg)
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="shield">
+	<div class="star">★</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box
+}
+
+table {
+  text-align: center;
+}
+
+thead {
+  width: 100%
+}
+
+$COUNT_OF_CLASSES: 6;
+$ATTENDANCE_ON: '1';
+$ATTENDANCE_OFF: '0';
+
+
+/*
+  - 출석 출석 출석 => 그린
+  - 결석 결석 결석 => 레드
+  - 한번이라도 출석하거나 한번이라도 결석하면 => 옐로우
+  - 출석 또는 결석의 경우의 수 밖에 없다는 것은 중복되지 않는 이진수와같다.
+  - 1이면 출석, 0이면 결석으로 정한다.
+  - 3명 기준으로 아래와 같다.
+    000
+    001
+    010
+    011
+    100
+    101
+    110
+    111
+
+  - 재귀를 순회하며 원하는 문자열의 길이가 될때까지 호출한다.
+  - 처음에는 빈 문자열을 전달한다.
+  -         ''
+  -     0       1
+  - 00    01 10   11
+
+  1. 최초에 문자열의 길이가 0이므로 문자열 '0'을 더한뒤 함수 재귀호출
+  2. 두번째 실행시 인수로 넘어온 문자열은 '0'이므로 '0'을 더한뒤 다시 재귀호출
+  3. 세번째 실행시 인수로 넘어온 문자열은 '00'이므로 리스트에 추가후 함수 종료
+  4. 두번째 실행스택으로 돌아왔을때 인수로 넘어온 문자열은 '0'이므로 '1'더하여 재귀 호출
+  5. 네번째 실행시 인수로 넘어온 문자열은 '01'이므로 리스트에 추가후 함수 종료..
+  6. 계속 반복
+ */
+@function getAttendanceCombination ($str, $attendances) {
+  @if (str-length($str) == $COUNT_OF_CLASSES) {
+    $attendances: append($attendances, $str);
+    @return $attendances;
+  }
+
+  $attendances: getAttendanceCombination($str + $ATTENDANCE_ON, $attendances);
+  $attendances: getAttendanceCombination($str + $ATTENDANCE_OFF, $attendances);
+  @return $attendances;
+}
+
+@function isAllAttendance ($attendanceCombination) {
+  $classesLength: str-length($attendanceCombination);
+  @for $i from 1 through $classesLength {
+    $attendance: str-slice($attendanceCombination, $i, $i);
+    @if ($attendance != $ATTENDANCE_ON) {
+      @return false;
+    }
+  }
+  @return true;
+}
+
+@function isNotAllAttendance ($attendanceCombination) {
+  $classesLength: str-length($attendanceCombination);
+  @for $i from 1 through $classesLength {
+    $attendance: str-slice($attendanceCombination, $i, $i);
+    @if ($attendance != $ATTENDANCE_OFF) {
+      @return false;
+    }
+  }
+  @return true;
+}
+
+@each $attendanceCombination in getAttendanceCombination('', ()) {
+  $props: '';
+  $color: '';
+  $classesLength: str-length($attendanceCombination);
+
+  @for $j from 1 through $classesLength {
+    $attendance: str-slice($attendanceCombination, $j, $j);
+    $isAttendance: $attendance == $ATTENDANCE_ON;
+
+    @if ($isAttendance) {
+      $props: $props + '[data-' + $j + '="on"]';
+    } @else {
+      $props: $props + '[data-' + $j + '="off"]';
+    }
+
+    @if ($j != $classesLength) {
+      $props: $props + '+';
+    } @else {
+      $props: $props + '+ td';
+    }
+  }
+
+  @if (isAllAttendance($attendanceCombination)) {
+    $color: green;
+  } @else if (isNotAllAttendance($attendanceCombination)){
+    $color: red;
+  } @else {
+    $color: yellow;
+  }
+
+  #{$props} {
+    background: $color;
+  }
+}

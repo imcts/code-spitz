@@ -1,0 +1,273 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+table {
+  text-align: center;
+}
+
+thead {
+  width: 100%;
+}
+
+[data-1=on] + [data-2=on] + [data-3=on] + [data-4=on] + [data-5=on] + [data-6=on] + td {
+  background: green;
+}
+
+[data-1=on] + [data-2=on] + [data-3=on] + [data-4=on] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=on] + [data-4=on] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=on] + [data-4=on] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=on] + [data-4=off] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=on] + [data-4=off] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=on] + [data-4=off] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=on] + [data-4=off] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=off] + [data-4=on] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=off] + [data-4=on] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=off] + [data-4=on] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=off] + [data-4=on] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=off] + [data-4=off] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=off] + [data-4=off] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=off] + [data-4=off] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=on] + [data-3=off] + [data-4=off] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=on] + [data-4=on] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=on] + [data-4=on] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=on] + [data-4=on] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=on] + [data-4=on] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=on] + [data-4=off] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=on] + [data-4=off] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=on] + [data-4=off] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=on] + [data-4=off] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=off] + [data-4=on] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=off] + [data-4=on] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=off] + [data-4=on] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=off] + [data-4=on] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=off] + [data-4=off] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=off] + [data-4=off] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=off] + [data-4=off] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=on] + [data-2=off] + [data-3=off] + [data-4=off] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=on] + [data-4=on] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=on] + [data-4=on] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=on] + [data-4=on] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=on] + [data-4=on] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=on] + [data-4=off] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=on] + [data-4=off] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=on] + [data-4=off] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=on] + [data-4=off] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=off] + [data-4=on] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=off] + [data-4=on] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=off] + [data-4=on] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=off] + [data-4=on] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=off] + [data-4=off] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=off] + [data-4=off] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=off] + [data-4=off] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=on] + [data-3=off] + [data-4=off] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=on] + [data-4=on] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=on] + [data-4=on] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=on] + [data-4=on] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=on] + [data-4=on] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=on] + [data-4=off] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=on] + [data-4=off] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=on] + [data-4=off] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=on] + [data-4=off] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=off] + [data-4=on] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=off] + [data-4=on] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=off] + [data-4=on] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=off] + [data-4=on] + [data-5=off] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=off] + [data-4=off] + [data-5=on] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=off] + [data-4=off] + [data-5=on] + [data-6=off] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=off] + [data-4=off] + [data-5=off] + [data-6=on] + td {
+  background: yellow;
+}
+
+[data-1=off] + [data-2=off] + [data-3=off] + [data-4=off] + [data-5=off] + [data-6=off] + td {
+  background: red;
+}
+
+/*# sourceMappingURL=css/static/classbook.css.map */
