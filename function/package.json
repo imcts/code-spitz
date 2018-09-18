@@ -1,0 +1,19 @@
+{
+  "name": "function",
+  "version": "1.0.0",
+  "description": "dolen",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "dolen",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^3.2.1",
+    "karma": "^3.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-webpack": "^3.0.5",
+    "webpack": "^4.19.0"
+  }
+}
