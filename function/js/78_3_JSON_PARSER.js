@@ -48,9 +48,9 @@ export const parser = (str = '') => {
         key = makeArray(current, key)
         break
       case isString(currentChar):
-        const strResult = parseString(str, current, cursor, key)
-        findIndex = strResult.nextCursor
-        key = strResult.nextKey
+        const parsedString = parseString(str, current, cursor, key)
+        findIndex = parsedString.nextCursor
+        key = parsedString.nextKey
         break
       case isPassTags(currentChar):
         break
@@ -64,9 +64,9 @@ export const parser = (str = '') => {
         }
         break
       default:
-        const valueResult = parseValue(str, current, cursor, key)
-        key = valueResult.nextKey
-        findIndex = valueResult.nextCursor
+        const parsedValue = parseValue(str, current, cursor, key)
+        key = parsedValue.nextKey
+        findIndex = parsedValue.nextCursor
         break
     }
     cursor = findNonBlankChar(str, findIndex)
@@ -152,15 +152,6 @@ const findNonBlankChar = (str, cursor) => {
 }
 
 const parseValue = (str, current, cursor, key) => {
-  const {nextCursor, value} = getValue(str, cursor)
-  const nextKey = setCurrentValue(current, key, value)
-  return {
-    nextCursor,
-    nextKey
-  }
-}
-
-const getValue = (str, cursor) => {
   const len = str.length
   let endIndex = len
 
@@ -184,6 +175,6 @@ const getValue = (str, cursor) => {
 
   return {
     nextCursor: endIndex - 1,
-    value
+    nextKey: setCurrentValue(current, key, value)
   }
 }
