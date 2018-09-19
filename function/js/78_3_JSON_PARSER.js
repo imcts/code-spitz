@@ -21,6 +21,7 @@ const VALUE = {
 }
 const PASS_IDENTIFIES = [IDENTIFY.COLON, IDENTIFY.COMMA, IDENTIFY.BLANK]
 const END_OF_VALUE_IDENTIFIES = [IDENTIFY.COMMA, IDENTIFY.CLOSE_ARRAY, IDENTIFY.CLOSE_OBJECT]
+const CLOSE_TAGS = [IDENTIFY.CLOSE_OBJECT, IDENTIFY.CLOSE_ARRAY]
 const DEFAULT_KEY_VALUE = undefined
 
 export const parser = (str = '') => {
@@ -37,76 +38,50 @@ export const parser = (str = '') => {
 
   while (cursor < len) {
     const currentChar = str[cursor]
-    const isCLoseTags = currentChar === IDENTIFY.CLOSE_OBJECT || currentChar === IDENTIFY.CLOSE_ARRAY
-    const isFinishedAndBackIsNotNull = isFinished(str, cursor) && current.back !== null
     let findIndex = cursor
 
-    if (!PASS_IDENTIFIES.includes(currentChar)) {
-      if (currentChar === IDENTIFY.OPEN_OBJECT) {
+    switch (true) {
+      case isObject(currentChar):
         key = makeObject(str, current, key, cursor)
-      } else if (currentChar === IDENTIFY.OPEN_ARRAY) {
-        key = makeArray(current, key)
-      } else if (currentChar === IDENTIFY.DOUBLE_QUOT) {
-        const {nextCursor, value} = getStringValue(str, cursor)
-        key = setCurrentValue(current, key, value)
-        findIndex = nextCursor
-      } else if (isCLoseTags && isFinishedAndBackIsNotNull) {
-        current = current.back
-      } else if (isCLoseTags && !isFinishedAndBackIsNotNull) {
         break
-      } else {
-        const {nextCursor, value} = getValue(str, cursor)
-        key = setCurrentValue(current, key, value)
-        findIndex = nextCursor
-      }
+      case isArray(currentChar):
+        key = makeArray(current, key)
+        break
+      case isString(currentChar):
+        const strResult = parseString(str, current, cursor, key)
+        findIndex = strResult.nextCursor
+        key = strResult.nextKey
+        break
+      case isPassTags(currentChar):
+        break
+      case isCLoseTags(currentChar):
+        if (isParsingFinished(str, cursor)) {
+          if (isBreak(current)) {
+            return current.target
+          } else {
+            current = current.back
+          }
+        }
+        break
+      default:
+        const valueResult = parseValue(str, current, cursor, key)
+        key = valueResult.nextKey
+        findIndex = valueResult.nextCursor
+        break
     }
     cursor = findNonBlankChar(str, findIndex)
   }
   return current.target
 }
 
-const getValue = (str, cursor) => {
-  const endValueIndex = findEndOfValue(str, cursor)
-  const foundValue = str.substring(cursor, endValueIndex)
-  return {
-    nextCursor: endValueIndex - 1,
-    value: getValueByType(foundValue)
-  }
-}
-
-const findEndOfValue = (str, cursor) => {
-  const len = str.length
-  for (let i = cursor; i < len; i++) {
-    if (END_OF_VALUE_IDENTIFIES.includes(str[i].trim())) {
-      return i
-    }
-  }
-  return len
-}
-
-const getValueByType = (value) => {
-  const trimValue = value.trim()
-  if (trimValue === VALUE.TRUE) {
-    value = true
-  } else if (trimValue === VALUE.FALSE) {
-    value = false
-  } else if (trimValue === VALUE.NULL) {
-    value = null
-  } else if (typeof Number(value) === TYPE.NUMBER) {
-    value = Number(value)
-  }
-  return value
-}
-
-
-const getStringValue = (str, cursor) => {
-  const startDoubleQuotIndex = cursor + 1
-  const endDoubleQuotIndex = str.indexOf(IDENTIFY.DOUBLE_QUOT, startDoubleQuotIndex)
-  return {
-    nextCursor: endDoubleQuotIndex,
-    value: str.substring(startDoubleQuotIndex, endDoubleQuotIndex)
-  }
-}
+const isObject = (v) => v === IDENTIFY.OPEN_OBJECT
+const isUndefined = (v) => typeof v === 'undefined'
+const isArray = (v) => v === IDENTIFY.OPEN_ARRAY
+const isString = (v) => v === IDENTIFY.DOUBLE_QUOT
+const isPassTags = (v) => PASS_IDENTIFIES.includes(v)
+const isCLoseTags = (v) => CLOSE_TAGS.includes(v)
+const isParsingFinished = (str, cursor) => cursor < str.length - 1
+const isBreak = (current) => current.back === null
 
 const makeObject = (str, current, key, cursor) => {
   const newObject = {}
@@ -121,38 +96,10 @@ const makeObject = (str, current, key, cursor) => {
   } else {
     key = setCurrentValue(current, key, newObject)
     current.type = TYPE.OBJECT
-    if (isFinished(str, cursor)) {
+    if (isParsingFinished(str, cursor)) {
       current.back = {...current}
     }
     current.target = newObject
-  }
-  return key
-}
-
-const isFinished = (str, cursor) => cursor < str.length - 1
-
-const isUndefined = (value) => typeof value === 'undefined'
-
-const findNonBlankChar = (str, cursor) => {
-  const len = str.length
-  for (let i = cursor + 1; i < len; i++) {
-    if (str[i].trim() !== '') {
-      return i
-    }
-  }
-  return len
-}
-
-const makeArray = (current, key) => {
-  if (isUndefined(key)) {
-    current.target = []
-    current.type = TYPE.ARRAY
-    current.back = {...current}
-  } else {
-    const newArray = []
-    key = setCurrentValue(current, key, newArray)
-    current.type = TYPE.ARRAY
-    current.target = newArray
   }
   return key
 }
@@ -171,4 +118,72 @@ const setCurrentValue = (current, key, value) => {
   return key
 }
 
+const makeArray = (current, key) => {
+  if (isUndefined(key)) {
+    current.target = []
+    current.type = TYPE.ARRAY
+    current.back = {...current}
+  } else {
+    const newArray = []
+    key = setCurrentValue(current, key, newArray)
+    current.type = TYPE.ARRAY
+    current.target = newArray
+  }
+  return key
+}
 
+const parseString = (str, current, cursor, key) => {
+  const startIndex = cursor + 1
+  const endIndex = str.indexOf(IDENTIFY.DOUBLE_QUOT, startIndex)
+  return {
+    nextCursor: endIndex,
+    nextKey: setCurrentValue(current, key, str.substring(startIndex, endIndex))
+  }
+}
+
+const findNonBlankChar = (str, cursor) => {
+  const len = str.length
+  for (let i = cursor + 1; i < len; i++) {
+    if (str[i].trim() !== '') {
+      return i
+    }
+  }
+  return len
+}
+
+const parseValue = (str, current, cursor, key) => {
+  const {nextCursor, value} = getValue(str, cursor)
+  const nextKey = setCurrentValue(current, key, value)
+  return {
+    nextCursor,
+    nextKey
+  }
+}
+
+const getValue = (str, cursor) => {
+  const len = str.length
+  let endIndex = len
+
+  for (let i = cursor; i < len; i++) {
+    if (END_OF_VALUE_IDENTIFIES.includes(str[i].trim())) {
+      endIndex = i
+      break
+    }
+  }
+
+  let value = str.substring(cursor, endIndex).trim()
+  if (value === VALUE.TRUE) {
+    value = true
+  } else if (value === VALUE.FALSE) {
+    value = false
+  } else if (value === VALUE.NULL) {
+    value = null
+  } else if (typeof Number(value) === TYPE.NUMBER) {
+    value = Number(value)
+  }
+
+  return {
+    nextCursor: endIndex - 1,
+    value
+  }
+}

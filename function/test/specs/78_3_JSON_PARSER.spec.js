@@ -133,6 +133,21 @@ describe('JSON Parser - ', () => {
   })
 
 
+  it('객체의 값이 음수인 경우.', () => {
+    // Given
+    const str = `{
+      "miner": -123.33
+    }`
+
+    // When
+    const json = parser(str)
+
+    // Then
+    expect(json).toEqual({
+      miner: -123.33
+    })
+  })
+
   it('객체 안에 문자열 키의 값으로 객체가 있는 경우.', () => {
     // Given
     const str = `{"key": {}}` // 11EA
