@@ -26,9 +26,9 @@ const Renderer = class {
    *  2. this._info에 값을 저장하게 되면 구상클래스인 TableRenderer 클래스에서도 info를 알고있어야 한다.
    *  3. this._render메소드에 인자로 title, header, items를 인자로 전달하는 것은 문제가 있다.
    *    - 인자를 전달받아서 사용되는 것은 함수이거나 static 메소드여야지 객체의 private 메소드일 필요가 없기 때문이다.
-   *  4. Renderer 클래스는 현재 화면을 그릴때 필요한 Renderer이기 때문에 이 클래스가 Data와 통신한 결과값을 저장한다.
-   *  5. private값에 info에서 전달 받은 값을 저장하고 this._render를 호출한다.
-   *  6. 이로써 TableRenderer는 info에 의존적이지 않고 부모가 가지고 있는 값을 사용해서 그림만 그리면 된다.
+   *  4. Renderer 클래스는 현재 화면을 그릴때 필요한 Renderer이기 때문에 무엇을 그려야 하는지, 그것을 그리기 위해서는 무슨 값이 필요한지도 알아야 한다.
+   *  5. private값에 info에서 전달 받은 값들을 저장하고 this._render를 호출한다.
+   *  6. 이로써 구상객체인 TableRenderer는 info에 의존적이지 않고 부모가 가지고 있는 값을 사용해서 렌더링만 수행할 수 있게 된다.
    */
   async render () {
     const {title, header, items} = await this._data.getData()
