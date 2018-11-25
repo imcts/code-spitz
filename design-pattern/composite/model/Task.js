@@ -1,3 +1,8 @@
+const ORDER_BY = {
+  TITLE: 'TITLE',
+  DATE: 'DATE'
+}
+
 const Task = class {
   constructor (title, date) {
     this._title = title
