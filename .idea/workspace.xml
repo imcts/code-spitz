@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac6c69b9-8c18-4e17-8877-871b7077adfb" name="Default" comment="" />
+    <list default="true" id="ac6c69b9-8c18-4e17-8877-871b7077adfb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/visitor/index.html" afterPath="$PROJECT_DIR$/design-pattern/visitor/index.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/design-pattern/visitor/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/design-pattern/visitor/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="30" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,9 +89,9 @@
         <option value="$PROJECT_DIR$/design-pattern/visitor/renderer/Renderer.js" />
         <option value="$PROJECT_DIR$/design-pattern/visitor/visitor/DomVisitor.js" />
         <option value="$PROJECT_DIR$/design-pattern/visitor/view/TodoView.js" />
-        <option value="$PROJECT_DIR$/design-pattern/visitor/index.html" />
         <option value="$PROJECT_DIR$/design-pattern/visitor/model/TodoModel.js" />
         <option value="$PROJECT_DIR$/design-pattern/visitor/index.js" />
+        <option value="$PROJECT_DIR$/design-pattern/visitor/index.html" />
       </list>
     </option>
   </component>
@@ -329,12 +342,12 @@
       <workItem from="1543143146567" duration="1064000" />
       <workItem from="1543194642772" duration="304000" />
       <workItem from="1543208746978" duration="2004000" />
-      <workItem from="1543801841012" duration="22246000" />
+      <workItem from="1543801841012" duration="22859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37595000" />
+    <option name="totallyTimeSpent" value="38208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="946" extended-state="6" />
@@ -615,18 +628,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/visitor/index.html">
+    <entry file="file://$PROJECT_DIR$/design-pattern/visitor/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/visitor/index.js">
+    <entry file="file://$PROJECT_DIR$/design-pattern/visitor/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="364">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
