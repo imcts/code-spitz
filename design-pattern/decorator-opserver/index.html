@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    li {
+      cursor: pointer;
+    }
+
+    .complete > div {
+      text-decoration: line-through;
+    }
+
+    #folders {
+      float: left;
+      width: 20%;
+      padding: 10px;
+      border: 1px solid red;
+    }
+
+    #folder {
+      float: left;
+      width: 80%;
+      padding: 10px;
+      border: 1px solid blue;
+    }
+  </style>
+</head>
+<body>
+<div id="wrapper"></div>
+<script src="model/TodoModel.js"></script>
+<script src="model/Task.js"></script>
+<script src="view/TodoView.js"></script>
+<script src="renderer/Renderer.js"></script>
+<script src="visitor/Visitor.js"></script>
+<script src="visitor/DomVisitor.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
