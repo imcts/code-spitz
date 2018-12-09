@@ -1,12 +1,8 @@
 const Renderer = class {
-  constructor (wrapper, visitor) {
-    if (!wrapper) {
-      throw new TypeError('The wrapper has not been existed.')
-    }
+  constructor (visitor) {
     if(!(visitor instanceof Visitor)) {
       throw new TypeError('The visitor must be the type of Visitor.')
     }
-    this._wrapper = wrapper
     this._visitor = visitor
   }
 
@@ -19,6 +15,7 @@ const Renderer = class {
     visitor.order(orderState)
     visitor.makeParent(folder.task)
     this._render(folder.list)
+    return this
   }
 
   _render (list) {

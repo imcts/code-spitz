@@ -8,7 +8,9 @@
     }
 
     li {
+      list-style: none;
       cursor: pointer;
+      padding: 0
     }
 
     .complete > div {
@@ -22,11 +24,63 @@
       border: 1px solid red;
     }
 
+    #folders > ul {
+      padding: 0
+    }
+
     #folder {
       float: left;
       width: 80%;
       padding: 10px;
       border: 1px solid blue;
+    }
+
+    #folder > ul {
+      padding: 0
+    }
+
+    .star {
+      color: yellowgreen
+    }
+
+    .clover {
+      color: green
+    }
+
+    .coffee {
+      color: brown
+    }
+
+    .skull {
+      color: grey
+    }
+
+    .urgent {
+      color: red
+    }
+
+    .high {
+      color: orange
+    }
+
+    .normal {
+      color: skyblue
+    }
+
+    .low {
+      color: grey
+    }
+
+    .remove {
+      color: red;
+      font-size: 11px;
+      cursor: pointer
+    }
+
+    .member {
+      background: #edeeed;
+      text-decoration: none;
+      color: #444
     }
   </style>
 </head>
@@ -35,6 +89,11 @@
 <script src="model/TodoModel.js"></script>
 <script src="model/Task.js"></script>
 <script src="view/TodoView.js"></script>
+<script src="decorator/Decorator.js"></script>
+<script src="decorator/TaskView.js"></script>
+<script src="decorator/MemberDecorator.js"></script>
+<script src="decorator/PriorityDecorator.js"></script>
+<script src="decorator/SymbolDecorator.js"></script>
 <script src="renderer/Renderer.js"></script>
 <script src="visitor/Visitor.js"></script>
 <script src="visitor/DomVisitor.js"></script>

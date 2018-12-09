@@ -7,10 +7,13 @@ const TodoView = class {
       throw new TypeError('The model must be the type of TodoModel.')
     }
     this._wrapper = document.querySelector(selector)
-    this._renderer = new Renderer(this._wrapper, new DomVisitor(this._wrapper))
     this._model = model
 
-    this._renderer.render(model.getData())
+    this._renderer = new Renderer(
+      new DomVisitor(this._wrapper)
+        .setTaskDecorator(new PriorityDecorator(), new MemberDecorator(['dolen', 'sirupe']))
+        .setFolderDecorator(new SymbolDecorator(), new PriorityDecorator(), new MemberDecorator(['dolen', 'sirupe']))
+    ).render(model.getData())
     this._bindEvents()
   }
 

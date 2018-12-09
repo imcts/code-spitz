@@ -9,18 +9,22 @@ const el = (tag, attr = {}) =>
 
 const DomVisitor = class extends Visitor {
   folders (folders) {
-    const div = el('div', {id: 'folders'})
+    const wrapper = el('div', {id: 'folders'})
     const ul = el('ul')
-    folders.forEach(folder => ul.appendChild(el('li', {innerHTML: folder.title, folder})))
-    div.appendChild(ul)
-    this.wrapper.appendChild(div)
+    folders.forEach(folder => {
+      const li = el('li', {folder})
+      this.folderRender(li, folder)
+      ul.appendChild(li)
+    })
+    wrapper.appendChild(ul)
+    this.wrapper.appendChild(wrapper)
   }
 
-  folder ({title}) {
-    const div = el('div', {id: 'folder'})
-    div.appendChild(el('h1', {innerHTML: title}))
-    this.wrapper.appendChild(div)
-    this.parent = div
+  folder (task) {
+    const wrapper = el('div', {id: 'folder'})
+    this.folderRender(wrapper.appendChild(el('h1')), task)
+    this.wrapper.appendChild(wrapper)
+    this.parent = wrapper
   }
 
   order (orderState) {
@@ -67,9 +71,11 @@ const DomVisitor = class extends Visitor {
   }
 
   task (task) {
-    const li = this.parent.appendChild(el('li'))
-    li.appendChild(el('div', {innerHTML: task.title, task}))
-    task.isComplete() && (li.className = 'complete')
-    this.parent = li
+    const li = el('li')
+    if (task.isComplete()) {
+      li.className = 'complete'
+    }
+    this.taskRender(li.appendChild(el('div', {task})), task)
+    this.parent = this.parent.appendChild(li)
   }
 }

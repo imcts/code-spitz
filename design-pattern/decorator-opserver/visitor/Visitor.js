@@ -6,6 +6,26 @@ const Visitor = class Visitor {
     this._wrapper = wrapper
     this._parent = null
     this._parents = []
+    this._taskView = new TaskView()
+    this._folderView = new TaskView()
+  }
+
+  setTaskDecorator (...decorators) {
+    decorators.forEach(decorator => this._taskView = decorator.set(this._taskView))
+    return this
+  }
+
+  setFolderDecorator (...decorators) {
+    decorators.forEach(decorator => this._folderView = decorator.set(this._folderView))
+    return this
+  }
+
+  taskRender (wrapper, task) {
+    this._taskView.task(wrapper, task)
+  }
+
+  folderRender (wrapper, task) {
+    this._folderView.task(wrapper, task)
   }
 
   folders () {

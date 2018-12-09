@@ -15,37 +15,36 @@ const TodoModel = class {
 
   _fetchFolder () {
     // Set mock data.
-    // TODO 데이터 설정.
-    const folder = new Task('79-5-1')
-    folder.add('영어회화 학원')
-    folder.add('태권도 학원')
-    folder.add('ES6 스터디')
-    folder.add('영어 문법 스터디', new Date('2018-09-01'))
-    folder.add('이펙티브자바 스터디')
-    folder.add('코드스피츠 스터디')
+    const folder = new Task('[star] 79-5-1 @dolen')
+    folder.add('[urgent] 영어회화 학원 @dolen @sirupe')
+    folder.add('[high] 태권도 학원 @dolen @sirupe')
+    folder.add('[low] ES6 스터디 @dolen')
+    folder.add('[low] 영어 문법 스터디 @dolen @sirupe', new Date('2018-09-01'))
+    folder.add('[normal] 헤드퍼스트 디자인패턴 스터디 @dolen @sirupe')
+    folder.add('[urgent] 코드스피츠 스터디 @dolen')
 
     const {list: [{task: es6}, {task: english}]} = folder.byTitle()
-    es6.add('블로그에 정리')
-    english.add('번역 숙제')
+    es6.add('[low] 블로그에 정리 @dolen')
+    english.add('[high] 번역 숙제 @dolen')
 
     const {list: [{task: subEnglish}]} = english.byTitle()
-    subEnglish.add('12월 7일 영작')
+    subEnglish.add('[high] 12월 7일 영작 @dolen')
 
 
 
-    const folder1 = new Task('79-5-2')
-    folder1.add('늦잠자기')
-    folder1.add('휴가에 스터디 숙제라니')
-    folder1.add('영화나 보러갈까', new Date('2018-09-01'))
+    const folder1 = new Task('[skull] 79-5-2 @dolen')
+    folder1.add('[low] 늦잠자기')
+    folder1.add('[normal] 와 오랜만에 밤새보네 -ㅁ -')
+    folder1.add('[low] 영화나 보러갈까', new Date('2018-09-01'))
 
     const {list: [{task: late}, {task: movie}]} = folder1.byTitle()
-    late.add('점심은 뭐먹지')
-    late.add('김치찌개 먹을까')
+    late.add('[high] 점심은 뭐먹지')
+    late.add('[urgent] 김치찌개 먹을까')
 
-    movie.add('영화 뭐보지')
+    movie.add('[low] 영화 뭐보지')
 
     const {list: [{task: title}]} = movie.byTitle()
-    title.add('퀸 보러 가야하나')
+    title.add('[low] 퀸 보러 가야하나')
 
     this._folder = folder
     this._folders.push(folder)
