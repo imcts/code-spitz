@@ -12,8 +12,13 @@ const DomVisitor = class extends Visitor {
     const wrapper = el('div', {id: 'folders'})
     const ul = el('ul')
     folders.forEach(folder => {
-      const li = el('li', {folder})
+      const li = el('li')
       this.folderRender(li, folder)
+      li.onclick = e => {
+        if (e.target.nodeName.toLowerCase() === 'li') {
+          this.notify(EVENT.CHANGE_FOLDER, folder)
+        }
+      }
       ul.appendChild(li)
     })
     wrapper.appendChild(ul)
@@ -44,9 +49,9 @@ const DomVisitor = class extends Visitor {
       group.style.color = 'red'
     }
 
-    title.dataset.order = ORDER_BY.TITLE
-    date.dataset.order = ORDER_BY.DATE
-    group.dataset.order = ORDER_BY.GROUP
+    title.onclick = () => this.notify(EVENT.ORDER_TITLE, ORDER_BY.TITLE)
+    date.onclick = () => this.notify(EVENT.ORDER_DATE, ORDER_BY.DATE)
+    group.onclick = () => this.notify(EVENT.ORDER_GROUP, ORDER_BY.GROUP)
 
     const parent = this.parent
     parent.appendChild(title)
@@ -75,7 +80,17 @@ const DomVisitor = class extends Visitor {
     if (task.isComplete()) {
       li.className = 'complete'
     }
-    this.taskRender(li.appendChild(el('div', {task})), task)
+    this.taskRender(li.appendChild(el('div')), task)
+    li.onclick = e => {
+      if (e.target.nodeName.toLowerCase() === 'div') {
+        this.notify(EVENT.CHANGE_TASK, task)
+      }
+      e.stopPropagation()
+    }
     this.parent = this.parent.appendChild(li)
+  }
+
+  observe (event, ...args) {
+    this.notify(event, ...args)
   }
 }

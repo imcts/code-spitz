@@ -1,8 +1,9 @@
-const Visitor = class Visitor {
+const Visitor = class Visitor extends Observer {
   constructor (wrapper) {
     if (!wrapper) {
       throw new TypeError('The wrapper has not been existed.')
     }
+    super()
     this._wrapper = wrapper
     this._parent = null
     this._parents = []
@@ -11,7 +12,7 @@ const Visitor = class Visitor {
   }
 
   setTaskDecorator (...decorators) {
-    decorators.forEach(decorator => this._taskView = decorator.set(this._taskView))
+    decorators.forEach(decorator => this._taskView = decorator.addObserver(this).set(this._taskView))
     return this
   }
 

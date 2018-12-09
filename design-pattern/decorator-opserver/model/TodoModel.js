@@ -87,6 +87,10 @@ const TodoModel = class {
     this._group = !this._group
   }
 
+  removeTask (task) {
+    task.parent.remove(task)
+  }
+
   set order (order) {
     if (this._order !== order) {
       this._order = order

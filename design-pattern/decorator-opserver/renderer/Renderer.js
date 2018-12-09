@@ -1,9 +1,11 @@
-const Renderer = class {
+const Renderer = class extends Observer {
   constructor (visitor) {
     if(!(visitor instanceof Visitor)) {
       throw new TypeError('The visitor must be the type of Visitor.')
     }
+    super()
     this._visitor = visitor
+    this._visitor.addObserver(this)
   }
 
   render ({folders, folder, orderState}) {
@@ -28,5 +30,9 @@ const Renderer = class {
         visitor.removeParentNode()
       }
     })
+  }
+
+  observe (event, ...args) {
+    this.notify(event, ...args)
   }
 }

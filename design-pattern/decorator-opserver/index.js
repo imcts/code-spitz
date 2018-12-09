@@ -17,5 +17,11 @@
  *          - 폴더에는 SymbolDecorator.js를 생성하여 심볼들이 그려질 수 있도록 한다.
  *         4. 데코레이터가 값 기반이 아닌 객체 기반으로 구성한다.
  *          - 엘리먼트를 전달하여 처리하도록 구현.
+ *         5. 옵저버 패턴을 적용하여 이벤트를 처리하도록 변경한다.
+ *          - 인터페이스 Observer.js를 생성한다.
+ *          - Visitor와 Renderer와 TodoView는 Observer를 상속한다.
+ *          - task나 folder가 그려지고 onclick 이벤트를 적용한다.
+ *          - 클릭이 발생되어 유효한 이벤트인 경우 전파한다.
+ *          - TodoView에서 이벤트에 대한 처리를 수행 후 다시 그린다.
  */
 new TodoView('#wrapper', new TodoModel)

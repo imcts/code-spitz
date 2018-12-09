@@ -27,9 +27,15 @@
  *  - this._taskDecorator는 주입된 맨 마지막 데코레이터이다.
  *  - 실행시 C -> B -> A로 재귀적으로 실행하여 A의 결과값을 B한테, B의 결과값을 C한테 주면 된다.
  *  - 실행단에서는 아무것도 알 필요 없이 설정된 데코레이터의 C.run()을 함으로써 언제든 재귀적으로 실행할 수 있다.
+ * 4. 실행 순서
+ *  - 초기에는 C가 선택되어있으므로 C의 task를 실행한다.
+ *  - 그다음 공통 task메소드에서 주입받은 데코레이터가 있다면 먼저 그것을 실행한다.
+ *  - 반복해서 실행하다보면 A -> B -> C순서대로 recursion하게 실행된다.
+ *  - 즉, 설정을 한번 하고 재귀적으로 실행하는것이 핵심이다.
  */
-const Decorator = class {
+const Decorator = class extends Observer {
   constructor () {
+    super()
     this._decorator = null
     this._result = null
   }

@@ -1,7 +1,8 @@
 const Task = class {
-  constructor (title, date) {
+  constructor (title, date, parent) {
     this._title = title
     this._date = date
+    this._parent = parent
     this._complete = false
     this._list = []
   }
@@ -15,7 +16,7 @@ const Task = class {
   }
 
   add (title, date = Date.now()) {
-    this._list.push(new Task(title, date))
+    this._list.push(new Task(title, date, this))
   }
 
   remove (task) {
@@ -63,5 +64,9 @@ const Task = class {
 
   get date () {
     return this._date.valueOf()
+  }
+
+  get parent () {
+    return this._parent
   }
 }

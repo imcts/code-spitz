@@ -1,3 +1,12 @@
+const EVENT = {
+  CHANGE_FOLDER: 'CHANGE_FOLDER',
+  CHANGE_TASK: 'CHANGE_TASK',
+  REMOVE_TASK: 'REMOVE_TASK',
+  ORDER_TITLE: 'ORDER_TITLE',
+  ORDER_DATE: 'ORDER_DATE',
+  ORDER_GROUP: 'ORDER_GROUP'
+}
+
 const TodoView = class {
   constructor (selector, model) {
     if (!selector) {
@@ -11,26 +20,28 @@ const TodoView = class {
 
     this._renderer = new Renderer(
       new DomVisitor(this._wrapper)
-        .setTaskDecorator(new PriorityDecorator(), new MemberDecorator(['dolen', 'sirupe']))
+        .setTaskDecorator(new PriorityDecorator(), new MemberDecorator(['dolen', 'sirupe']), new RemoveDecorator())
         .setFolderDecorator(new SymbolDecorator(), new PriorityDecorator(), new MemberDecorator(['dolen', 'sirupe']))
     ).render(model.getData())
-    this._bindEvents()
+    this._renderer.addObserver(this)
   }
 
-  _bindEvents () {
-    this._wrapper.addEventListener('click', this._click.bind(this))
-  }
+  observe (event, ...args) {
+    switch (event) {
+      case EVENT.CHANGE_FOLDER:
+        this._onClickFolder(...args)
+        break
+      case EVENT.CHANGE_TASK:
+        this._onClickTask(...args)
+        break
+      case EVENT.ORDER_TITLE:
+      case EVENT.ORDER_DATE:
+      case EVENT.ORDER_GROUP:
+        this._onClickOrderButton(...args)
+        break
+      case EVENT.REMOVE_TASK:
+        this._removeTask(...args)
 
-  _click (e) {
-    // TODO 여기도 옵저버로 바꿀 수 있으면 좋겠네. 클릭된걸 notify 받으면 좋을테니.
-    const {folder, task, dataset} = e.target
-
-    if (folder) {
-      this._onClickFolder(folder)
-    } else if (task) {
-      this._onClickTask(task)
-    } else {
-      this._onClickOrderButton(dataset.order)
     }
   }
 
@@ -46,9 +57,6 @@ const TodoView = class {
   }
 
   _onClickOrderButton (order) {
-    if (!order) {
-      return
-    }
     const model = this._model
     switch (order) {
       case ORDER_BY.TITLE:
@@ -61,6 +69,12 @@ const TodoView = class {
         model.toggleGroup()
         break;
     }
+    this._renderer.render(model.getData())
+  }
+
+  _removeTask (task) {
+    const model = this._model
+    model.removeTask(task)
     this._renderer.render(model.getData())
   }
 }
