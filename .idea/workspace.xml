@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6c69b9-8c18-4e17-8877-871b7077adfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/line-game/component/Block.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/line-game/constant/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/line-game/image/block0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/line-game/image/block1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/line-game/image/block2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/line-game/image/block3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/line-game/image/block4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/line-game/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/line-game/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/choitaesan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/constant/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/controller/Game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/image/block0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/image/block1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/image/block2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/image/block3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/image/block4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/model/Block.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/protocol/Message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/renderer/BlockRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/renderer/DivRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/renderer/Renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/line-game2/renderer/SectionRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,36 +28,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/oop/line-game/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/oop/line-game2/controller/Game.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="593">
+                  <caret line="183" selection-start-line="183" selection-end-line="183" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/oop/line-game2/renderer/Renderer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="55" column="12" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>addEvent</find>
-      <find>type</find>
-      <find>instance</find>
-      <find>toggle</find>
-      <find>_toggleChildren</find>
-      <find>_parent</find>
-      <find>model</find>
-      <find>this._folder</find>
-      <find>folder</find>
-      <find>this._wrapper</find>
-      <find>order</find>
-      <find>this._</find>
-      <find>orders</find>
-      <find>this._renderer.render()</find>
-      <find>render</find>
-      <find>getData</find>
       <find>task</find>
       <find>parentNode</find>
       <find>wrapper</find>
@@ -61,15 +69,32 @@
       <find>up</find>
       <find>isSelectionAllowed</find>
       <find>colums</find>
-      <find>remove</find>
       <find>drop</find>
       <find>console</find>
       <find>orange</find>
+      <find>block</find>
+      <find>type</find>
+      <find>render</find>
+      <find>x</find>
+      <find>new</find>
+      <find>image</find>
+      <find>_rendererToMessage</find>
+      <find>getMessage</find>
+      <find>remove</find>
+      <find>remove (</find>
+      <find>blockHeight</find>
+      <find>fill</find>
+      <find>_add</find>
+      <find>renderer.move(</find>
+      <find>_add</find>
+      <find>activate</find>
+      <find>activate()</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/function</dir>
       <dir>$PROJECT_DIR$/design-pattern/warming-up-design-pattern</dir>
       <dir>$PROJECT_DIR$/design-pattern/decorator-opserver</dir>
+      <dir>$PROJECT_DIR$/oop/line-game2</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -78,9 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design-pattern/composite/constant/index.js" />
-        <option value="$PROJECT_DIR$/design-pattern/composite/renderer/DomRenderer.js" />
-        <option value="$PROJECT_DIR$/design-pattern/composite/index.html" />
         <option value="$PROJECT_DIR$/design-pattern/composite/index.js" />
         <option value="$PROJECT_DIR$/design-pattern/visitor/abstraction/Visitor.js" />
         <option value="$PROJECT_DIR$/design-pattern/visitor/model/TaskModel.js" />
@@ -118,10 +140,20 @@
         <option value="$PROJECT_DIR$/design-pattern/decorator-opserver/view/TodoView.js" />
         <option value="$PROJECT_DIR$/oop/Block.js" />
         <option value="$PROJECT_DIR$/oop/line-game/Block.js" />
-        <option value="$PROJECT_DIR$/oop/line-game/component/Block.js" />
         <option value="$PROJECT_DIR$/oop/line-game/index.html" />
         <option value="$PROJECT_DIR$/oop/line-game/constant/index.js" />
         <option value="$PROJECT_DIR$/oop/line-game/index.js" />
+        <option value="$PROJECT_DIR$/oop/line-game/component/Block.js" />
+        <option value="$PROJECT_DIR$/oop/line-game2/index.js" />
+        <option value="$PROJECT_DIR$/oop/line-game2/protocol/Message.js" />
+        <option value="$PROJECT_DIR$/oop/line-game2/model/Block.js" />
+        <option value="$PROJECT_DIR$/oop/line-game2/renderer/BlockRenderer.js" />
+        <option value="$PROJECT_DIR$/oop/line-game2/index.html" />
+        <option value="$PROJECT_DIR$/oop/line-game2/renderer/Renderer.js" />
+        <option value="$PROJECT_DIR$/oop/line-game2/renderer/DivRenderer.js" />
+        <option value="$PROJECT_DIR$/oop/line-game2/constant/index.js" />
+        <option value="$PROJECT_DIR$/oop/line-game2/renderer/SectionRenderer.js" />
+        <option value="$PROJECT_DIR$/oop/line-game2/controller/Game.js" />
       </list>
     </option>
   </component>
@@ -134,10 +166,10 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="946" />
+    <option name="height" value="950" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -166,7 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,28 +221,41 @@
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="line-game" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="line-game2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="line-game" type="462c0819:PsiDirectoryNode" />
+              <item name="line-game2" type="462c0819:PsiDirectoryNode" />
               <item name="constant" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="line-game" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="line-game2" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="line-game2" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="line-game2" type="462c0819:PsiDirectoryNode" />
+              <item name="renderer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,23 +263,23 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kakao/Documents/dolen/study/code-spitz/design-pattern/decorator-opserver/index.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550422000209" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551021161731" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v8.1.3/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/design-pattern/visitor/visitor" />
+      <recent name="$PROJECT_DIR$/design-pattern/visitor/renderer" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oop/line-game2" />
       <recent name="$PROJECT_DIR$/oop/line-game/component" />
       <recent name="$PROJECT_DIR$/oop/line-game/image" />
       <recent name="$PROJECT_DIR$/oop/line-game" />
       <recent name="$PROJECT_DIR$/design-pattern/decorator-opserver/decorator" />
-      <recent name="$PROJECT_DIR$/design-pattern/decorator-opserver" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/design-pattern/visitor/visitor" />
-      <recent name="$PROJECT_DIR$/design-pattern/visitor/renderer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -312,18 +357,22 @@
       <workItem from="1544294262830" duration="15696000" />
       <workItem from="1544329814533" duration="302000" />
       <workItem from="1550302720390" duration="3997000" />
-      <workItem from="1550315138059" duration="28539000" />
+      <workItem from="1550315138059" duration="28757000" />
+      <workItem from="1550459500012" duration="530000" />
+      <workItem from="1550569563350" duration="115000" />
+      <workItem from="1550740129720" duration="116000" />
+      <workItem from="1550912322975" duration="29110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92107000" />
+    <option name="totallyTimeSpent" value="122196000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="954" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15628816" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17032968" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -337,11 +386,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19257541" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.13170163" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32946634" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Reviews" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24969475" />
@@ -352,9 +402,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="News Feed" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15628816" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17032968" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -368,11 +419,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19257541" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.13170163" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32946634" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Reviews" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24969475" />
@@ -383,6 +435,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="News Feed" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,30 +447,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design-pattern/warming-up-design-pattern/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/warming-up-design-pattern/parser/ImageParser.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/warming-up-design-pattern/parser/Parser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/warming-up-design-pattern/loader/Loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design-pattern/warming-up-design-pattern/loader/Github.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -444,13 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/js/78_5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -514,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,34 +659,114 @@
     <entry file="file://$PROJECT_DIR$/oop/line-game/image/block2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/oop/line-game/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oop/line-game/image/block0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/oop/line-game/constant/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="32" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="480">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/line-game/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oop/line-game/component/Block.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" lean-forward="true" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/line-game2/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/line-game2/protocol/Message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/line-game2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/line-game2/model/Block.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oop/line-game/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+        <state relative-caret-position="402">
+          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/js/78_5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/line-game2/renderer/BlockRenderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/line-game2/renderer/DivRenderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/line-game2/constant/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/line-game2/renderer/SectionRenderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/line-game2/renderer/Renderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/line-game2/controller/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
         </state>
       </provider>
     </entry>

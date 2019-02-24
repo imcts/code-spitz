@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            min-width: 900px;
+        }
+
+        #container {
+            padding: 50px;
+            text-align: center
+        }
+
+        #stage {
+            position: relative;
+            display: inline-block;
+            width: 680px;
+            height: 680px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            text-align: center
+        }
+
+        .block {
+            position: absolute;
+            cursor: pointer;
+            overflow: hidden
+        }
+    </style>
+    <meta charset="utf-8">
+</head>
+<body>
+<section id="container">
+    <section id="stage" unselectable="on" onselectstart="return false"></section>
+</section>
+
+<script src="constant/index.js"></script>
+<script src="protocol/Message.js"></script>
+<script src="renderer/BlockRenderer.js"></script>
+<script src="renderer/DivRenderer.js"></script>
+<script src="renderer/Renderer.js"></script>
+<script src="renderer/SectionRenderer.js"></script>
+<script src="model/Block.js"></script>
+<script src="controller/Game.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
