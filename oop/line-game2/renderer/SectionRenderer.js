@@ -7,8 +7,10 @@ const SectionRenderer = class extends Renderer {
   constructor ({container, width, height, row, column, rendererFactory}) {
     super({
       _container: container,
-      _blockWidth: parseInt(width / column),
-      _blockHeight: parseInt(height / row),
+      _width: width,
+      _height: height,
+      _row: row,
+      _column: column,
       _rendererFactory: rendererFactory,
       _selecting: false,
       _queue: [],
@@ -116,5 +118,20 @@ const SectionRenderer = class extends Renderer {
 
   _addQueue (callback, time) {
     this._queue.push({callback, time: this._currentTime + time})
+  }
+
+  getBlockSize () {
+    return {
+      width: parseInt(this._width / this._column),
+      height: parseInt(this._height / this._row)
+    }
+  }
+
+  get width () {
+    return this._width
+  }
+
+  get height () {
+    return this._height
   }
 }

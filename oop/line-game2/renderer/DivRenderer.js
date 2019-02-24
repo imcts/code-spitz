@@ -1,5 +1,6 @@
 const DivRenderer = class extends BlockRenderer {
-  static new (sectionRenderer, width, height, type, row) {
+  static new (sectionRenderer, type, row) {
+    const {width, height} = sectionRenderer.getBlockSize()
     return new DivRenderer(sectionRenderer, width, height, type, row)
   }
   constructor (sectionRenderer, width, height, type, row) {

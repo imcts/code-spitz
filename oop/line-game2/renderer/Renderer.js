@@ -38,7 +38,7 @@ const Renderer = class {
    * 3. 구상 렌더러인 섹션 렌더러에게 렌더러를 추가해달라고 요청한다.
    */
   add (message) {
-    const renderer = this._rendererFactory(this, this._blockWidth, this._blockHeight, message.type, message.row)
+    const renderer = this._rendererFactory(this, message.type, message.row, message.column)
     this._renderers.add(renderer)
     this._messageToRenderer.set(message, renderer)
     this._rendererToMessage.set(renderer, message)
