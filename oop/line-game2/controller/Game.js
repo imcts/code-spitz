@@ -193,8 +193,8 @@ const Game = class {
     }
     this._blocks.forEach(block => blocks[block.row][block.column] = block)
 
-    for (let row = 0; row < blocks.length; row++) {
-      for (let column = 0; column < blocks[row].length; column++) {
+    for (let row = blocks.length; row--;) {
+      for (let column = blocks[row].length; column--;) {
         if (!blocks[row][column]) {
           collection.push(this._add(row, column))
         }
@@ -214,74 +214,3 @@ const Game = class {
     }))
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

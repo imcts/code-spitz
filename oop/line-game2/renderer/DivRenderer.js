@@ -19,7 +19,7 @@ const DivRenderer = class extends BlockRenderer {
     const style = this._div.style
     style.top = `${row * this._height}px`
     style.left = `${column * this._width}px`
-    style.backgroundColor = selected ? 'red' : ''
+    style.backgroundColor = selected ? 'yellow' : ''
   }
 
   isRenderer (renderer) {
