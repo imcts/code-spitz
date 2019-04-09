@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6c69b9-8c18-4e17-8877-871b7077adfb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-golf/short-root/stack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-golf/short-root/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/code-golf/short-root/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-golf/short-root/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code-golf/short-root/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code-golf/short-root/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+            <state relative-caret-position="156">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code-golf/short-root/stack.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -71,8 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design-pattern/decorator-opserver/decorator/Decorator.js" />
-        <option value="$PROJECT_DIR$/design-pattern/decorator-opserver/decorator/RemoveDecorator.js" />
         <option value="$PROJECT_DIR$/design-pattern/decorator-opserver/observer/Observer.js" />
         <option value="$PROJECT_DIR$/design-pattern/decorator-opserver/visitor/DomVisitor.js" />
         <option value="$PROJECT_DIR$/design-pattern/decorator-opserver/visitor/Visitor.js" />
@@ -122,6 +129,8 @@
         <option value="$PROJECT_DIR$/code-golf/prime-number/index.html" />
         <option value="$PROJECT_DIR$/code-golf/prime-number/index.js" />
         <option value="$PROJECT_DIR$/code-golf/short-root/index.js" />
+        <option value="$PROJECT_DIR$/code-golf/short-root/index.html" />
+        <option value="$PROJECT_DIR$/code-golf/short-root/stack.js" />
       </list>
     </option>
   </component>
@@ -215,7 +224,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kakao/Documents/dolen/study/code-spitz/design-pattern/decorator-opserver/index.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551587110273" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554826992659" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -225,19 +234,19 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sample/component" />
-      <recent name="$PROJECT_DIR$/sample" />
-      <recent name="$PROJECT_DIR$/sample/component/home/note/popup" />
-      <recent name="$PROJECT_DIR$/sample/component/constant" />
-      <recent name="$PROJECT_DIR$/sample/component/paging" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/code-golf/short-root" />
       <recent name="$PROJECT_DIR$/code-golf/prime-number" />
       <recent name="$PROJECT_DIR$/sample/component/home/note/popup" />
       <recent name="$PROJECT_DIR$/sample/page" />
       <recent name="$PROJECT_DIR$/sample/component/home" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sample/component" />
+      <recent name="$PROJECT_DIR$/sample" />
+      <recent name="$PROJECT_DIR$/sample/component/home/note/popup" />
+      <recent name="$PROJECT_DIR$/sample/component/constant" />
+      <recent name="$PROJECT_DIR$/sample/component/paging" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -334,12 +343,12 @@
       <workItem from="1554339949090" duration="1297000" />
       <workItem from="1554342680334" duration="610000" />
       <workItem from="1554705459984" duration="8472000" />
-      <workItem from="1554801155474" duration="3127000" />
+      <workItem from="1554801155474" duration="3951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149462000" />
+    <option name="totallyTimeSpent" value="150286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="950" extended-state="6" />
@@ -421,13 +430,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oop/line-game2/renderer/BlockRenderer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oop/line-game2/renderer/SectionRenderer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -580,17 +582,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-golf/short-root/index.html">
+    <entry file="file://$PROJECT_DIR$/code-golf/short-root/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="156">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-golf/short-root/index.js">
+    <entry file="file://$PROJECT_DIR$/code-golf/short-root/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-golf/short-root/stack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
