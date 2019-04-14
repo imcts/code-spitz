@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6c69b9-8c18-4e17-8877-871b7077adfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/code-golf/short-root/stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-golf/maze/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-golf/maze/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-golf/maze/origin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-golf/short-root/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code-golf/short-root/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,20 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code-golf/short-root/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code-golf/short-root/stack.js">
+        <entry file="file://$PROJECT_DIR$/code-golf/maze/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="811">
+              <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="97" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -36,7 +28,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wrapper</find>
       <find>observer</find>
       <find>obser</find>
       <find>new Task</find>
@@ -61,11 +52,12 @@
       <find>fill</find>
       <find>_add</find>
       <find>renderer.move(</find>
-      <find>_add</find>
       <find>activate</find>
       <find>activate()</find>
       <find>_blockWidth</find>
       <find>blockWidth</find>
+      <find>10</find>
+      <find>MAZE[(x * next[0] * 2) + WIDTH * (y + next[1] * 2)]</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/function</dir>
@@ -80,9 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design-pattern/decorator-opserver/observer/Observer.js" />
-        <option value="$PROJECT_DIR$/design-pattern/decorator-opserver/visitor/DomVisitor.js" />
-        <option value="$PROJECT_DIR$/design-pattern/decorator-opserver/visitor/Visitor.js" />
         <option value="$PROJECT_DIR$/design-pattern/decorator-opserver/model/TodoModel.js" />
         <option value="$PROJECT_DIR$/design-pattern/decorator-opserver/model/Task.js" />
         <option value="$PROJECT_DIR$/design-pattern/decorator-opserver/view/TodoView.js" />
@@ -128,9 +117,12 @@
         <option value="$PROJECT_DIR$/sample/page/home/introduction/section/animation.scss" />
         <option value="$PROJECT_DIR$/code-golf/prime-number/index.html" />
         <option value="$PROJECT_DIR$/code-golf/prime-number/index.js" />
-        <option value="$PROJECT_DIR$/code-golf/short-root/index.js" />
         <option value="$PROJECT_DIR$/code-golf/short-root/index.html" />
         <option value="$PROJECT_DIR$/code-golf/short-root/stack.js" />
+        <option value="$PROJECT_DIR$/code-golf/short-root/index.js" />
+        <option value="$PROJECT_DIR$/code-golf/maze/index.html" />
+        <option value="$PROJECT_DIR$/code-golf/maze/origin.js" />
+        <option value="$PROJECT_DIR$/code-golf/maze/index.js" />
       </list>
     </option>
   </component>
@@ -151,8 +143,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="950" />
+    <option name="width" value="2560" />
+    <option name="height" value="1340" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -181,7 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,7 +190,7 @@
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
               <item name="code-golf" type="462c0819:PsiDirectoryNode" />
-              <item name="short-root" type="462c0819:PsiDirectoryNode" />
+              <item name="maze" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
@@ -215,7 +207,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +216,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kakao/Documents/dolen/study/code-spitz/design-pattern/decorator-opserver/index.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554826992659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554887762374" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -235,11 +227,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code-golf" />
       <recent name="$PROJECT_DIR$/code-golf/short-root" />
       <recent name="$PROJECT_DIR$/code-golf/prime-number" />
       <recent name="$PROJECT_DIR$/sample/component/home/note/popup" />
       <recent name="$PROJECT_DIR$/sample/page" />
-      <recent name="$PROJECT_DIR$/sample/component/home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sample/component" />
@@ -343,18 +335,20 @@
       <workItem from="1554339949090" duration="1297000" />
       <workItem from="1554342680334" duration="610000" />
       <workItem from="1554705459984" duration="8472000" />
-      <workItem from="1554801155474" duration="3951000" />
+      <workItem from="1554801155474" duration="10901000" />
+      <workItem from="1554945422030" duration="1518000" />
+      <workItem from="1555059008723" duration="349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150286000" />
+    <option name="totallyTimeSpent" value="159103000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="950" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1340" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13064714" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08617951" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -368,7 +362,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25874126" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17788461" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32946634" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
@@ -430,27 +424,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oop/line-game2/renderer/SectionRenderer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="111" column="26" lean-forward="true" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/line-game2/renderer/Renderer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="40" column="90" selection-start-line="40" selection-start-column="90" selection-end-line="40" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/line-game2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oop/line-game2/renderer/DivRenderer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -582,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-golf/short-root/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code-golf/short-root/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -598,8 +564,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code-golf/short-root/stack.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="1200">
+          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-golf/short-root/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-golf/maze/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-golf/maze/origin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="70" column="3" lean-forward="true" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-golf/maze/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="811">
+          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="97" selection-end-column="3" />
         </state>
       </provider>
     </entry>
