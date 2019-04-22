@@ -1,0 +1,12 @@
+const CANVAS_HEIGHT = 160
+const RECT_WIDTH = 35
+const ARC_RADIUS = 4
+const LINE_WIDTH = 0.8
+const LINE_MARGIN = 7.5
+const START_X = 25
+const MARGIN = RECT_WIDTH + 45
+const RECT_DURATION = 300
+const ARC_DURATION = 110
+const LINE_DURATION = 90
+const START_ANGLE = 0
+const FULL_ARC_ANGLE = Math.PI / 180 * 360

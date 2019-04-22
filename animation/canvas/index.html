@@ -2,6 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <style>
     * {
       box-sizing: border-box;
@@ -9,20 +10,30 @@
 
     .wrapper {
       width: 100%;
-      height: 500px;
+      height: 200px;
       border: 1px solid black;
       overflow-y: hidden;
     }
 
     #canvas {
+      margin-top: 40px;
       background-color: #fff;
     }
   </style>
 </head>
 <body>
 <div class="wrapper">
-  <canvas id="canvas" width="2000" height="500"></canvas>
+  <canvas id="canvas" width="570" height="160"></canvas>
 </div>
+<script src="./constant/index.js"></script>
+<script src="./model/Review.js"></script>
+<script src="./protocol/Message.js"></script>
+<script src="./renderer/core/GraphRenderer.js"></script>
+<script src="./renderer/ArcRenderer.js"></script>
+<script src="./renderer/RectRenderer.js"></script>
+<script src="./renderer/LineRenderer.js"></script>
+<script src="./renderer/CanvasRenderer.js"></script>
+<script src="./controller/ReviewGraphController.js"></script>
 <script src="./index.js"></script>
 </body>
 </html>
