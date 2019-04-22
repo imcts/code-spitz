@@ -108,6 +108,8 @@ const LineRenderer = class {
   }
   
   action () {
+    const distanceX = this._nextX - this._x
+    const distanceY = this._nextY - this._y
     this._viewX = this._x
     this._viewY = this._y
     return new Promise(resolve => {
@@ -120,8 +122,8 @@ const LineRenderer = class {
         }
         
         const progress = timeFraction * (2 - timeFraction)
-        const x = (this._nextX - this._x) * progress
-        const y = (this._nextY - this._y) * progress
+        const x = distanceX * progress
+        const y = distanceY * progress
         
         this._viewX = this._x + x
         this._viewY = this._y + y
