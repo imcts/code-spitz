@@ -15,7 +15,7 @@ const Game = class {
       _block: null
     })
 
-    renderer.setGame(this, row, column)
+    renderer.setGame(this)
     for (let i = 0; i < row; i++) {
       for (let j = 0; j < column; j++) {
         this._add(i, j)
