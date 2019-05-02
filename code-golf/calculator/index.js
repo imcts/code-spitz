@@ -110,6 +110,6 @@ r.forEach(v => {
   }
 })
 
-console.log('rebase')
+console.log('콘솔 삭제 후 다시 적음.')
 
 console.log(buffer[0])

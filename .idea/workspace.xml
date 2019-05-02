@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac6c69b9-8c18-4e17-8877-871b7077adfb" name="Default" comment="">
+    <list default="true" id="ac6c69b9-8c18-4e17-8877-871b7077adfb" name="Default" comment="리베이스성공">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-golf/calculator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/code-golf/calculator/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +11,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code-golf/calculator/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+            <state relative-caret-position="585">
+              <caret line="105" column="11" lean-forward="true" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -65,8 +64,17 @@
       <dir>$PROJECT_DIR$/animation/canvas/renderer</dir>
     </dirStrings>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="refs/heads/master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -140,7 +148,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="1338" />
@@ -326,16 +334,79 @@
       <workItem from="1556444016475" duration="5186000" />
       <workItem from="1556510388666" duration="9000" />
       <workItem from="1556526514679" duration="149000" />
-      <workItem from="1556775500931" duration="18000" />
+      <workItem from="1556775500931" duration="522000" />
     </task>
+    <task id="LOCAL-00001" summary="for rebase 1">
+      <created>1556775525767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556775525767</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test rebase">
+      <created>1556775624953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556775624953</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rebase again">
+      <created>1556775644721</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556775644721</updated>
+    </task>
+    <task id="LOCAL-00004" summary="rebase again">
+      <created>1556776385196</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556776385196</updated>
+    </task>
+    <task id="LOCAL-00005" summary="콘솔 삭제.">
+      <created>1556776405238</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556776405238</updated>
+    </task>
+    <task id="LOCAL-00006" summary="콘솔 삭제 후 다시 저금.">
+      <created>1556776421183</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556776421183</updated>
+    </task>
+    <task id="LOCAL-00007" summary="리베이스 'ㅁ '!">
+      <created>1556776495389</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556776495389</updated>
+    </task>
+    <task id="LOCAL-00008" summary="재적용.">
+      <created>1556776556257</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556776556257</updated>
+    </task>
+    <task id="LOCAL-00009" summary="리베이스성공">
+      <created>1556776655726</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1556776655726</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218603000" />
+    <option name="totallyTimeSpent" value="219607000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1338" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1" y="23" width="2560" height="1338" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1429706" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -418,6 +489,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="for rebase 1" />
+    <MESSAGE value="test rebase" />
+    <MESSAGE value="rebase again" />
+    <MESSAGE value="콘솔 삭제." />
+    <MESSAGE value="콘솔 삭제 후 다시 저금." />
+    <MESSAGE value="리베이스 'ㅁ '!" />
+    <MESSAGE value="재적용." />
+    <MESSAGE value="리베이스성공" />
+    <option name="LAST_COMMIT_MESSAGE" value="리베이스성공" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sample/page/home/introduction/section/guide.scss" />
@@ -702,8 +784,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code-golf/calculator/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+        <state relative-caret-position="585">
+          <caret line="105" column="11" lean-forward="true" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
         </state>
       </provider>
     </entry>
