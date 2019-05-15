@@ -1,4 +1,3 @@
 rootProject.name = 'codespitz82'
 include 'app'
 include 'lib'
-

@@ -7,8 +7,10 @@ if (typeof lib === 'undefined') {
 var app = function (_, Kotlin, $module$lib) {
   'use strict';
   var hello = $module$lib.hello;
+  var println = Kotlin.kotlin.io.println_s8jyv4$;
   function main() {
     hello();
+    println('this is kotlin!');
   }
   _.main = main;
   main();

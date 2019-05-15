@@ -2,34 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_js_1_3_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/code-spitz.codespitz82.app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/codespitz82.app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/codespitz82.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/codespitz82.lib.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/lib/code-spitz.codespitz82.lib.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/lib/codespitz82.lib.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/library.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/library/codespitz82.lib.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz82/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz82/app/src/main/kotlin/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz82/app/template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz82/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz82/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz82/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz82/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz82/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz82/lib/src/main/kotlin/hello.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz82/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/code-spitz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code-spitz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/codespitz82.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/codespitz82.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/library/codespitz82.lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/library/code-spitz.codespitz82.lib.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz82/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz82/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz82/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz82/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz82/app/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz82/app/src/main/kotlin/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz82/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz82/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/codespitz82/.gradle/" />
     <ignored path="$PROJECT_DIR$/codespitz82/build/" />
@@ -79,30 +60,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="codespitz82" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="codespitz82" type="f1a62948:ProjectNode" />
-                <item name=":app" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="codespitz82" type="f1a62948:ProjectNode" />
-                <item name=":app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="codespitz82" type="f1a62948:ProjectNode" />
-                <item name=":app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="codespitz82" type="f1a62948:ProjectNode" />
-                <item name=":app" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -115,29 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codespitz82/app/src/main/kotlin/main.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codespitz82/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codespitz82/app/template/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -256,10 +195,10 @@
         <option value="$PROJECT_DIR$/codespitz82/lib/build.gradle" />
         <option value="$PROJECT_DIR$/codespitz82/library/build.gradle" />
         <option value="$PROJECT_DIR$/codespitz82/library/src/main/kotlin/hello.kt" />
-        <option value="$PROJECT_DIR$/codespitz82/app/src/main/kotlin/main.kt" />
-        <option value="$PROJECT_DIR$/codespitz82/settings.gradle" />
         <option value="$PROJECT_DIR$/codespitz82/app/build.gradle" />
         <option value="$PROJECT_DIR$/codespitz82/app/template/index.html" />
+        <option value="$PROJECT_DIR$/codespitz82/settings.gradle" />
+        <option value="$PROJECT_DIR$/codespitz82/app/src/main/kotlin/main.kt" />
       </list>
     </option>
   </component>
@@ -307,6 +246,58 @@
               <item name="codespitz82" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="codespitz82" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="codespitz82" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="codespitz82" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="codespitz82" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="codespitz82" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="lib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="codespitz82" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="lib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="codespitz82" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="lib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -322,7 +313,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kakao/Documents/dolen/study/code-spitz/design-pattern/decorator-opserver/index.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557885899309" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557886025464" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -496,8 +487,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.codespitz82:library [build]" />
         <item itemvalue="Gradle.codespitz82:app [build]" />
+        <item itemvalue="Gradle.codespitz82:library [build]" />
         <item itemvalue="Gradle./Users/choitaesan/project/code-spitz/codespitz82" />
         <item itemvalue="Gradle.codespitz82:app [assemble]" />
         <item itemvalue="Gradle.codespitz82:lib [build]" />
@@ -577,7 +568,7 @@
       <workItem from="1557881640929" duration="244000" />
       <workItem from="1557881925860" duration="1225000" />
       <workItem from="1557883666917" duration="1419000" />
-      <workItem from="1557885118495" duration="723000" />
+      <workItem from="1557885118495" duration="890000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -653,13 +644,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228657000" />
+    <option name="totallyTimeSpent" value="228824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1338" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.10325655" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.10325655" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -991,13 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz82/lib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codespitz82/app/build/kotlin-js-min/main/library.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1012,10 +996,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz82/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz82/lib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz82/app/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/codespitz82/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -1023,20 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz82/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz82/app/template/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1092,7 +1083,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>lib|codespitz82</last-edited>
+          <last-edited>app|codespitz82|code-spitz</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
