@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="codespitz82" externalSystemModuleVersion="unspecified" linkedProjectId=":app" linkedProjectPath="$MODULE_DIR$/../../codespitz82/app" rootProjectPath="$MODULE_DIR$/../../codespitz82" />
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JavaScript " useProjectSettings="false">
+        <testOutputPath>$MODULE_DIR$/../../codespitz82/app/build/classes/kotlin/test/app_test.js</testOutputPath>
+        <compilerSettings />
+        <compilerArguments>
+          <option name="outputFile" value="$MODULE_DIR$/../../codespitz82/app/build/classes/kotlin/main/app.js" />
+          <option name="noStdlib" value="true" />
+          <option name="metaInfo" value="true" />
+          <option name="target" value="v5" />
+          <option name="main" value="call" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../codespitz82/app/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../codespitz82/app/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../codespitz82/app">
+      <sourceFolder url="file://$MODULE_DIR$/../../codespitz82/app/src/main/kotlin" type="kotlin-source" />
+      <sourceFolder url="file://$MODULE_DIR$/../../codespitz82/app/src/test/kotlin" type="kotlin-test" />
+      <sourceFolder url="file://$MODULE_DIR$/../../codespitz82/app/src/main/resources" type="kotlin-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../codespitz82/app/src/test/resources" type="kotlin-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../codespitz82/app/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../codespitz82/app/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../codespitz82/app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../codespitz82/app/out" />
+    </content>
+    <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="codespitz82.lib" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.3.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.31" level="project" />
+  </component>
+</module>

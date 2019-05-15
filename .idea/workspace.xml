@@ -1,31 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac6c69b9-8c18-4e17-8877-871b7077adfb" name="Default" comment="리베이스성공">
+    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_js_1_3_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/code-spitz.codespitz82.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/codespitz82.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/codespitz82.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/codespitz82.lib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/lib/code-spitz.codespitz82.lib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/lib/codespitz82.lib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/library.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/library/codespitz82.lib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz82/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz82/app/src/main/kotlin/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz82/app/template/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz82/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz82/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz82/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz82/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz82/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz82/lib/src/main/kotlin/hello.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz82/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/code-spitz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code-spitz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/codespitz82/.gradle/" />
+    <ignored path="$PROJECT_DIR$/codespitz82/build/" />
+    <ignored path="$PROJECT_DIR$/codespitz82/out/" />
+    <ignored path="$PROJECT_DIR$/codespitz82/app/.gradle/" />
+    <ignored path="$PROJECT_DIR$/codespitz82/app/build/" />
+    <ignored path="$PROJECT_DIR$/codespitz82/app/out/" />
+    <ignored path="$PROJECT_DIR$/codespitz82/lib/.gradle/" />
+    <ignored path="$PROJECT_DIR$/codespitz82/lib/build/" />
+    <ignored path="$PROJECT_DIR$/codespitz82/lib/out/" />
+    <ignored path="$PROJECT_DIR$/codespitz82/library/.gradle/" />
+    <ignored path="$PROJECT_DIR$/codespitz82/library/build/" />
+    <ignored path="$PROJECT_DIR$/codespitz82/library/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/codespitz82">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/codespitz82">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/codespitz82/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/codespitz82/lib">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/codespitz82/library">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codespitz82" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codespitz82" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codespitz82" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codespitz82" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codespitz82" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="code-spitz" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code-golf/calculator/index.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codespitz82/app/src/main/kotlin/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="105" column="11" lean-forward="true" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+            <state relative-caret-position="30">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codespitz82/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codespitz82/app/template/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>render(</find>
       <find>LINE_WIDTH</find>
       <find>_reviewToMessage(</find>
       <find>const Me</find>
@@ -55,6 +183,7 @@
       <find>arcRenderer</find>
       <find>addRectRenderer</find>
       <find>addNewRenderer</find>
+      <find>1.3.11</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/function</dir>
@@ -62,6 +191,7 @@
       <dir>$PROJECT_DIR$/design-pattern/decorator-opserver</dir>
       <dir>$PROJECT_DIR$/oop/line-game2</dir>
       <dir>$PROJECT_DIR$/animation/canvas/renderer</dir>
+      <dir>$PROJECT_DIR$/codespitz82</dir>
     </dirStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -79,16 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sample/component/home/constant/header.scss" />
-        <option value="$PROJECT_DIR$/sample/component/home/root.scss" />
-        <option value="$PROJECT_DIR$/sample/component/common/pagination.scss" />
-        <option value="$PROJECT_DIR$/sample/component/home/pagination.scss" />
-        <option value="$PROJECT_DIR$/sample/component/review/pagination.scss" />
-        <option value="$PROJECT_DIR$/sample/component/login/pagination.scss" />
-        <option value="$PROJECT_DIR$/sample/component/button.scss" />
-        <option value="$PROJECT_DIR$/sample/component/home/introduction/button.scss" />
-        <option value="$PROJECT_DIR$/sample/index.js" />
-        <option value="$PROJECT_DIR$/sample/page/home/introduction/introduction.scss" />
         <option value="$PROJECT_DIR$/sample/index.scss" />
         <option value="$PROJECT_DIR$/sample/component/home/introduction/introduction.scss" />
         <option value="$PROJECT_DIR$/sample/component/home/note/popup.scss" />
@@ -130,6 +250,16 @@
         <option value="$PROJECT_DIR$/code-golf/nearest-interpolation/index.html" />
         <option value="$PROJECT_DIR$/code-golf/nearest-interpolation/index.js" />
         <option value="$PROJECT_DIR$/code-golf/calculator/index.js" />
+        <option value="$PROJECT_DIR$/codespitz82/app/web/index.html" />
+        <option value="$PROJECT_DIR$/codespitz82/build.gradle" />
+        <option value="$PROJECT_DIR$/codespitz82/lib/src/main/kotlin/hello.kt" />
+        <option value="$PROJECT_DIR$/codespitz82/lib/build.gradle" />
+        <option value="$PROJECT_DIR$/codespitz82/library/build.gradle" />
+        <option value="$PROJECT_DIR$/codespitz82/library/src/main/kotlin/hello.kt" />
+        <option value="$PROJECT_DIR$/codespitz82/app/src/main/kotlin/main.kt" />
+        <option value="$PROJECT_DIR$/codespitz82/settings.gradle" />
+        <option value="$PROJECT_DIR$/codespitz82/app/build.gradle" />
+        <option value="$PROJECT_DIR$/codespitz82/app/template/index.html" />
       </list>
     </option>
   </component>
@@ -149,9 +279,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="8" />
     <option name="y" value="23" />
     <option name="width" value="2560" />
-    <option name="height" value="1338" />
+    <option name="height" value="1337" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -168,18 +299,13 @@
             <path>
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="code-golf" type="462c0819:PsiDirectoryNode" />
+              <item name="codespitz82" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="code-golf" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="codespitz82" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,19 +316,24 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kakao/Documents/dolen/study/code-spitz/design-pattern/decorator-opserver/index.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555950784147" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557885899309" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v8.1.3/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.14550781" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -232,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.codespitz82:app [build]">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -244,6 +375,99 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="/Users/choitaesan/project/code-spitz/codespitz82" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/codespitz82" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="codespitz82:app [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/codespitz82/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="codespitz82:app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/codespitz82/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="codespitz82:lib [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/codespitz82/lib" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="codespitz82:library [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/codespitz82/library" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -270,13 +494,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.codespitz82:library [build]" />
+        <item itemvalue="Gradle.codespitz82:app [build]" />
+        <item itemvalue="Gradle./Users/choitaesan/project/code-spitz/codespitz82" />
+        <item itemvalue="Gradle.codespitz82:app [assemble]" />
+        <item itemvalue="Gradle.codespitz82:lib [build]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ac6c69b9-8c18-4e17-8877-871b7077adfb" name="Default" comment="" />
+      <changelist id="" name="Default" comment="" />
       <created>1542592627654</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -335,6 +568,16 @@
       <workItem from="1556510388666" duration="9000" />
       <workItem from="1556526514679" duration="149000" />
       <workItem from="1556775500931" duration="522000" />
+      <workItem from="1557831729523" duration="1741000" />
+      <workItem from="1557833654561" duration="543000" />
+      <workItem from="1557834213033" duration="162000" />
+      <workItem from="1557834551995" duration="428000" />
+      <workItem from="1557834995450" duration="737000" />
+      <workItem from="1557880544644" duration="1068000" />
+      <workItem from="1557881640929" duration="244000" />
+      <workItem from="1557881925860" duration="1225000" />
+      <workItem from="1557883666917" duration="1419000" />
+      <workItem from="1557885118495" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -399,47 +642,57 @@
       <option name="project" value="LOCAL" />
       <updated>1556776655726</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="리베이스성공">
+      <created>1556776741002</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1556776741002</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219607000" />
+    <option name="totallyTimeSpent" value="228657000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="2560" height="1338" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1338" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1429706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.10325655" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5008026" side_tool="true" weight="0.10325655" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49642575" visible="true" weight="0.30016053" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.56902087" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.176565" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.2977528" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50357425" side_tool="true" weight="0.30016053" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.24157304" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Reviews" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.4960286" weight="0.2576244" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24969475" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Maven" order="9" weight="0.32967034" />
-      <window_info anchor="right" id="News Feed" order="10" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.14177918" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24980143" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24969475" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.085782364" />
+      <window_info anchor="right" id="News Feed" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,99 +754,11 @@
     <MESSAGE value="리베이스성공" />
     <option name="LAST_COMMIT_MESSAGE" value="리베이스성공" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sample/page/home/introduction/section/guide.scss" />
-    <entry file="file://$PROJECT_DIR$/sample/component/home/note/popup/popup3.scss" />
-    <entry file="file://$PROJECT_DIR$/sample/page/home/introduction/section/tabguiude.scss" />
-    <entry file="file://$PROJECT_DIR$/sample/component/home/note/popup/index.scss" />
-    <entry file="file://$PROJECT_DIR$/sample/component/constant/header.scss" />
-    <entry file="file://$PROJECT_DIR$/sample/page/home/introduction/constant/animation.scss" />
-    <entry file="file://$PROJECT_DIR$/sample/page/home/introduction/introduction.scss" />
-    <entry file="file://$PROJECT_DIR$/function/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/page/home/introduction/section/animation.scss" />
-    <entry file="file://$PROJECT_DIR$/css/classbook-by-sass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/static/classbook.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3120">
-          <caret line="28" column="90" lean-forward="true" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/static/classbook.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-golf/prime-number/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-golf/prime-number/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-golf/short-root/stack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-golf/maze/origin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="70" column="3" lean-forward="true" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-golf/maze/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-golf/calculator/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/decorator-opserver/renderer/Renderer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/line-game2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oop/line-game2/renderer/BlockRenderer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -784,17 +949,174 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code-golf/calculator/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="105" column="11" lean-forward="true" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+        <state relative-caret-position="1470">
+          <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz82/app/web/app.js" />
+    <entry file="file://$PROJECT_DIR$/codespitz82/app/web/app.meta.js" />
+    <entry file="file://$PROJECT_DIR$/codespitz82/app/web/kotlin.meta.js" />
+    <entry file="file://$PROJECT_DIR$/codespitz82/app/web/kotlin.js" />
+    <entry file="file://$PROJECT_DIR$/codespitz82/app/web/index.html" />
+    <entry file="file://$PROJECT_DIR$/codespitz82/gradlew" />
+    <entry file="file://$PROJECT_DIR$/codespitz82/lib/src/main/kotlin/hello.kt" />
+    <entry file="file://$PROJECT_DIR$/codespitz82/app/build/kotlin-js-min/main/kotlin.js" />
+    <entry file="file://$PROJECT_DIR$/codespitz82/lib/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/codespitz82/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz82/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz82/lib/src/main/kotlin/hello.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz82/lib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz82/app/build/kotlin-js-min/main/library.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz82/app/build/kotlin-js-min/main/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz82/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz82/app/src/main/kotlin/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz82/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz82/app/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lib|codespitz82</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

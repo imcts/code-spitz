@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/code-spitz.iml" filepath="$PROJECT_DIR$/.idea/code-spitz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/codespitz82.iml" filepath="$PROJECT_DIR$/.idea/modules/codespitz82.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/codespitz82.app.iml" filepath="$PROJECT_DIR$/.idea/modules/codespitz82.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/codespitz82.lib.iml" filepath="$PROJECT_DIR$/.idea/modules/library/codespitz82.lib.iml" />
     </modules>
   </component>
 </project>
