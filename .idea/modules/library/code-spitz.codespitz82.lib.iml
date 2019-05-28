@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":lib" external.linked.project.path="$MODULE_DIR$/../../../codespitz82/lib" external.root.project.path="$MODULE_DIR$/../../../codespitz82" external.system.id="GRADLE" external.system.module.group="codespitz82" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
-  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../../codespitz82" rootProjectPath="$MODULE_DIR$/../../../codespitz82" />
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="codespitz82" externalSystemModuleVersion="unspecified" linkedProjectId=":lib" linkedProjectPath="$MODULE_DIR$/../../../codespitz82/lib" rootProjectPath="$MODULE_DIR$/../../../codespitz82" />
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="JavaScript " useProjectSettings="false">
@@ -32,11 +32,10 @@
     <output-test url="file://$MODULE_DIR$/../../../codespitz82/lib/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../codespitz82/lib">
-      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/main/kotlin" type="kotlin-source" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/test/kotlin" type="kotlin-test" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/main/resources" type="kotlin-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/test/resources" type="kotlin-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/out" />

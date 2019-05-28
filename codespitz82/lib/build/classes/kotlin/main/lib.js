@@ -7,7 +7,11 @@ var lib = function (_, Kotlin) {
   function hello() {
     println('hello world!');
   }
+  function test() {
+    return 'hello';
+  }
   _.hello = hello;
+  _.test = test;
   Kotlin.defineModule('lib', _);
   return _;
 }(typeof lib === 'undefined' ? {} : lib, kotlin);
