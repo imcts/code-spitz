@@ -63,3 +63,10 @@ fun calc(v:String):Double {
     while (paren.containsMatchIn(r)) r = r.replace(paren){"${ex(it.groupValues[1])}"}
     return ex(r)
 }
+
+class A constructor(a:String) {
+    private val a:String
+    init {
+        this.a = a
+    }
+}

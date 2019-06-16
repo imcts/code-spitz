@@ -34,8 +34,4 @@ const GraphRenderer = class {
   _draw (progress) {
     throw new Error('Override.')
   }
-  
-  _getDuration () {
-    throw new Error('Override.')
-  }
 }

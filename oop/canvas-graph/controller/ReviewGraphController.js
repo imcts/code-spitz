@@ -2,8 +2,6 @@ const ReviewGraphController = class {
   constructor (data, renderer) {
     this._messageToReview = new WeakMap()
     this._reviewToMessage = new WeakMap()
-    this._totalReviews = new Set()
-    this._newReviews = new Set()
     this._renderer = renderer
     this._renderer.controller = this
     this._add(data)
@@ -21,7 +19,6 @@ const ReviewGraphController = class {
   _addTotalReview (column, point) {
     const review = new Review(column, point)
     const message = new Message(column, point)
-    this._totalReviews.add(review)
     this._messageToReview.set(message, review)
     this._reviewToMessage.set(review, message)
     this._renderer.addRectRenderer(message)
@@ -35,7 +32,6 @@ const ReviewGraphController = class {
       this._currentNewReview.next = review
     }
     this._currentNewReview = review
-    this._newReviews.add(review)
     this._messageToReview.set(message, review)
     this._reviewToMessage.set(review, message)
     this._renderer.addArcRenderer(message)
