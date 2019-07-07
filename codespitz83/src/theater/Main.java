@@ -27,7 +27,7 @@ import java.util.Arrays;
  */
 public class Main {
   private static long SAND_SPOON_USER_SEED_MONEY = 0L;
-  private static long GOLD_SPOON_USER_SEED_MONEY = 10L;
+  private static long GOLD_SPOON_USER_SEED_MONEY = 100L;
   private static long NORMAL_TICKET_FEE = 10L;
   private static long PREMIUM_TICKET_FEE = 20L;
   private static long TICKET_AMOUNT_TO_MAKE = 10L;
