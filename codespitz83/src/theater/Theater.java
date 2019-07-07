@@ -18,33 +18,33 @@ class Theater {
     this.fee = Fee.newInstance();
   }
 
-  void setMovie(Movie movie, long fee) {
+  void setMovie(final Movie movie, final long fee) {
     this.movies.appendMovie(movie);
     this.fee.addMovieFee(movie, fee);
   }
 
-  void setTicketOffices(TicketOffice ...ticketOffices) {
+  void setTicketOffices(final TicketOffice ...ticketOffices) {
     Arrays.asList(ticketOffices).forEach(this.ticketOffices::appendTicketOffice);
   }
 
-  void setTicket(TicketOffice ticketOffice, Movie movie, long ticketAmount) {
+  void setTicket(final TicketOffice ticketOffice, final Movie movie, final long ticketAmount) {
     LongStream
       .range(0, ticketAmount)
       .forEach(i -> ticketOffices.setTicket(ticketOffice, Ticket.from(this, movie)));
   }
 
-  void setInvitation(Audience audience) {
+  void setInvitation(final Audience audience) {
     if (audience == null) {
       return;
     }
     audience.setInvitation(Invitation.from(this));
   }
 
-  long getFee(Movie movie) {
+  long getFee(final Movie movie) {
     return fee.getFee(movie);
   }
 
-  boolean enter(Audience audience) {
+  boolean enter(final Audience audience) {
     return audience.getTicket().isValid(this);
   }
 }

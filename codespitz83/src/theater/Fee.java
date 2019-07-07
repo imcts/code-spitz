@@ -14,11 +14,11 @@ public class Fee {
     this.fee = new HashMap();
   }
 
-  void addMovieFee(Movie movie, long fee) {
+  void addMovieFee(final Movie movie, final long fee) {
     this.fee.put(movie, fee);
   }
 
-  long getFee(Movie movie) {
+  long getFee(final Movie movie) {
     if (this.fee.containsKey(movie)) {
       return this.fee.get(movie);
     }

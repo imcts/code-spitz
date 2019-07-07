@@ -13,21 +13,21 @@ class TicketOffices {
     this.ticketOffices = new ArrayList();
   }
 
-  void appendTicketOffice(TicketOffice ticketOffice) {
+  void appendTicketOffice(final TicketOffice ticketOffice) {
     if (this.hasTicketOffice(ticketOffice)) {
       return;
     }
     this.ticketOffices.add(ticketOffice);
   }
 
-  void setTicket(TicketOffice ticketOffice, Ticket ticket) {
+  void setTicket(final TicketOffice ticketOffice, final Ticket ticket) {
     if (!this.hasTicketOffice(ticketOffice)) {
       return;
     }
     ticketOffice.appendTicket(ticket);
   }
 
-  private boolean hasTicketOffice(TicketOffice ticketOffice) {
+  private boolean hasTicketOffice(final TicketOffice ticketOffice) {
     return this.ticketOffices.contains(ticketOffice);
   }
 }

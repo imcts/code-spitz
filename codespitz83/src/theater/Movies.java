@@ -13,7 +13,7 @@ class Movies {
     this.movies = new ArrayList();
   }
 
-  void appendMovie(Movie movie) {
+  void appendMovie(final Movie movie) {
     if (this.movies.contains(movie)) {
       return;
     }

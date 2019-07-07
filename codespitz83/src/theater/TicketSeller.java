@@ -9,21 +9,21 @@ class TicketSeller {
 
   private TicketSeller() {}
 
-  void setTicketOffice(TicketOffice ticketOffice) {
+  void setTicketOffice(final TicketOffice ticketOffice) {
     if (ticketOffice.isEmpty()) {
       return;
     }
     this.ticketOffice = ticketOffice;
   }
 
-  Ticket getTicket(Audience audience, Movie movie) {
+  Ticket getTicket(final Audience audience, final Movie movie) {
     if (audience.getInvitation().isEmpty()) {
       return this.getTicketWithFee(audience, movie);
     }
     return this.getTicketWithNoFee(audience, movie);
   }
 
-  private Ticket getTicketWithFee(Audience audience, Movie movie) {
+  private Ticket getTicketWithFee(final Audience audience, final Movie movie) {
     Ticket ticket = Ticket.EMPTY;
     long price = ticketOffice.getTicketPrice(movie);
     if (audience.hasAmount(price)) {
@@ -35,7 +35,7 @@ class TicketSeller {
     return ticket;
   }
 
-  private Ticket getTicketWithNoFee(Audience audience, Movie movie) {
+  private Ticket getTicketWithNoFee(final Audience audience, final Movie movie) {
     Ticket ticket = ticketOffice.getTicketWithNoFee(movie);
     if (ticket.isNotEmpty() && ticket.isExchangeAllowed(audience.getInvitation())) {
       audience.removeInvitation();

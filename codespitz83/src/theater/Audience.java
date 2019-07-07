@@ -5,30 +5,30 @@ class Audience {
   private Ticket ticket = Ticket.EMPTY;
   private long amount;
 
-  static Audience from(long amount) {
+  static Audience from(final long amount) {
     return new Audience(amount);
   }
 
-  private Audience(long amount) {
+  private Audience(final long amount) {
     this.amount = amount;
   }
 
-  void setInvitation(Invitation invitation) {
+  void setInvitation(final Invitation invitation) {
     if (invitation == Invitation.EMPTY) {
       return;
     }
     this.invitation = invitation;
   }
 
-  void buyTicket(TicketSeller ticketSeller, Movie movie) {
+  void buyTicket(final TicketSeller ticketSeller, final Movie movie) {
     this.ticket = ticketSeller.getTicket(this, movie);
   }
 
-  boolean hasAmount (long amount) {
+  boolean hasAmount (final long amount) {
     return this.amount >= amount;
   }
 
-  void minusAmount(long amount) {
+  void minusAmount(final long amount) {
     if (this.amount < amount) {
       return;
     }

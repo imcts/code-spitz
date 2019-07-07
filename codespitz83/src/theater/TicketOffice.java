@@ -10,16 +10,16 @@ class TicketOffice {
     return TicketOffice.from(DEFAULT_AMOUNT);
   }
 
-  static TicketOffice from (long amount) {
+  static TicketOffice from (final long amount) {
     return new TicketOffice(amount);
   }
 
-  private TicketOffice(long amount) {
+  private TicketOffice(final long amount) {
     tickets = Tickets.newInstance();
     this.amount = amount;
   }
 
-  void appendTicket(Ticket ticket) {
+  void appendTicket(final Ticket ticket) {
     this.tickets.appendTicket(ticket);
   }
 
@@ -27,11 +27,11 @@ class TicketOffice {
     return this == EMPTY;
   }
 
-  long getTicketPrice(Movie movie) {
+  long getTicketPrice(final Movie movie) {
     return this.tickets.getTicketPrice(movie);
   }
 
-  Ticket getTicketWithFee(Movie movie) {
+  Ticket getTicketWithFee(final Movie movie) {
     Ticket ticket = tickets.getTicket(movie);
     if (ticket.isNotEmpty()) {
       this.amount += ticket.getFee();
@@ -39,7 +39,7 @@ class TicketOffice {
     return ticket;
   }
 
-  Ticket getTicketWithNoFee(Movie movie) {
+  Ticket getTicketWithNoFee(final Movie movie) {
     return tickets.getTicket(movie);
   }
 }

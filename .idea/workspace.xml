@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz83/code-spitz.codespitz83.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz83/src/theater/Audience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz83/src/theater/Fee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz83/src/theater/Invitation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz83/src/theater/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz83/src/theater/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz83/src/theater/Movies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz83/src/theater/Theater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz83/src/theater/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz83/src/theater/TicketOffice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz83/src/theater/TicketOffices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz83/src/theater/TicketSeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz83/src/theater/Tickets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz83/src/theater/Audience.java" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz83/src/theater/Audience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz83/src/theater/Fee.java" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz83/src/theater/Fee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz83/src/theater/Invitation.java" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz83/src/theater/Invitation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz83/src/theater/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz83/src/theater/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz83/src/theater/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz83/src/theater/Movies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz83/src/theater/Theater.java" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz83/src/theater/Theater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz83/src/theater/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz83/src/theater/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz83/src/theater/TicketOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz83/src/theater/TicketOffice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz83/src/theater/TicketOffices.java" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz83/src/theater/TicketOffices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz83/src/theater/TicketSeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz83/src/theater/TicketSeller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz83/src/theater/Tickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz83/src/theater/Tickets.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/codespitz82/.gradle/" />
     <ignored path="$PROJECT_DIR$/codespitz82/build/" />
@@ -116,39 +106,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/TicketOffice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            <state relative-caret-position="489">
+              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
               <folding>
                 <element signature="e#513#514#0" expanded="true" />
                 <element signature="e#556#557#0" expanded="true" />
                 <element signature="e#647#648#0" expanded="true" />
                 <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Theater.java">
+        <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Tickets.java">
+        <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Movies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="165">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/TicketSeller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -156,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Ticket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+            <state relative-caret-position="465">
+              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
               <folding>
                 <element signature="e#493#494#0" expanded="true" />
                 <element signature="e#525#526#0" expanded="true" />
@@ -168,11 +160,61 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Audience.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+            <state relative-caret-position="390">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+              <folding>
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Fee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding>
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Invitation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/TicketOffices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Tickets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -286,18 +328,18 @@
         <option value="$PROJECT_DIR$/oop/canvas-graph/renderer/LineRenderer.js" />
         <option value="$PROJECT_DIR$/test/src/Test.java" />
         <option value="$PROJECT_DIR$/codespitz83/src/theater/Movioe.java" />
-        <option value="$PROJECT_DIR$/codespitz83/src/theater/Movies.java" />
-        <option value="$PROJECT_DIR$/codespitz83/src/theater/TicketOffices.java" />
+        <option value="$PROJECT_DIR$/codespitz83/src/theater/Main.java" />
         <option value="$PROJECT_DIR$/codespitz83/src/theater/Movie.java" />
-        <option value="$PROJECT_DIR$/codespitz83/src/theater/Ticket.java" />
-        <option value="$PROJECT_DIR$/codespitz83/src/theater/Fee.java" />
+        <option value="$PROJECT_DIR$/codespitz83/src/theater/Theater.java" />
         <option value="$PROJECT_DIR$/codespitz83/src/theater/Audience.java" />
+        <option value="$PROJECT_DIR$/codespitz83/src/theater/Fee.java" />
         <option value="$PROJECT_DIR$/codespitz83/src/theater/Invitation.java" />
+        <option value="$PROJECT_DIR$/codespitz83/src/theater/Movies.java" />
+        <option value="$PROJECT_DIR$/codespitz83/src/theater/Ticket.java" />
         <option value="$PROJECT_DIR$/codespitz83/src/theater/TicketOffice.java" />
+        <option value="$PROJECT_DIR$/codespitz83/src/theater/TicketOffices.java" />
         <option value="$PROJECT_DIR$/codespitz83/src/theater/Tickets.java" />
         <option value="$PROJECT_DIR$/codespitz83/src/theater/TicketSeller.java" />
-        <option value="$PROJECT_DIR$/codespitz83/src/theater/Theater.java" />
-        <option value="$PROJECT_DIR$/codespitz83/src/theater/Main.java" />
       </list>
     </option>
   </component>
@@ -366,7 +408,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kakao/Documents/dolen/study/code-spitz/design-pattern/decorator-opserver/index.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562517540249" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562518398368" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -633,7 +675,7 @@
       <workItem from="1560694739051" duration="710000" />
       <workItem from="1560743810709" duration="727000" />
       <workItem from="1562492106991" duration="4278000" />
-      <workItem from="1562496799057" duration="13742000" />
+      <workItem from="1562496799057" duration="14160000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -709,7 +751,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282414000" />
+    <option name="totallyTimeSpent" value="282832000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -733,12 +775,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5008026" side_tool="true" weight="0.10325655" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49642575" visible="true" weight="0.2974239" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49642575" weight="0.2974239" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.264637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25409836" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25409836" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.504884" side_tool="true" weight="0.3290398" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.24157304" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
@@ -1092,20 +1134,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Movies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1113,17 +1141,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/TicketOffices.java">
+    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Theater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Audience.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Fee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Invitation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="150">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="e#183#184#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
@@ -1133,10 +1197,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Movies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Ticket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        <state relative-caret-position="465">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
           <folding>
             <element signature="e#493#494#0" expanded="true" />
             <element signature="e#525#526#0" expanded="true" />
@@ -1146,75 +1224,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Tickets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/TicketSeller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/TicketOffice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        <state relative-caret-position="489">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding>
             <element signature="e#513#514#0" expanded="true" />
             <element signature="e#556#557#0" expanded="true" />
             <element signature="e#647#648#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Theater.java">
+    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/TicketOffices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Audience.java">
+    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Tickets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="473">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Fee.java">
+    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/TicketSeller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+        <state relative-caret-position="369">
+          <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
         </state>
       </provider>
     </entry>

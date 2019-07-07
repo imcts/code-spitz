@@ -6,11 +6,11 @@ class Ticket {
   private final Movie movie;
   private boolean isEntered;
 
-  static Ticket from(Theater theater, Movie movie) {
+  static Ticket from(final Theater theater, final Movie movie) {
     return new Ticket(theater, movie);
   }
 
-  private Ticket(Theater theater, Movie movie) {
+  private Ticket(final Theater theater, final Movie movie) {
     this.theater = theater;
     this.movie = movie;
     this.isEntered = false;
@@ -24,18 +24,18 @@ class Ticket {
     return !this.isEmpty();
   }
 
-  boolean isValid(Theater theater) {
+  boolean isValid(final Theater theater) {
     if (this.isEntered || theater != this.theater || this == EMPTY) {
       return false;
     }
     return isEntered = true;
   }
 
-  boolean isExchangeAllowed(Invitation invitation) {
+  boolean isExchangeAllowed(final Invitation invitation) {
     return this.theater == invitation.getTheater();
   }
 
-  boolean hasMovie(Movie movie) {
+  boolean hasMovie(final Movie movie) {
     return this.movie == movie;
   }
 
