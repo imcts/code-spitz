@@ -37,12 +37,17 @@ class TicketSeller {
 
   private Ticket getTicketWithNoFee(final Audience audience, final Movie movie) {
     Ticket ticket = ticketOffice.getTicketWithNoFee(movie);
-    if (ticket.isNotEmpty() && ticket.isExchangeAllowed(audience.getInvitation())) {
+    Invitation invitation = audience.getInvitation();
+    if (ticket.isNotEmpty() && this.isSameTheater(ticket, invitation)) {
       audience.removeInvitation();
     } else {
       ticketOffice.appendTicket(ticket);
       ticket = Ticket.EMPTY;
     }
     return ticket;
+  }
+
+  private boolean isSameTheater (Ticket ticket, Invitation invitation) {
+    return ticket.getTheater() == invitation.getTheater();
   }
 }

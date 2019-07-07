@@ -31,15 +31,15 @@ class Ticket {
     return isEntered = true;
   }
 
-  boolean isExchangeAllowed(final Invitation invitation) {
-    return this.theater == invitation.getTheater();
-  }
-
   boolean hasMovie(final Movie movie) {
     return this.movie == movie;
   }
 
   long getFee () {
     return this.theater.getFee(this.movie);
+  }
+
+  Theater getTheater () {
+    return this.theater;
   }
 }
