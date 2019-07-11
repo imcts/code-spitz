@@ -8,9 +8,9 @@ import java.util.Arrays;
  * 코드상 이 조건을 강제하도록 개선하라.
  *
  * resolve:
- *  - Theater가 setTicketOffice를 수행할때 인자로 전달된 ticketOffice에 Theater가 존재하는지 확인한다.
- *  - 계약된 Theater가 없는경우 전달된 ticketOffice와 해당 Theater가 계약하고 ticketOffice에 자신을 전달하여 저장한다.
- *  - 추후에 Theater2가 생성되더라도 해당 ticketOffice는 다른 극장과 계약할 수 없다.
+ * - Theater가 setTicketOffice를 수행할때 인자로 전달된 ticketOffice에 Theater가 존재하는지 확인한다.
+ * - 계약된 Theater가 없는경우 전달된 ticketOffice와 해당 Theater가 계약하고 ticketOffice에 자신을 전달하여 저장한다.
+ * - 추후에 Theater2가 생성되더라도 해당 ticketOffice는 다른 극장과 계약할 수 없다.
  *
  * @practice#2
  * issue: Theater는 단 하나의 영화만 고정가격으로 상영중이다.
@@ -44,9 +44,9 @@ public class Main {
 
     theater.setMovie(movie1, NORMAL_TICKET_FEE);
     theater.setMovie(movie2, PREMIUM_TICKET_FEE);
-    theater.setTicketOffice(ticketOffice);
-    theater.setTicket(movie1, TICKET_AMOUNT_TO_MAKE);
-    theater.setTicket(movie2, TICKET_AMOUNT_TO_MAKE);
+    theater.setTicketOffices(ticketOffice);
+    theater.setTicket(ticketOffice, movie1, TICKET_AMOUNT_TO_MAKE);
+    theater.setTicket(ticketOffice, movie2, TICKET_AMOUNT_TO_MAKE);
     theater.setInvitation(audience1);
 
     seller.setTicketOffice(ticketOffice);

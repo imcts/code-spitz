@@ -3,7 +3,7 @@ package theater;
 import java.util.stream.LongStream;
 
 class Theater {
-  private TicketOffice ticketOffice;
+  private final TicketOffices ticketOffices;
   private final Movies movies;
   private final Fee fee;
 
@@ -14,7 +14,7 @@ class Theater {
   }
 
   private Theater() {
-    this.ticketOffice = TicketOffice.EMPTY;
+    this.ticketOffices = TicketOffices.newInstance();
     this.movies = Movies.newInstance();
     this.fee = Fee.newInstance();
   }
@@ -24,19 +24,17 @@ class Theater {
     this.fee.addMovieFee(movie, fee);
   }
 
-  void setTicketOffice(final TicketOffice ticketOffice) {
+  void setTicketOffices(final TicketOffice ticketOffice) {
     if (ticketOffice.hasTheater()) {
-      System.out.println("안돼 안돼!");
       return;
     }
-    this.ticketOffice = ticketOffice;
-    this.ticketOffice.setTheater(this);
+    this.ticketOffices.appendTicketOffice(ticketOffice);
   }
 
-  void setTicket(final Movie movie, final long ticketAmount) {
+  void setTicket(final TicketOffice ticketOffice, final Movie movie, final long ticketAmount) {
     LongStream
       .range(0, ticketAmount)
-      .forEach(i -> this.ticketOffice.appendTicket(Ticket.from(this, movie)));
+      .forEach(i -> ticketOffices.setTicket(ticketOffice, Ticket.from(this, movie)));
   }
 
   void setInvitation(final Audience audience) {
