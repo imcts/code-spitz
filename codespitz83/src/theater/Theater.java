@@ -1,10 +1,9 @@
 package theater;
 
-import java.util.Arrays;
 import java.util.stream.LongStream;
 
 class Theater {
-  private final TicketOffices ticketOffices;
+  private TicketOffice ticketOffice;
   private final Movies movies;
   private final Fee fee;
 
@@ -13,7 +12,7 @@ class Theater {
   }
 
   private Theater() {
-    this.ticketOffices = TicketOffices.newInstance();
+    this.ticketOffice = TicketOffice.EMPTY;
     this.movies = Movies.newInstance();
     this.fee = Fee.newInstance();
   }
@@ -23,14 +22,17 @@ class Theater {
     this.fee.addMovieFee(movie, fee);
   }
 
-  void setTicketOffices(final TicketOffice ...ticketOffices) {
-    Arrays.asList(ticketOffices).forEach(this.ticketOffices::appendTicketOffice);
+  void setTicketOffice(final TicketOffice ticketOffice) {
+    if (this.ticketOffice.isNotEmpty()) {
+      return;
+    }
+    this.ticketOffice = ticketOffice;
   }
 
-  void setTicket(final TicketOffice ticketOffice, final Movie movie, final long ticketAmount) {
+  void setTicket(final Movie movie, final long ticketAmount) {
     LongStream
       .range(0, ticketAmount)
-      .forEach(i -> ticketOffices.setTicket(ticketOffice, Ticket.from(this, movie)));
+      .forEach(i -> this.ticketOffice.appendTicket(Ticket.from(this, movie)));
   }
 
   void setInvitation(final Audience audience) {

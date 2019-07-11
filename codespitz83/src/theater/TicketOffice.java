@@ -27,6 +27,10 @@ class TicketOffice {
     return this == EMPTY;
   }
 
+  boolean isNotEmpty() {
+    return !this.isEmpty();
+  }
+
   long getTicketPrice(final Movie movie) {
     return this.tickets.getTicketPrice(movie);
   }

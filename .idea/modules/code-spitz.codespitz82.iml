@@ -8,6 +8,7 @@
     <content url="file://$MODULE_DIR$/../../codespitz82">
       <excludeFolder url="file://$MODULE_DIR$/../../codespitz82/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../codespitz82/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../codespitz82/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
