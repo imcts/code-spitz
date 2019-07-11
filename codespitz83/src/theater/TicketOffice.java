@@ -3,6 +3,7 @@ package theater;
 class TicketOffice {
   static TicketOffice EMPTY = TicketOffice.newInstance();
   private static long DEFAULT_AMOUNT = 0L;
+  private Theater theater = Theater.EMPTY;
   private final Tickets tickets;
   private long amount;
 
@@ -27,8 +28,8 @@ class TicketOffice {
     return this == EMPTY;
   }
 
-  boolean isNotEmpty() {
-    return !this.isEmpty();
+  boolean hasTheater() {
+    return this.theater.isNotEmpty();
   }
 
   long getTicketPrice(final Movie movie) {
@@ -45,5 +46,9 @@ class TicketOffice {
 
   Ticket getTicketWithNoFee(final Movie movie) {
     return tickets.getTicket(movie);
+  }
+
+  void setTheater(Theater theater) {
+    this.theater = theater;
   }
 }

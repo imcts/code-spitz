@@ -7,6 +7,8 @@ class Theater {
   private final Movies movies;
   private final Fee fee;
 
+  static Theater EMPTY = Theater.newInstance();
+
   static Theater newInstance() {
     return new Theater();
   }
@@ -23,10 +25,12 @@ class Theater {
   }
 
   void setTicketOffice(final TicketOffice ticketOffice) {
-    if (this.ticketOffice.isNotEmpty()) {
+    if (ticketOffice.hasTheater()) {
+      System.out.println("안돼 안돼!");
       return;
     }
     this.ticketOffice = ticketOffice;
+    this.ticketOffice.setTheater(this);
   }
 
   void setTicket(final Movie movie, final long ticketAmount) {
@@ -48,5 +52,13 @@ class Theater {
 
   boolean enter(final Audience audience) {
     return audience.getTicket().isValid(this);
+  }
+
+  boolean isEmpty() {
+    return this == EMPTY;
+  }
+
+  boolean isNotEmpty() {
+    return !this.isEmpty();
   }
 }

@@ -7,7 +7,10 @@ import java.util.Arrays;
  * issue: TicketOffice는 암묵적으로 하나의 극장하고만 계약하고 있다는 가정이 있게 구현되어있다.
  * 코드상 이 조건을 강제하도록 개선하라.
  *
- * resolve: Theater 내부에 TicketOffice의 초기값을 TicketOffice.EMPTY로 지정한다. 티켓오피스가 비어있지 않은 경우에만 저장하도록 강제한다.
+ * resolve:
+ *  - Theater가 setTicketOffice를 수행할때 인자로 전달된 ticketOffice에 Theater가 존재하는지 확인한다.
+ *  - 계약된 Theater가 없는경우 전달된 ticketOffice와 해당 Theater가 계약하고 ticketOffice에 자신을 전달하여 저장한다.
+ *  - 추후에 Theater2가 생성되더라도 해당 ticketOffice는 다른 극장과 계약할 수 없다.
  *
  * @practice#2
  * issue: Theater는 단 하나의 영화만 고정가격으로 상영중이다.
