@@ -39,7 +39,6 @@ import java.time.LocalDateTime;
  *  - 고객이 예매표를 가지고 입장을 시도할 시, 극장은 예매내역으로부터 유효한 표인지, 극장이 자신이 맞는지, 예매 인원수가 맞는지 확인 한다.
  */
 
-@SuppressWarnings("LoopStatementThatDoesntLoop")
 public class Main {
   public static void main(String[] args) {
     Theater theater = new Theater(Money.of(100.0));
