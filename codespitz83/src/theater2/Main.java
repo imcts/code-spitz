@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
  *
  * resolve1: PeriodAmountDisCount
  *  - 생성자에서 할인 시작기간과 종료기간과 할인금액을 인자로 받는다.
- *  - isSatisfiedBy 메소드를 오버라이드하여 현재 시간이 해당 기간에 포함되는지 확인한다.
+ *  - isSatisfiedBy 메소드를 오버라이드하여 상영에 저장되어 있는 상영 시간이 해당 기간에 포함되는지 확인한다.
  *
  * resolve2: CountAmountDisCount
  *  - 생성자에서 할인이 적용할 인원수를 인자로 전달받는다.
