@@ -14,4 +14,8 @@ public class Screening {
   public Boolean isSameSequence (int sequence) {
     return this.sequence == sequence;
   }
+  
+  public LocalDateTime getWhenScreened() {
+    return whenScreened;
+  }
 }
