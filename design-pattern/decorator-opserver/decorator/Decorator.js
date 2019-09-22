@@ -37,7 +37,6 @@ const Decorator = class extends Observer {
   constructor () {
     super()
     this._decorator = null
-    this._result = null
   }
 
   set (decorator) {
@@ -54,9 +53,5 @@ const Decorator = class extends Observer {
 
   _task () {
     throw new Error('This method must be overridden.')
-  }
-
-  get result () {
-    return this._result
   }
 }

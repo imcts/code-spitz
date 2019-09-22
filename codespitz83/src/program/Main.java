@@ -7,7 +7,7 @@ import program.programmer.BackEnd;
 import program.programmer.FrontEnd;
 import program.programmer.Program;
 
-public class Main {
+public class Main implements Cloneable {
   public static void main(String[] args) {
     /**
      * 서버사이즈 프로젝트인 경우.
@@ -56,6 +56,10 @@ public class Main {
         };
       }
     });
+  }
 
+  @Override
+  protected Object clone() throws CloneNotSupportedException {
+    return super.clone();
   }
 }

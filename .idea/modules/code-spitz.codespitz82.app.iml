@@ -10,7 +10,6 @@
           <option name="outputFile" value="$MODULE_DIR$/../../codespitz82/app/build/classes/kotlin/main/app.js" />
           <option name="noStdlib" value="true" />
           <option name="sourceMap" value="true" />
-          <option name="sourceMapEmbedSources" value="inlining" />
           <option name="metaInfo" value="true" />
           <option name="target" value="v5" />
           <option name="main" value="call" />
