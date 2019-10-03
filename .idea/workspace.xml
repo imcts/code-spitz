@@ -2,62 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codespitz84/code-spitz.codespitz84.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz84/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen3/Calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen3/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen3/Call.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen3/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen3/Plan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen3/calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen3/calculator/DurationPriceRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen3/policy/DurationPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen3/policy/Policy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/code-spitz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code-spitz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen4/JsonVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen4/Renderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen4/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen4/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen4/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz84/src/listen4/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz82/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz82/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz82/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz82/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz83/code-spitz.codespitz83.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz83/code-spitz.codespitz83.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz83/src/program/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz83/src/program/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/decorator-opserver/decorator/Decorator.js" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/decorator-opserver/decorator/Decorator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Audience.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Audience.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Fee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Fee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Invitation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Invitation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Movies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Movies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Theater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Theater.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Ticket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/TicketOffice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/TicketOffice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/TicketOffices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/TicketOffices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/TicketSeller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/TicketSeller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Tickets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater1/Tickets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/MovieTheater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/MovieTheater.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/Reservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/Screening.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/Screening.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/Theater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/Theater.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/TicketOffice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/TicketOffice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/TicketSeller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/TicketSeller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/AmountDiscount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/AmountDiscount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/DiscountCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/DiscountCondition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/DiscountPolicy$AMOUNT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/DiscountPolicy$AMOUNT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/DiscountPolicy$NONE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/DiscountPolicy$NONE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/DiscountPolicy$PERCENT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/DiscountPolicy$PERCENT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/DiscountPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/DiscountPolicy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/PercentDiscount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/base/PercentDiscount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/discount/CountAmountDiscount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/discount/CountAmountDiscount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/discount/PeriodAmountDiscount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/discount/PeriodAmountDiscount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/discount/SequenceAmountDiscount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/discount/SequenceAmountDiscount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/vo/Money.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/vo/Money.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/vo/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/theater2/vo/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz84/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz84/src/listen3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz84/Main.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/codespitz82/out/" />
     <ignored path="$PROJECT_DIR$/codespitz82/app/.gradle/" />
@@ -142,103 +97,28 @@
     <favorites_list name="code-spitz" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43785852">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/codespitz84/src/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/Calculator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/Calc.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#223#224#0" expanded="true" />
-                    <element signature="e#259#260#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/policy/DurationPrice.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#242#243#0" expanded="true" />
-                    <element signature="e#286#287#0" expanded="true" />
-                    <element signature="e#355#356#0" expanded="true" />
-                    <element signature="e#417#418#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calculator/DurationPriceRule.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="440">
-                  <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/Call.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#100#101#0" expanded="true" />
-                    <element signature="e#127#128#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -326,7 +206,6 @@
         <option value="$PROJECT_DIR$/codespitz84/src/listen3/calc/NightDiscount.java" />
         <option value="$PROJECT_DIR$/codespitz84/src/listen3/calculator/Calculator/js.java" />
         <option value="$PROJECT_DIR$/codespitz84/src/listen3/calculator/PricePerTimeCalculator.java" />
-        <option value="$PROJECT_DIR$/codespitz84/src/listen3/Main.java" />
         <option value="$PROJECT_DIR$/codespitz84/src/listen3/l3/calc/Tex.java" />
         <option value="$PROJECT_DIR$/codespitz84/src/listen3/policy/Policy.java" />
         <option value="$PROJECT_DIR$/codespitz84/src/listen3/policy/TimeOfDay.java" />
@@ -339,6 +218,17 @@
         <option value="$PROJECT_DIR$/codespitz84/src/listen3/Calculator.java" />
         <option value="$PROJECT_DIR$/codespitz84/src/listen3/calculator/DurationPriceRule.java" />
         <option value="$PROJECT_DIR$/codespitz84/src/listen3/Call.java" />
+        <option value="$PROJECT_DIR$/codespitz84/src/listen3/Main.java" />
+        <option value="$PROJECT_DIR$/codespitz84/src/listen5/Main.java" />
+        <option value="$PROJECT_DIR$/codespitz84/src/listen5/Task.java" />
+        <option value="$PROJECT_DIR$/codespitz84/src/listen5/Report.java" />
+        <option value="$PROJECT_DIR$/codespitz84/src/listen4/Sort.java" />
+        <option value="$PROJECT_DIR$/codespitz84/src/listen4/Task.java" />
+        <option value="$PROJECT_DIR$/codespitz84/src/listen4/Report.java" />
+        <option value="$PROJECT_DIR$/codespitz84/src/listen4/Visitor.java" />
+        <option value="$PROJECT_DIR$/codespitz84/src/listen4/Renderer.java" />
+        <option value="$PROJECT_DIR$/codespitz84/src/listen4/JsonVisitor.java" />
+        <option value="$PROJECT_DIR$/codespitz84/src/listen4/Main.java" />
       </list>
     </option>
   </component>
@@ -363,7 +253,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -387,29 +277,13 @@
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
               <item name="codespitz84" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="listen3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="codespitz84" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="listen3" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="codespitz84" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="listen3" type="462c0819:PsiDirectoryNode" />
-              <item name="policy" type="462c0819:PsiDirectoryNode" />
+              <item name="listen4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -423,8 +297,11 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/codespitz84/src/listen3" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v8.1.3/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -433,26 +310,26 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/codespitz84/src/listen3" />
-      <recent name="$PROJECT_DIR$/codespitz82/app/src/test/resources" />
-      <recent name="$PROJECT_DIR$/codespitz82/app/src/main/resources" />
-      <recent name="$PROJECT_DIR$/code-golf/nearest-interpolation" />
-      <recent name="$PROJECT_DIR$/animation/canvas" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="listen3.policy" />
-      <recent name="program.programmer" />
-      <recent name="program.paper" />
-      <recent name="theater2.discount" />
-      <recent name="theater" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/codespitz84/src/listen3" />
       <recent name="$PROJECT_DIR$/oop" />
       <recent name="$PROJECT_DIR$/sample/component" />
       <recent name="$PROJECT_DIR$/sample" />
       <recent name="$PROJECT_DIR$/sample/component/home/note/popup" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="listen3" />
+      <recent name="listen3.policy" />
+      <recent name="program.programmer" />
+      <recent name="program.paper" />
+      <recent name="theater2.discount" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codespitz84/src/listen3" />
+      <recent name="$PROJECT_DIR$/codespitz82/app/src/test/resources" />
+      <recent name="$PROJECT_DIR$/codespitz82/app/src/main/resources" />
+      <recent name="$PROJECT_DIR$/code-golf/nearest-interpolation" />
+      <recent name="$PROJECT_DIR$/animation/canvas" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -467,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -481,20 +358,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="syntax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="program.Main" />
-      <module name="code-spitz.codespitz83" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -520,6 +383,20 @@
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="code-spitz.codespitz84" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listen4.Main" />
+      <module name="code-spitz.codespitz84" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="listen4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -571,18 +448,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -703,7 +580,8 @@
       <workItem from="1569124449786" duration="99000" />
       <workItem from="1569126706376" duration="487000" />
       <workItem from="1569150224768" duration="3811000" />
-      <workItem from="1569154357953" duration="3420000" />
+      <workItem from="1569154357953" duration="3566000" />
+      <workItem from="1570065421409" duration="5998000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -786,7 +664,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7817000" />
+    <option name="totallyTimeSpent" value="13961000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,7 +679,7 @@
     <frame x="0" y="23" width="1920" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16613418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -810,8 +688,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.396" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -954,13 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design-pattern/decorator-opserver/decorator/Decorator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -978,23 +849,13 @@
     <entry file="file://$PROJECT_DIR$/codespitz83/src/test/Test.java" />
     <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calc/DayPrice.java" />
     <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calc/AmountDiscount.java" />
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calc/Tex.java" />
     <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calc/NightDiscount.java" />
     <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calculator/Calculator/js.java" />
     <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calculator/PricePerTimeCalculator.java" />
     <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/policy/PricePerTime.java" />
     <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calc/DateTimeInterval.java" />
     <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calc/DayOfWeek.java" />
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calc/Tex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calc/Tex.java" />
     <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/Money.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1002,40 +863,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/policy/Policy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/policy/DurationPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calc/TimeOfDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calc/TimeOfDay.java" />
     <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1046,23 +874,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/policy/TimeOfDay.java">
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/policy/TimeOfDay.java" />
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/Plan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="225">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/policy/DurationPrice.java">
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/Call.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calculator/DurationPriceRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1079,54 +929,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/Plan.java">
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/policy/DurationPrice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/policy/Policy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codespitz84/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="25" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen5/Main/js.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/calculator/DurationPriceRule.java">
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen3/Call.java">
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/Renderer/js.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/Report.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/JsonVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/Renderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

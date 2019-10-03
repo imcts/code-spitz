@@ -1,4 +1,5 @@
-import listen3.*;
+package listen3;
+
 import listen3.calculator.DurationPriceRule;
 import listen3.policy.DurationPrice;
 
