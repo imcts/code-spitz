@@ -1,19 +1,22 @@
-package listen4;
+package listen4.visitor;
+
+import listen4.task.Task;
 
 import java.util.stream.IntStream;
 
 public class JsonVisitor implements Visitor {
     private static final String PADDING = " ";
+    private String json = "";
 
     @Override
     public void render(Task task, int depth) {
         String padding = this.padding(depth);
-        System.out.println(padding + "{");
+        this.json += padding + "{\n";
 
         String contentPadding = padding + JsonVisitor.PADDING;
-        System.out.println(contentPadding + "\"title\":" + task.getTitle());
-        System.out.println(contentPadding + "\"date\":" +task.getDate());
-        System.out.println(contentPadding + "\"sub: [");
+        this.json += contentPadding + "\"title\": \"" + task.getTitle() + "\",\n";
+        this.json += contentPadding + "\"date\": \"" +task.getDate() + "\",\n";
+        this.json += contentPadding + "\"sub\": [\n";
     }
 
     private String padding (int depth) {
@@ -29,12 +32,15 @@ public class JsonVisitor implements Visitor {
     @Override
     public void end(Task task, int depth, boolean isEnd) {
         String padding = padding(depth);
-        System.out.println(padding + JsonVisitor.PADDING + "]");
-
+        this.json += padding + JsonVisitor.PADDING + "]\n";
         if (isEnd) {
-            System.out.println(padding + "}");
+            this.json += padding + "}\n";
         } else {
-            System.out.println(padding + "},");
+            this.json += padding + "},\n";
         }
+    }
+
+    public String getJson() {
+        return this.json;
     }
 }

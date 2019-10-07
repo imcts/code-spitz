@@ -1,4 +1,8 @@
-package listen4;
+package listen4.renderer;
+
+import listen4.task.Report;
+import listen4.task.Task;
+import listen4.visitor.Visitor;
 
 import java.util.List;
 import java.util.function.Supplier;
@@ -19,11 +23,11 @@ public class Renderer {
         this.factory = factory;
     }
 
-    public void render (Report report) {
+    public void render(Report report) {
         this.render(this.factory.get(), report, 0, true);
     }
 
-    private void render (Visitor visitor, Report report, int depth, boolean isEnd) {
+    private void render(Visitor visitor, Report report, int depth, boolean isEnd) {
         Task task = report.getTask();
         visitor.render(task, depth);
         int nextDepth = depth + Renderer.DEPTH_COUNT;

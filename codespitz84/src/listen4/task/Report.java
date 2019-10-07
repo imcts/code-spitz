@@ -1,4 +1,4 @@
-package listen4;
+package listen4.task;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,18 +17,18 @@ public class Report {
         this.reports = new ArrayList();
     }
 
-    public void add (Report report) {
+    public void add(Report report) {
         if (report == null) {
             return;
         }
         this.reports.add(report);
     }
 
-    public Task getTask () {
+    public Task getTask() {
         return this.task;
     }
 
-    public List<Report> getReports () {
+    public List<Report> getReports() {
         return this.reports;
     }
 }
