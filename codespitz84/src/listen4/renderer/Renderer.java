@@ -30,7 +30,7 @@ public class Renderer {
     private void render(Visitor visitor, Report report, int depth, boolean isEnd) {
         Task task = report.getTask();
         visitor.render(task, depth);
-        int nextDepth = depth + Renderer.DEPTH_COUNT;
+        int nextDepth = depth + DEPTH_COUNT;
 
         List<Report> reports = report.getReports();
         for (int i = 0, size = reports.size(); i < size; i++) {

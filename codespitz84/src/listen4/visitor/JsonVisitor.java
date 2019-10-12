@@ -13,7 +13,7 @@ public class JsonVisitor implements Visitor {
         String padding = this.padding(depth);
         this.json += padding + "{\n";
 
-        String contentPadding = padding + JsonVisitor.PADDING;
+        String contentPadding = padding + PADDING;
         this.json += contentPadding + "\"title\": \"" + task.getTitle() + "\",\n";
         this.json += contentPadding + "\"date\": \"" +task.getDate() + "\",\n";
         this.json += contentPadding + "\"sub\": [\n";
@@ -24,7 +24,7 @@ public class JsonVisitor implements Visitor {
             return "";
         }
         return IntStream.range(0, depth)
-            .mapToObj(v -> JsonVisitor.PADDING)
+            .mapToObj(v -> PADDING)
             .reduce((v1, v2) -> v1 + v2)
             .orElseThrow();
     }
@@ -32,7 +32,7 @@ public class JsonVisitor implements Visitor {
     @Override
     public void end(Task task, int depth, boolean isEnd) {
         String padding = padding(depth);
-        this.json += padding + JsonVisitor.PADDING + "]\n";
+        this.json += padding + PADDING + "]\n";
         if (isEnd) {
             this.json += padding + "}\n";
         } else {

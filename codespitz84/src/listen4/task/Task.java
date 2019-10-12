@@ -10,12 +10,12 @@ public class Task {
     private Boolean completed;
     private final List<Task> tasks;
 
-    public Task(String title, LocalDateTime date) {
+    public Task(final String title, final LocalDateTime date) {
         if (title == null || date == null) {
             throw new RuntimeException("invalid");
         }
         this.setTitle(title);
-        this.date = date;
+        this.setDate(date);
         this.completed = false;
         this.tasks = new ArrayList();
     }
@@ -53,8 +53,8 @@ public class Task {
     public Report getReport(final Sort sort) {
         Report report = new Report(this);
         this.tasks.sort(sort::compare);
-        for (Task childTask : this.tasks) {
-            report.add(childTask.getReport(sort));
+        for (Task task : this.tasks) {
+            report.add(task.getReport(sort));
         }
         return report;
     }
