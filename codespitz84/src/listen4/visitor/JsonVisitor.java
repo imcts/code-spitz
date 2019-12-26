@@ -4,7 +4,7 @@ import listen4.task.Task;
 
 import java.util.stream.IntStream;
 
-public class JsonVisitor implements Visitor {
+public class JsonVisitor<T> implements Visitor {
     private static final String PADDING = " ";
     private String json = "";
 

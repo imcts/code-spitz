@@ -1,0 +1,3 @@
+DELETE http://api-gateway-mart.note.beta.woowa.in/v1/channel/supplies/baemin/mart/161214001272
+Content-Type: application/json
+###

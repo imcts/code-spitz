@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box
+		}
+		.parent {
+			--box-width: 200;
+			--box-margin: 0;
+			min-width: 500px;
+			text-align: left;
+			background: blue;
+			font-size: 0;
+		}
+
+		.parent .child {
+			display: inline-block;
+			width: calc(var(--box-width) * 1px);
+			margin: var(--box-margin);
+			height: 150px;
+			background: red;
+		}
+	</style>
+</head>
+<body>
+<div class="parent">
+	<div class="child"></div>
+	<div class="child"></div>
+	<div class="child"></div>
+	<div class="child"></div>
+	<div class="child"></div>
+	<div class="child"></div>
+	<div class="child"></div>
+</div>
+<script>
+	const calc = () => {
+		const parent = document.querySelector('.parent')
+		const parentWidth = parent.offsetWidth
+		const boxWidth = window.getComputedStyle(parent).getPropertyValue('--box-width')
+		const boxCount = Math.floor(parentWidth / boxWidth)
+		parent.style.setProperty('--box-margin', `${(parentWidth - boxWidth * boxCount) / (boxCount * 2)}px`)
+	}
+	window.addEventListener('resize', calc)
+	window.onload = calc
+</script>
+</body>
+</html>

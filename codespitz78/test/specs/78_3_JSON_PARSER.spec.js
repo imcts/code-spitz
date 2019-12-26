@@ -1,4 +1,4 @@
-const { parser } = require('../../../function/js/78_3_JSON_PARSER')
+const { parser } = require('../../js/78_3_JSON_PARSER')
 
 describe('JSON Parser - ', () => {
   it('{}인 경우.', () => {
