@@ -49,7 +49,6 @@
 			height: 1000px;
 			margin: -500px 0 0 -500px;
 			transform-style: preserve-3d;
-			transform: translateZ(500px) rotateY(0deg);
 			animation: rotate 10s linear infinite;
 		}
 		/*
@@ -87,32 +86,32 @@
 		/*윗면 이미지*/
 		.cube-face:nth-child(1) {
 			background-position: -1000px 0;
-			transform: rotateX(-90deg) translateZ(-500px);
+			transform: rotateX(-90deg) translateZ(-495px);
 		}
 		/*옆 1면 이미지*/
 		.cube-face:nth-child(2) {
 			background-position: -3000px -1000px;
-			transform: rotateY(180deg) translateZ(-500px)
+			transform: rotateY(180deg) translateZ(-495px)
 		}
 		/*옆 2면 이미지*/
 		.cube-face:nth-child(3) {
 			background-position: -2000px -1000px;
-			transform: rotateY(-90deg) translateZ(-500px)
+			transform: rotateY(-90deg) translateZ(-495px)
 		}
 		/*옆 3면 이미지*/
 		.cube-face:nth-child(4) {
 			background-position: -1000px -1000px;
-			transform: translateZ(-500px)
+			transform: translateZ(-495px)
 		}
 		/*옆 4면 이미지*/
 		.cube-face:nth-child(5)  {
 			background-position: 0 -1000px;
-			transform: rotateY(90deg) translateZ(-500px)
+			transform: rotateY(90deg) translateZ(-495px)
 		}
 		/*아랫면 이미지*/
 		.cube-face:nth-child(6) {
 			background-position: -1000px -2000px;
-			transform: rotateX(90deg) translateZ(-500px);
+			transform: rotateX(90deg) translateZ(-495px);
 		}
 
 		@keyframes rotate {
