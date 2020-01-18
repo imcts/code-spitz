@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="">
+    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="MVVM">
+      <change afterPath="$PROJECT_DIR$/codespitz-86/listen2/Assertion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz-86/listen2/Renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz-86/listen2/RendererItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz-86/listen2/Scanner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz-86/listen2/ViewModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz-86/listen2/ViewModels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz-86/listen2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz-86/listen2/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz76/css-custom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz76/panorama.html" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz76/panorama.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/canvas-graph/constant/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/canvas-graph/controller/ReviewGraphController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/canvas-graph/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/canvas-graph/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/canvas-graph/model/Review.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/canvas-graph/protocol/Message.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/canvas-graph/renderer/ArcRenderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/canvas-graph/renderer/CanvasRenderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/canvas-graph/renderer/LineRenderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/canvas-graph/renderer/RectRenderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/canvas-graph/renderer/core/GraphRenderer.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/codespitz82/out/" />
     <ignored path="$PROJECT_DIR$/codespitz82/app/.gradle/" />
@@ -30,6 +26,20 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -101,31 +111,34 @@
     <favorites_list name="code-spitz" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codespitz76/IFC-BFC-RP.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codespitz76/panorama.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
-              <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
-              <caret line="98" column="48" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="48" />
-              <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
-              <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
-              <caret line="113" column="47" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.43456614">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/codespitz-86/listen2/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/codespitz-86/listen2/ViewModel.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="620">
+                  <caret line="58" selection-start-line="58" selection-end-line="58" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,7 +154,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getMo</find>
       <find>makeProgram</find>
       <find>this.</find>
       <find>getAttendanceCombination</find>
@@ -171,6 +183,7 @@
       <find>console.</find>
       <find>startTime</find>
       <find>perspective</find>
+      <find>getViewModel</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/function</dir>
@@ -199,15 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/codespitz84/src/listen3/calc/NightDiscount.java" />
-        <option value="$PROJECT_DIR$/codespitz84/src/listen3/calculator/Calculator/js.java" />
-        <option value="$PROJECT_DIR$/codespitz84/src/listen3/calculator/PricePerTimeCalculator.java" />
-        <option value="$PROJECT_DIR$/codespitz84/src/listen3/l3/calc/Tex.java" />
-        <option value="$PROJECT_DIR$/codespitz84/src/listen3/policy/Policy.java" />
-        <option value="$PROJECT_DIR$/codespitz84/src/listen3/policy/TimeOfDay.java" />
-        <option value="$PROJECT_DIR$/codespitz84/src/listen3/calc/DurationPriceRule.java" />
-        <option value="$PROJECT_DIR$/codespitz84/src/listen3/calc/DurationPrice.java" />
-        <option value="$PROJECT_DIR$/codespitz84/src/listen3/calculator/Calculator.java" />
         <option value="$PROJECT_DIR$/codespitz84/src/listen3/Calc.java" />
         <option value="$PROJECT_DIR$/codespitz84/src/listen3/policy/DurationPrice.java" />
         <option value="$PROJECT_DIR$/codespitz84/src/Main.java" />
@@ -250,6 +254,15 @@
         <option value="$PROJECT_DIR$/project/scroll/part2/index.html" />
         <option value="$PROJECT_DIR$/project/scroll/part2/index.js" />
         <option value="$PROJECT_DIR$/codespitz76/panorama.html" />
+        <option value="$PROJECT_DIR$/codespitz-86/listen2/Assertion.js" />
+        <option value="$PROJECT_DIR$/codespitz-86/listen2/RenderItem.js" />
+        <option value="$PROJECT_DIR$/codespitz-86/listen2/Scanner.js" />
+        <option value="$PROJECT_DIR$/codespitz-86/listen2/index.html" />
+        <option value="$PROJECT_DIR$/codespitz-86/listen2/ViewModels.js" />
+        <option value="$PROJECT_DIR$/codespitz-86/listen2/RendererItem.js" />
+        <option value="$PROJECT_DIR$/codespitz-86/listen2/Renderer.js" />
+        <option value="$PROJECT_DIR$/codespitz-86/listen2/index.js" />
+        <option value="$PROJECT_DIR$/codespitz-86/listen2/ViewModel.js" />
       </list>
     </option>
   </component>
@@ -262,10 +275,10 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="942" />
+    <option name="width" value="960" />
+    <option name="height" value="619" />
   </component>
   <component name="ProjectId" id="1R2DUnnAYf1Dvf0rCZYcy1lgqnv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -274,7 +287,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,17 +297,30 @@
             <path>
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="codespitz76" type="462c0819:PsiDirectoryNode" />
+              <item name="codespitz79" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="codespitz79" type="462c0819:PsiDirectoryNode" />
+              <item name="warming-up-design-pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="codespitz-86" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="codespitz-86" type="462c0819:PsiDirectoryNode" />
+              <item name="listen2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -308,7 +333,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568856077559" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/project/scroll" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codespitz-86/listen2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -323,12 +348,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$/codespitz85/listen3" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codespitz-86/listen2" />
+      <recent name="$PROJECT_DIR$/project/scroll" />
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/codespitz84/src/listen3" />
-      <recent name="$PROJECT_DIR$/oop" />
-      <recent name="$PROJECT_DIR$/sample/component" />
+      <recent name="$PROJECT_DIR$/codespitz82/app/src/test/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="listen4.command" />
@@ -337,12 +362,12 @@
       <recent name="program.programmer" />
       <recent name="program.paper" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project/scroll" />
-      <recent name="$PROJECT_DIR$/css" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/codespitz85/listen3" />
       <recent name="$PROJECT_DIR$/codespitz84/src/listen3" />
-      <recent name="$PROJECT_DIR$/codespitz82/app/src/test/resources" />
-      <recent name="$PROJECT_DIR$/codespitz82/app/src/main/resources" />
+      <recent name="$PROJECT_DIR$/oop" />
+      <recent name="$PROJECT_DIR$/sample/component" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -663,7 +688,11 @@
       <workItem from="1576726497093" duration="8649000" />
       <workItem from="1577326679739" duration="1594000" />
       <workItem from="1577330239612" duration="4748000" />
-      <workItem from="1577611129331" duration="497000" />
+      <workItem from="1577611129331" duration="1595000" />
+      <workItem from="1577924651359" duration="227000" />
+      <workItem from="1577925302873" duration="19000" />
+      <workItem from="1577926529732" duration="11000" />
+      <workItem from="1579357518668" duration="7240000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -770,11 +799,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570874040554</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="CSS panorama">
+      <created>1577611679448</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1577611679448</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93784000" />
+    <option name="totallyTimeSpent" value="102379000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -786,10 +822,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="942" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="942" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16910867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14163615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -819,7 +855,7 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Gradle" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32967034" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="News Feed" order="10" />
       <window_info anchor="right" x="0" y="0" width="370" height="742" id="Documentation" order="11" side_tool="true" weight="0.32967034" />
@@ -827,11 +863,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/function/node_modules/karma/config.tpl.js" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -880,7 +911,8 @@
     <MESSAGE value="주석 추가." />
     <MESSAGE value="작성 완료" />
     <MESSAGE value="상수 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="상수 수정" />
+    <MESSAGE value="CSS panorama" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS panorama" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -896,60 +928,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/visitor/Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib/src.zip!/java.base/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="954" column="7" lean-forward="true" selection-start-line="954" selection-start-column="7" selection-end-line="954" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="1908" column="8" selection-start-line="1908" selection-start-column="8" selection-end-line="1908" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz78/78_3_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz78/78_3_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/command/RemoveAll.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="379" column="6" lean-forward="true" selection-start-line="379" selection-start-column="6" selection-end-line="379" selection-end-column="6" />
-          <folding>
-            <element signature="e#13936#13937#0" expanded="true" />
-            <element signature="e#14004#14005#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib/src.zip!/java.base/java/time/format/DateTimeFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="2057" column="7" lean-forward="true" selection-start-line="2057" selection-start-column="7" selection-end-line="2057" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -1117,13 +1095,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codespitz84/src/Iterate.java" />
-    <entry file="file://$PROJECT_DIR$/codespitz85/listen3/generator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/task/Report.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1237,22 +1208,85 @@
     <entry file="file://$PROJECT_DIR$/project/scroll/part1/index.html" />
     <entry file="file://$PROJECT_DIR$/project/scroll/part2/index.html" />
     <entry file="file://$PROJECT_DIR$/project/scroll/part2/index.js" />
-    <entry file="file://$PROJECT_DIR$/codespitz76/IFC-BFC-RP.html">
+    <entry file="file://$PROJECT_DIR$/codespitz85/listen3/generator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="1088">
+          <caret line="113" column="46" lean-forward="true" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codespitz76/panorama.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
-          <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
-          <caret line="98" column="48" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="48" />
-          <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
-          <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
-          <caret line="113" column="47" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
+        <state relative-caret-position="390">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz76/IFC-BFC-RP.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz-86/listen2/Assertion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz-86/listen2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz-86/listen2/RendererItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz-86/listen2/ViewModels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz-86/listen2/Scanner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz-86/listen2/Renderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz-86/listen2/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz-86/listen2/ViewModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
