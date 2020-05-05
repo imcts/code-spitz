@@ -13,7 +13,7 @@ const Observer = class extends Set {
     this.forEach(listener => listener.update(data))
   }
   
-  update () {
+  update (data) {
     throw new Error(ERROR.OVERRIDE)
   }
 }
