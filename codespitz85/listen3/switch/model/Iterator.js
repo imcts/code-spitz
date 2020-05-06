@@ -4,7 +4,7 @@ const Iterator = class {
   
   constructor (f) {
     this.#f = f
-    this.#context = new Context()
+    this.#context = new ContextIterable()
   }
   
   next () {
