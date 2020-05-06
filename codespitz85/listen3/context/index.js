@@ -20,8 +20,8 @@
  */
 
 const gene = a => {
-  const KEY0 = 0
-  const KEY1 = 1
+  const KEY0 = Symbol()
+  const KEY1 = Symbol()
   return new ContextIterable()
   .set('a', a)
   .set('b', undefined)
