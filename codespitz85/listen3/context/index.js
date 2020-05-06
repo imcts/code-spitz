@@ -19,10 +19,9 @@
  * 3. Context는 어휘공간을 제공해야 한다.
  */
 
-const KEY0 = 0
-const KEY1 = 1
-
 const gene = a => {
+  const KEY0 = 0
+  const KEY1 = 1
   return new ContextIterable()
   .set('a', a)
   .set('b', undefined)
