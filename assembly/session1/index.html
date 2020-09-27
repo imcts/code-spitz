@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script>
+			(async () => {
+				const {module, instance} = (await WebAssembly.instantiateStreaming(fetch('./program.wasm'), {}))
+				console.log(instance.exports.add(5))
+			})()
+		</script>
+	</body>
+</html>

@@ -1,3 +1,80 @@
+GET http://local.baemin.com:7070/sales/missing?mt=purchase;
+Cookie: _ceo_v2_gk_sid=b2e2c978-8d36-488c-92c3-56f17504af14;
+
+<> 2020-05-15T031503.200.html
+
+###
+
+TRACE http://local.baemin.com:7070/sales/missing?mt=purchase;
+Cookie: _ceo_v2_gk_sid=b2e2c978-8d36-488c-92c3-56f17504af14;
+
+<> 2020-05-15T031416.404.html
+
+###
+
+TRACE http://local.baemin.com:7070/sales/missing?mt=purchase;
+Cookie: _ceo_v2_gk_sid=b2e2c978-8d36-488c-92c3-56f17504af14;
+
+<> 2020-05-15T031313.404.html
+
+###
+
+TRACE http://local.baemin.com:3000/sales/missing?mt=purchase;
+Cookie: _ceo_v2_gk_sid=b2e2c978-8d36-488c-92c3-56f17504af14;
+
+<> 2020-05-15T031246.404.html
+
+###
+
+TRACE http://local.baemin.com/sales/missing?mt=purchase;
+Cookie: _ceo_v2_gk_sid=b2e2c978-8d36-488c-92c3-56f17504af14;
+
+###
+
+TRACE https://note.beta.baemin.com/sales/missing?mt=purchase;
+Cookie: _ceo_v2_gk_sid=b2e2c978-8d36-488c-92c3-56f17504af14;
+
+<> 2020-05-15T031128.405.html
+
+###
+
+TRACE http://local.baemin.com:3000/sales/missing?mt=purchase
+Cookie: _ceo_v2_gk_sid=b2e2c978-8d36-488c-92c3-56f17504af14;
+
+<> 2020-05-15T031029.404.html
+
+###
+
+TRACE https://local.baemin.com:3000/sales/missing?mt=purchase;
+Cookie: _ceo_v2_gk_sid=b2e2c978-8d36-488c-92c3-56f17504af14;
+
+###
+
+TRACE https://local.baemin.com/sales/missing?mt=purchase;
+Cookie: _ceo_v2_gk_sid=b2e2c978-8d36-488c-92c3-56f17504af14;
+
+###
+
+TRACE https://note.beta.baemin.com/sales/missing?mt=purchase;
+Cookie: _ceo_v2_gk_sid=b2e2c978-8d36-488c-92c3-56f17504af14;
+
+<> 2020-05-15T030902.405.html
+
+###
+
+GET https://note.beta.baemin.com/sales/missing?mt=purchase;
+Cookie: _ceo_v2_gk_sid=b2e2c978-8d36-488c-92c3-56f17504af14;
+
+<> 2020-05-15T030850.200.html
+
+###
+
+GET https://note.beta.baemin.com/sales/missing?mt=purchase;
+
+<> 2020-05-15T030711.200.html
+
+###
+
 DELETE http://api-gateway-mart.note.beta.woowa.in/v1/channel/supplies/baemin/mart/161214001272
 Content-Type: application/json
 
