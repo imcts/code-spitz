@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>Custom Loading Code</title>
+</head>
+<body>
+  <h1>Using Custom Loading Code</h1>
+  <canvas id="canvas"></canvas>
+  <script src="custom-loading.js"></script>
+  <script>
+    // wasm을 로드할 때 Glue 코드를 사용하는데 -s MODULARIZE=1 옵션을 사용하여 Promise 기법으로 모듈을 로드할 수 있도록 함.
+    (async () => {
+      await Module({
+        canvas: (() => document.getElementById('canvas'))(),
+      })
+      console.log('loaded')
+    })()
+  </script>
+</body>
+</html>

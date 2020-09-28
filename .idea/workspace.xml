@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assembly/session1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session1/program.wasm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session2/compile-test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session2/compile-test/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/common/load-wasm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session2/custom-loading/with-glue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session2/with-glue/with-glue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session2/with-glue/with-glue.wasm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/choitaesan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/choitaesan.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembly/session2/compile-test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/session2/compile-test/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/codespitz82/out/" />
     <ignored path="$PROJECT_DIR$/codespitz82/app/.gradle/" />
@@ -117,17 +121,49 @@
     <favorites_list name="code-spitz" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assembly/session2/compile-test/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.36637512">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="675">
+                  <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="365">
+                  <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -143,23 +179,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>inertialVelocity</find>
-      <find>amplitude =</find>
-      <find>min</find>
-      <find>console.</find>
-      <find>startTime</find>
-      <find>perspective</find>
-      <find>render</find>
-      <find>this.#scanner</find>
-      <find>t</find>
-      <find>'Constructor must be called by from method.'</find>
-      <find>throw new</find>
-      <find>getKey</find>
-      <find>notify</find>
-      <find>getViewModel</find>
-      <find>getRendererItem</find>
-      <find>val</find>
-      <find>var</find>
       <find>addQueue</find>
       <find>reques</find>
       <find>Sequence</find>
@@ -173,6 +192,23 @@
       <find>eval</find>
       <find>f =</find>
       <find>List</find>
+      <find>&lt;script</find>
+      <find>jsClearRect</find>
+      <find>Rect</find>
+      <find>main</find>
+      <find>run</find>
+      <find>jsFillRect</find>
+      <find>rect.</find>
+      <find>moveRec</find>
+      <find>setIsRunning</find>
+      <find>isRunning</find>
+      <find>isRunning =</find>
+      <find>moveRect</find>
+      <find>rect.x</find>
+      <find>.init(</find>
+      <find>getRect</find>
+      <find>methods</find>
+      <find>getIsRunning</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/function</dir>
@@ -209,12 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/codespitz-86/listen2/index.js" />
-        <option value="$PROJECT_DIR$/codespitz-86/listen2/ViewModel.js" />
-        <option value="$PROJECT_DIR$/project/note.http" />
-        <option value="$PROJECT_DIR$/codespitz86/listen3/ViewModel.js" />
-        <option value="$PROJECT_DIR$/codespitz86/listen3/ViewModels.js" />
-        <option value="$PROJECT_DIR$/codespitz86/listen3/RendererItems.js" />
         <option value="$PROJECT_DIR$/codespitz86/listen3/Scanner.js" />
         <option value="$PROJECT_DIR$/codespitz86/listen3/RendererItem.js" />
         <option value="$PROJECT_DIR$/codespitz86/listen3/Processors.js" />
@@ -259,7 +289,13 @@
         <option value="$PROJECT_DIR$/codespitz86/listen2/index.js" />
         <option value="$PROJECT_DIR$/assembly/index.html" />
         <option value="$PROJECT_DIR$/assembly/test.c" />
+        <option value="$PROJECT_DIR$/assembly/session2/with-glue/with-glue.html" />
+        <option value="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.html" />
+        <option value="$PROJECT_DIR$/assembly/example/common/load-wasm.js" />
         <option value="$PROJECT_DIR$/assembly/session2/compile-test/index.html" />
+        <option value="$PROJECT_DIR$/assembly/common/load-wasm.js" />
+        <option value="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c" />
+        <option value="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html" />
       </list>
     </option>
   </component>
@@ -284,7 +320,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,7 +337,7 @@
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
               <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session1" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
@@ -316,11 +352,18 @@
               <item name="session2" type="462c0819:PsiDirectoryNode" />
               <item name="compile-test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="session2" type="462c0819:PsiDirectoryNode" />
+              <item name="without-glue" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,8 +374,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568856077559" />
+    <property name="editor.config.ad.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assembly/session2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assembly/example/chapter-05-create-load-module" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -347,12 +391,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assembly/session2" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/codespitz85/listen3/context" />
-      <recent name="$PROJECT_DIR$/codespitz85/listen3" />
-      <recent name="$PROJECT_DIR$/codespitz86/listen3" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assembly" />
+      <recent name="$PROJECT_DIR$/assembly/session2/compile-test" />
+      <recent name="$PROJECT_DIR$/assembly/session1" />
+      <recent name="$PROJECT_DIR$/codespitz85/listen3/switch" />
+      <recent name="$PROJECT_DIR$/codespitz85/listen3/model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="listen4.command" />
@@ -361,12 +405,12 @@
       <recent name="program.programmer" />
       <recent name="program.paper" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assembly/session2/compile-test" />
-      <recent name="$PROJECT_DIR$/assembly/session1" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assembly/example/chapter-05-create-load-module" />
+      <recent name="$PROJECT_DIR$/assembly/session2/without-glue" />
       <recent name="$PROJECT_DIR$/assembly" />
-      <recent name="$PROJECT_DIR$/codespitz85/listen3/switch" />
-      <recent name="$PROJECT_DIR$/codespitz85/listen3/model" />
+      <recent name="$PROJECT_DIR$/assembly/session2/custom-loading" />
+      <recent name="$PROJECT_DIR$/assembly/session2/with-glue" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -884,7 +928,10 @@
       <workItem from="1600931313585" duration="758000" />
       <workItem from="1600993434624" duration="406000" />
       <workItem from="1601190734682" duration="2174000" />
-      <workItem from="1601201393763" duration="441000" />
+      <workItem from="1601201393763" duration="808000" />
+      <workItem from="1601271850169" duration="545000" />
+      <workItem from="1601272976789" duration="516000" />
+      <workItem from="1601275305219" duration="8942000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -1040,11 +1087,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588777990626</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="WebAssembly setting">
+      <created>1601202033678</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1601202033678</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162614000" />
+    <option name="totallyTimeSpent" value="172984000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1059,7 +1113,7 @@
     <frame x="0" y="23" width="2560" height="1334" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11636219" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18268467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1074,7 +1128,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.244" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20531401" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20692432" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -1192,7 +1246,8 @@
     <MESSAGE value="Codespitz86 Part2 MVVM + Observer worked." />
     <MESSAGE value="Codespitz85 switch iterable" />
     <MESSAGE value="Codespitz85 Context CPS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Codespitz85 Context CPS" />
+    <MESSAGE value="WebAssembly setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="WebAssembly setting" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1208,89 +1263,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codespitz80/line-game2/renderer/Renderer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz80/line-game2/renderer/DivRenderer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz80/line-game2/renderer/BlockRenderer.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz87/listen2/index.html" />
-    <entry file="file://$PROJECT_DIR$/codespitz80/line-game2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz87/listen2/index.js" />
-    <entry file="file://$PROJECT_DIR$/codespitz87/listen2/Assertion.js" />
-    <entry file="file://$PROJECT_DIR$/codespitz86/listen3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz86/listen3/viewModel/ViewModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-338">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz85/listen3/switch/model/IteratorValue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz85/listen3/switch/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz85/listen3/context/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz85/listen3/switch/model/Context.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz85/listen3/context/model/Iterator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz85/listen3/switch/model/Iterable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codespitz85/listen3/switch/model/Iterator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1526,10 +1498,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-05-create-load-module/with-glue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/with-glue/with-glue.wasm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="14741" column="139" selection-start-line="14741" selection-start-column="139" selection-end-line="14741" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/with-glue/with-glue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="9008" column="22" lean-forward="true" selection-start-line="9008" selection-start-column="22" selection-end-line="9008" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/with-glue/with-glue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/with-glue/with-glue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="1498" column="6" lean-forward="true" selection-start-line="1498" selection-start-column="6" selection-end-line="1498" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/custom-loading/with-glue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/common/load-wasm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="3" lean-forward="true" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session2/compile-test/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.wasm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-05-create-load-module/without-glue.wasm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-05-create-load-module/without-glue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" lean-forward="true" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-05-create-load-module/without-glue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/common/load-wasm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

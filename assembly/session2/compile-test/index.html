@@ -4,9 +4,11 @@
 		<meta charset="utf-8">
 	</head>
 	<body>
+	<script src="../../common/load-wasm.js"></script>
 		<script>
+			// wasm 을 글루코드 없이 즉시 로드하여 인스턴스화 하는 기법
 			(async () => {
-				const {module, instance} = (await WebAssembly.instantiateStreaming(fetch('./main.wasm'), {}))
+				const {module, instance} = await loadModule('./main.wasm')
 				console.log(instance.exports.add(3))
 			})()
 		</script>

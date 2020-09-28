@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="kor">
+<head>
+  <title>No Glue Code</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1>No Glue Code</h1>
+  <canvas id="canvas" width="255" height="255"></canvas>
+  <div style="margin-top: 16px;">
+    <button id="actionButton" style="width: 100px; height: 24px;">
+      Pause
+    </button>
+  </div>
+  <script type="application/javascript" src="../../common/load-wasm.js"></script>
+  <script type="application/javascript">
+    (async () => {
+      const PAUSE = 'PAUSE'
+      const START = 'START'
+      const TIME = 20
+
+      const ctx = document.querySelector('#canvas').getContext('2d');
+      const env = {
+        jsFillRect (x, y, w, h) {
+          ctx.fillStyle = '#0000ff';
+          ctx.fillRect(x, y, w, h);
+        },
+        jsClearRect () {
+          ctx.fillStyle = '#ff0000';
+          ctx.fillRect(0, 0, 255, 255);
+        },
+        g$rect () {}, // It might be getter if I make a public variable.
+        g$running () {}, // It might be getter if I make a public variable.
+      };
+      const {module, instance} = await loadModule('./without-glue.wasm', { env })
+      const {
+        init,
+        moveRect,
+        isRunning,
+        setRunning
+      } = instance.exports;
+      const looper = () => {
+        moveRect();
+        clearTimeout(timer)
+        timer = setTimeout(() => isRunning() && looper(), TIME)
+      };
+      let timer = null
+
+      document.querySelector('#actionButton').addEventListener('click', event => {
+        const running = !isRunning();
+        setRunning(running);
+        event.target.innerHTML = running ? PAUSE : START
+        if (!running) {
+          return
+        }
+        looper();
+      });
+
+      init();
+      looper();
+    })()
+  </script>
+</body>
+</html>
