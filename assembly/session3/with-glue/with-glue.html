@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>Interact with JS using Glue Code</title>
+</head>
+<body>
+<h1>Interact with JS using Glue Code</h1>
+<canvas id="myCanvas" width="255" height="255"></canvas>
+<div style="margin-top: 16px;">
+  <button id="actionButton" style="width: 100px; height: 24px;">Pause</button>
+  <span style="width: 100px; margin-left: 8px;">Status:</span>
+  <span id="runStatus" style="width: 100px;"></span>
+</div>
+<script type="application/javascript" src="with-glue.js"></script>
+<script type="application/javascript">
+  const TIME = 20
+
+  /**
+   * 글루 코드가 Module 함수 선언
+   */
+  Module().then(module => {
+    // const m = result.asm; // 예제와는 다르게 활성화된 모듈 내부에 이미 함수가 내장.
+    const {
+      _init,
+      _moveRect,
+      _isRunning,
+      _setRunning
+    } = module
+    const loop = () => setTimeout(() => (_moveRect(), _isRunning() && loop()), TIME)
+    document.querySelector('#actionButton').addEventListener('click', e => {
+      const running = !_isRunning()
+      _setRunning(running)
+      e.target.innerHTML = running ? 'Pause' : 'Start'
+      if (running) {
+        loop()
+      }
+    })
+    _init()
+    loop()
+  })
+</script>
+</body>
+</html>

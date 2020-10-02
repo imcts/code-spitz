@@ -4,19 +4,19 @@
     <bookmark url="file://$PROJECT_DIR$/codespitz83/src/program/Main.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assembly/common/load-wasm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session2/custom-loading/with-glue.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session2/with-glue/with-glue.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session2/with-glue/with-glue.wasm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/choitaesan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/choitaesan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="WebAssembly session3 from chapter6">
+      <change afterPath="$PROJECT_DIR$/assembly/session3/with-glue/with-glue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session3/with-glue/with-glue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session3/without-glue/without-glue.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/session2/compile-test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/session2/compile-test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembly/session2/with-glue/with-glue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembly/session2/with-glue/with-glue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembly/session2/with-glue/with-glue.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/codespitz82/out/" />
     <ignored path="$PROJECT_DIR$/codespitz82/app/.gradle/" />
@@ -121,49 +121,35 @@
     <favorites_list name="code-spitz" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.36637512">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="675">
-                  <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="365">
-                  <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assembly/session3/without-glue/without-glue.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -179,16 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>addQueue</find>
-      <find>reques</find>
-      <find>Sequence</find>
-      <find>getContinuation</find>
-      <find>setContext</find>
-      <find>this.#context.</find>
-      <find>requestAnimationFrame</find>
-      <find>setNext</find>
-      <find>undo</find>
-      <find>limit</find>
       <find>eval</find>
       <find>f =</find>
       <find>List</find>
@@ -201,7 +177,6 @@
       <find>rect.</find>
       <find>moveRec</find>
       <find>setIsRunning</find>
-      <find>isRunning</find>
       <find>isRunning =</find>
       <find>moveRect</find>
       <find>rect.x</find>
@@ -209,6 +184,17 @@
       <find>getRect</find>
       <find>methods</find>
       <find>getIsRunning</find>
+      <find>isRunning</find>
+      <find>WebAssme</find>
+      <find>setRunning</find>
+      <find>s</find>
+      <find>getIsRu</find>
+      <find>fetch(</find>
+      <find>asm =</find>
+      <find>asm</find>
+      <find>var asm =</find>
+      <find>Module[asm</find>
+      <find>setIs</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/function</dir>
@@ -245,15 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/codespitz86/listen3/Scanner.js" />
-        <option value="$PROJECT_DIR$/codespitz86/listen3/RendererItem.js" />
-        <option value="$PROJECT_DIR$/codespitz86/listen3/Processors.js" />
-        <option value="$PROJECT_DIR$/codespitz86/listen3/Processor.js" />
-        <option value="$PROJECT_DIR$/codespitz86/listen3/Renderer.js" />
-        <option value="$PROJECT_DIR$/codespitz86/listen3/observer/ViewModelListener.js" />
-        <option value="$PROJECT_DIR$/codespitz86/listen3/scanner/Scanner.js" />
-        <option value="$PROJECT_DIR$/codespitz86/listen3/processor/Processors.js" />
-        <option value="$PROJECT_DIR$/codespitz86/listen3/processor/Processor.js" />
         <option value="$PROJECT_DIR$/codespitz86/listen3/viewModel/ViewModels.js" />
         <option value="$PROJECT_DIR$/codespitz86/listen3/renderer/RendererItems.js" />
         <option value="$PROJECT_DIR$/codespitz86/listen3/viewModel/ViewModelValue.js" />
@@ -290,12 +267,21 @@
         <option value="$PROJECT_DIR$/assembly/index.html" />
         <option value="$PROJECT_DIR$/assembly/test.c" />
         <option value="$PROJECT_DIR$/assembly/session2/with-glue/with-glue.html" />
-        <option value="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.html" />
         <option value="$PROJECT_DIR$/assembly/example/common/load-wasm.js" />
         <option value="$PROJECT_DIR$/assembly/session2/compile-test/index.html" />
+        <option value="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.html" />
         <option value="$PROJECT_DIR$/assembly/common/load-wasm.js" />
-        <option value="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c" />
         <option value="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html" />
+        <option value="$PROJECT_DIR$/test/server.js" />
+        <option value="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c" />
+        <option value="$PROJECT_DIR$/assembly/session3/with-glue/without-glue.c" />
+        <option value="$PROJECT_DIR$/assembly/session3/with-glue/with-glue.html" />
+        <option value="$PROJECT_DIR$/assembly/session3/with-glue/with-glue.js" />
+        <option value="$PROJECT_DIR$/assembly/session3/with-glue/with-glue.c" />
+        <option value="$PROJECT_DIR$/assembly/session3/without-glue/js-without-glue.html" />
+        <option value="$PROJECT_DIR$/assembly/session3/without-glue/js-without-glue.cpp" />
+        <option value="$PROJECT_DIR$/assembly/session3/without-glue/without-glue.html" />
+        <option value="$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp" />
       </list>
     </option>
   </component>
@@ -309,7 +295,7 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="y" value="413" />
     <option name="width" value="1680" />
     <option name="height" value="944" />
   </component>
@@ -337,12 +323,6 @@
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
               <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
               <item name="session2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -350,13 +330,19 @@
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
               <item name="assembly" type="462c0819:PsiDirectoryNode" />
               <item name="session2" type="462c0819:PsiDirectoryNode" />
-              <item name="compile-test" type="462c0819:PsiDirectoryNode" />
+              <item name="without-glue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
               <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session2" type="462c0819:PsiDirectoryNode" />
+              <item name="session3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="session3" type="462c0819:PsiDirectoryNode" />
               <item name="without-glue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -376,7 +362,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568856077559" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assembly/example/chapter-05-create-load-module" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assembly/session3/without-glue" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -391,12 +377,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assembly/session3/without-glue" />
+      <recent name="$PROJECT_DIR$/assembly/session3/with-glue" />
+      <recent name="$PROJECT_DIR$/assembly/example/chapter-05-create-load-module" />
+      <recent name="$PROJECT_DIR$/assembly/session2/without-glue" />
       <recent name="$PROJECT_DIR$/assembly" />
-      <recent name="$PROJECT_DIR$/assembly/session2/compile-test" />
-      <recent name="$PROJECT_DIR$/assembly/session1" />
-      <recent name="$PROJECT_DIR$/codespitz85/listen3/switch" />
-      <recent name="$PROJECT_DIR$/codespitz85/listen3/model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="listen4.command" />
@@ -405,12 +391,12 @@
       <recent name="program.programmer" />
       <recent name="program.paper" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assembly/example/chapter-05-create-load-module" />
-      <recent name="$PROJECT_DIR$/assembly/session2/without-glue" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assembly" />
-      <recent name="$PROJECT_DIR$/assembly/session2/custom-loading" />
-      <recent name="$PROJECT_DIR$/assembly/session2/with-glue" />
+      <recent name="$PROJECT_DIR$/assembly/session2/compile-test" />
+      <recent name="$PROJECT_DIR$/assembly/session1" />
+      <recent name="$PROJECT_DIR$/codespitz85/listen3/switch" />
+      <recent name="$PROJECT_DIR$/codespitz85/listen3/model" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -931,7 +917,13 @@
       <workItem from="1601201393763" duration="808000" />
       <workItem from="1601271850169" duration="545000" />
       <workItem from="1601272976789" duration="516000" />
-      <workItem from="1601275305219" duration="8942000" />
+      <workItem from="1601275305219" duration="13242000" />
+      <workItem from="1601451345493" duration="66000" />
+      <workItem from="1601452275887" duration="78000" />
+      <workItem from="1601452524049" duration="205000" />
+      <workItem from="1601452765972" duration="10000" />
+      <workItem from="1601463998136" duration="8000" />
+      <workItem from="1601541321918" duration="5159000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -1094,11 +1086,25 @@
       <option name="project" value="LOCAL" />
       <updated>1601202033678</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="WebAssembly session2 from chapter3 to chapter5">
+      <created>1601288919412</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1601288919412</updated>
+    </task>
+    <task id="LOCAL-00025" summary="WebAssembly session2 from chapter3 to chapter5">
+      <created>1601289017333</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1601289017333</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172984000" />
+    <option name="totallyTimeSpent" value="182810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1110,10 +1116,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1334" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1333" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18268467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10603654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1128,13 +1134,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.244" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20692432" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20709105" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.20531401" />
       <window_info anchor="bottom" id="Reviews" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.25141016" />
       <window_info anchor="bottom" id="Anonymous Apex" order="15" />
       <window_info anchor="bottom" id="Log Analyzer" order="16" />
       <window_info anchor="bottom" id="SOQL Query" order="17" />
@@ -1152,7 +1158,7 @@
       <window_info anchor="right" x="0" y="0" width="370" height="742" id="Documentation" order="11" side_tool="true" weight="0.32967034" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10802224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17460318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1167,13 +1173,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.244" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.20547946" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20774648" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.20531401" />
       <window_info anchor="bottom" id="Reviews" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.25201288" />
       <window_info anchor="bottom" id="Anonymous Apex" order="15" />
       <window_info anchor="bottom" id="Log Analyzer" order="16" />
       <window_info anchor="bottom" id="SOQL Query" order="17" />
@@ -1206,7 +1212,14 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
-              <option name="COLUMN_ORDER" />
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
@@ -1247,7 +1260,9 @@
     <MESSAGE value="Codespitz85 switch iterable" />
     <MESSAGE value="Codespitz85 Context CPS" />
     <MESSAGE value="WebAssembly setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="WebAssembly setting" />
+    <MESSAGE value="WebAssembly session2 from chapter3 to chapter5" />
+    <MESSAGE value="WebAssembly session3 from chapter6" />
+    <option name="LAST_COMMIT_MESSAGE" value="WebAssembly session3 from chapter6" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1263,98 +1278,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codespitz85/listen3/switch/model/Iterator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz85/listen3/context/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz85/listen3/switch/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.http">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz85/listen3/context/model/ContextIterable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz86/listen2/ViewModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz85/listen3/context/model/Continuation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codespitz84/src/listen4/command/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib/src.zip!/java.base/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="296" column="16" lean-forward="true" selection-start-line="296" selection-start-column="16" selection-end-line="296" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib/src.zip!/java.base/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
-          <folding>
-            <element signature="e#4533#4534#0" expanded="true" />
-            <element signature="e#4590#4591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -1484,20 +1407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/compile-test/main.wasm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/compile-test/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assembly/example/chapter-05-create-load-module/with-glue.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1512,33 +1421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/with-glue/with-glue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="9008" column="22" lean-forward="true" selection-start-line="9008" selection-start-column="22" selection-end-line="9008" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/with-glue/with-glue.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/with-glue/with-glue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="1498" column="6" lean-forward="true" selection-start-line="1498" selection-start-column="6" selection-end-line="1498" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session2/custom-loading/with-glue.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1550,27 +1432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="3" lean-forward="true" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/compile-test/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.wasm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1595,27 +1456,381 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/common/load-wasm.js">
+    <entry file="file://$PROJECT_DIR$/assembly/session2/with-glue/with-glue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="472">
+          <caret line="1295" column="50" selection-start-line="1295" selection-start-column="46" selection-end-line="1295" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#3;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#g#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#3;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#3;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#4;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#3;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#4;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#5;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#6;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#7;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#8;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#9;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#2;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#3;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#4;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#5;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#6;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#7;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#8;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#9;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#98411#98417#0" expanded="true" />
+            <element signature="e#98417#98423#0" expanded="true" />
+            <element signature="e#98423#98429#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c">
+    <entry file="file://$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        <state relative-caret-position="84">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.wasm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/compile-test/main.wasm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/compile-test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/compile-test/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/server.js" />
+    <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.wasm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/with-glue/with-glue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="256" column="39" lean-forward="true" selection-start-line="256" selection-start-column="39" selection-end-line="256" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-06-interact-with-js/js-with-glue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="43" lean-forward="true" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/with-glue/with-glue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-06-interact-with-js/js-without-glue.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-06-interact-with-js/js-with-glue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="71" lean-forward="true" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912">
+          <caret line="174" column="24" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-06-interact-with-js/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/common/load-wasm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="840">
+          <caret line="56" column="8" selection-start-line="48" selection-start-column="6" selection-end-line="56" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/without-glue/without-glue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>

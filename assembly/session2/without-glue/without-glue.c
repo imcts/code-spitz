@@ -33,7 +33,7 @@ void updateRectLocation() {
 }
 
 void moveRect() {
-    jsClearRect(); // 이걸 C에서 API를 사용해서 호출하는 걸텐데.. 그럼 이것도 네이티브에서 호출하는 거니까 더 빠른건가??
+    jsClearRect();
     updateRectLocation();
     jsFillRect(rect.x, rect.y, RECT_SIDE, RECT_SIDE);
 }
