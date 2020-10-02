@@ -55,6 +55,8 @@ extern "C" {
 
 // console command
 // emcc without-glue.cpp -Os -s WASM=1 -s SIDE_MODULE=1 -s BINARYEN_ASYNC_COMPILATION=0 -o without-glue.wasm
+// emcc without-glue.cpp -Os -s WASM=1 -s SIDE_MODULE=1 -s BINARYEN_ASYNC_COMPILATION=0 -o without-glue.wasm --source-map-base /
+// --source-map-base 옵션에서 뒤의 경로는 브라우저가 어디에서 소스맵을 가져오게 할 것인지에 대한 경로이다.
 
 
 

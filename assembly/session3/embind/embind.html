@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="kor">
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+  <script>
+    // https://emscripten.org/docs/porting/connecting_cpp_and_javascript/embind.html
+    var Module = {
+      onRuntimeInitialized () {
+        console.log('result: ' + Module.lerp(1, 2, 0.5))
+      }
+    }
+  </script>
+  <script type="application/javascript" src="./embind.js"></script>
+</body>
+</html>

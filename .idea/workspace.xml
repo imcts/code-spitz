@@ -4,19 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/codespitz83/src/program/Main.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="WebAssembly session3 from chapter6">
-      <change afterPath="$PROJECT_DIR$/assembly/session3/with-glue/with-glue.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/with-glue/with-glue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/without-glue/without-glue.html" afterDir="false" />
+    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assembly/session3/embind/embind.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session3/embind/embind.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/session2/with-glue/with-glue.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/session2/with-glue/with-glue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/session2/with-glue/with-glue.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/codespitz82/out/" />
     <ignored path="$PROJECT_DIR$/codespitz82/app/.gradle/" />
@@ -121,30 +113,36 @@
     <favorites_list name="code-spitz" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assembly/session3/without-glue/without-glue.html">
+        <entry file="file://$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            <state relative-caret-position="870">
+              <caret line="58" column="69" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c">
+        <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="225">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp">
+        <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="372">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -231,8 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/codespitz86/listen3/viewModel/ViewModels.js" />
-        <option value="$PROJECT_DIR$/codespitz86/listen3/renderer/RendererItems.js" />
         <option value="$PROJECT_DIR$/codespitz86/listen3/viewModel/ViewModelValue.js" />
         <option value="$PROJECT_DIR$/codespitz86/listen3/renderer/RendererItem.js" />
         <option value="$PROJECT_DIR$/codespitz86/listen3/renderer/Renderer.js" />
@@ -280,6 +276,8 @@
         <option value="$PROJECT_DIR$/assembly/session3/with-glue/with-glue.c" />
         <option value="$PROJECT_DIR$/assembly/session3/without-glue/js-without-glue.html" />
         <option value="$PROJECT_DIR$/assembly/session3/without-glue/js-without-glue.cpp" />
+        <option value="$PROJECT_DIR$/assembly/session3/embind/embind.cpp" />
+        <option value="$PROJECT_DIR$/assembly/session3/embind/embind.html" />
         <option value="$PROJECT_DIR$/assembly/session3/without-glue/without-glue.html" />
         <option value="$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp" />
       </list>
@@ -306,6 +304,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -343,13 +342,19 @@
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
               <item name="assembly" type="462c0819:PsiDirectoryNode" />
               <item name="session3" type="462c0819:PsiDirectoryNode" />
+              <item name="with-glue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="session3" type="462c0819:PsiDirectoryNode" />
               <item name="without-glue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +367,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568856077559" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assembly/session3/without-glue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assembly/session3/embind" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -377,12 +382,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assembly/session3/without-glue" />
-      <recent name="$PROJECT_DIR$/assembly/session3/with-glue" />
-      <recent name="$PROJECT_DIR$/assembly/example/chapter-05-create-load-module" />
-      <recent name="$PROJECT_DIR$/assembly/session2/without-glue" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assembly" />
+      <recent name="$PROJECT_DIR$/assembly/session2/compile-test" />
+      <recent name="$PROJECT_DIR$/assembly/session1" />
+      <recent name="$PROJECT_DIR$/codespitz85/listen3/switch" />
+      <recent name="$PROJECT_DIR$/codespitz85/listen3/model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="listen4.command" />
@@ -391,12 +396,12 @@
       <recent name="program.programmer" />
       <recent name="program.paper" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assembly" />
-      <recent name="$PROJECT_DIR$/assembly/session2/compile-test" />
-      <recent name="$PROJECT_DIR$/assembly/session1" />
-      <recent name="$PROJECT_DIR$/codespitz85/listen3/switch" />
-      <recent name="$PROJECT_DIR$/codespitz85/listen3/model" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assembly/session3/embind" />
+      <recent name="$PROJECT_DIR$/assembly/session3/without-glue" />
+      <recent name="$PROJECT_DIR$/assembly/session3/with-glue" />
+      <recent name="$PROJECT_DIR$/assembly/example/chapter-05-create-load-module" />
+      <recent name="$PROJECT_DIR$/assembly/session2/without-glue" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -923,7 +928,8 @@
       <workItem from="1601452524049" duration="205000" />
       <workItem from="1601452765972" duration="10000" />
       <workItem from="1601463998136" duration="8000" />
-      <workItem from="1601541321918" duration="5159000" />
+      <workItem from="1601541321918" duration="5426000" />
+      <workItem from="1601644841452" duration="1113000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -1100,11 +1106,25 @@
       <option name="project" value="LOCAL" />
       <updated>1601289017333</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="WebAssembly session3 from chapter6">
+      <created>1601644586595</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1601644586595</updated>
+    </task>
+    <task id="LOCAL-00027" summary="WebAssembly session3 from chapter6">
+      <created>1601644618098</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1601644618098</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182810000" />
+    <option name="totallyTimeSpent" value="184190000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1116,10 +1136,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1333" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1334" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10603654" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10683082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1134,11 +1154,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.244" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20709105" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20692432" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.20531401" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.20450886" />
       <window_info anchor="bottom" id="Reviews" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.25141016" />
       <window_info anchor="bottom" id="Anonymous Apex" order="15" />
@@ -1278,20 +1298,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="220" column="31" selection-start-line="220" selection-start-column="28" selection-end-line="220" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="137" column="45" selection-start-line="137" selection-start-column="45" selection-end-line="137" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -1776,19 +1782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assembly/common/load-wasm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1806,31 +1799,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.c">
+    <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="630">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/embind/embind.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session3/without-glue/without-glue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        <state relative-caret-position="117">
+          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c">
+    <entry file="file://$PROJECT_DIR$/assembly/session3/embind/embind.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="870">
+          <caret line="58" column="69" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
