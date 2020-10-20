@@ -5,31 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/config/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/lib/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/assets/main.wasm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/assets/memory.wasm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/components/BalancesBar/BalanceCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/components/BalancesBar/BalancesBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/components/ChartsTab/ChartsTab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/components/ChartsTab/PieChart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/components/TransactionsTab/ConfirmationModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/components/TransactionsTab/TransactionModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/components/TransactionsTab/TransactionsTab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/components/TransactionsTab/TransactionsTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/store/WasmTransactions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/store/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/store/initializeWasm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session3/book/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/cmake/FindSDL2_ttf.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/resources/PressStart2P.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/board.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/board.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/constants.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/game.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/game.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/piece.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/piece.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/public/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/public/index.wasm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/public/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/src/board.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/src/board.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/src/constants.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/src/piece.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/src/piece.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/common/load-wasm.js" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/common/load-wasm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembly/emscripton/emsdk" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/emscripton/emsdk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assembly/example" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/example/chapter-08-tetris/output-wasm/public/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/example/chapter-08-tetris/output-wasm/public/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/store/initializeWasm.js" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/store/initializeWasm.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/codespitz82/out/" />
     <ignored path="$PROJECT_DIR$/codespitz82/app/.gradle/" />
@@ -134,37 +139,17 @@
     <favorites_list name="code-spitz" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6309471">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/store/store.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="181">
-                  <caret line="44" selection-start-line="44" selection-end-line="44" />
-                  <folding>
-                    <element signature="e#0#117#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/store/initializeWasm.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/src/piece.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="197" column="10" lean-forward="true" selection-start-line="197" selection-start-column="10" selection-end-line="197" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,36 +165,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>calculateGrandTotals</find>
-      <find>free</find>
-      <find>consoleLog</find>
-      <find>console</find>
-      <find>restore</find>
-      <find>getGrandTotalForType</find>
-      <find>_remove</find>
-      <find>this.instance._</find>
-      <find>123</find>
-      <find>CURRENT RAW BALANCE</find>
-      <find>balances</find>
-      <find>populateTransactions</find>
-      <find>transactionsHead =</find>
-      <find>transactionsHead =</find>
-      <find>getCategoryTotal</find>
-      <find>raw</find>
-      <find>recalculateBalances</find>
-      <find>getCategoryTotal(</find>
-      <find>transactionsHead</find>
-      <find>getCurrentBalances</find>
-      <find>getFinalBalanceForType</find>
-      <find>getCategoryTotals</find>
-      <find>categoriesHead =</find>
-      <find>categoriesHead</find>
       <find>malloc</find>
       <find>updateCategoryTotals</find>
       <find>addTran</find>
       <find>addTransa</find>
       <find>recalculateForCategories</find>
       <find>edit</find>
+      <find>this.instance._</find>
+      <find>transactionsHead</find>
+      <find>this.instance</find>
+      <find>headNode</find>
+      <find>consoleLog</find>
+      <find>rim</find>
+      <find>sdl</find>
+      <find>/user</find>
+      <find>default_target</find>
+      <find>Flag</find>
+      <find>cfla</find>
+      <find>Size</find>
+      <find>include</find>
+      <find>/user/</find>
+      <find>CMAKE_MODULE_PATH</find>
+      <find>emscripten_set_main_loop</find>
+      <find>function emscripten_set_main_loop</find>
+      <find>document</find>
+      <find>canvas:</find>
+      <find>canvas</find>
+      <find>console.error</find>
+      <find>jsFillCircle</find>
+      <find>var Module = {</find>
+      <find>cells_</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/function</dir>
@@ -236,6 +221,8 @@
       <dir>$PROJECT_DIR$/assembly/session3/book/src/components/TransactionsTab</dir>
       <dir>$PROJECT_DIR$/assembly/session3/book/src/components/BalancesBar</dir>
       <dir>$PROJECT_DIR$/assembly/session3/book/src</dir>
+      <dir>$PROJECT_DIR$/assembly/session4/output-wasm/src</dir>
+      <dir>$PROJECT_DIR$/assembly/session3</dir>
     </dirStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -253,19 +240,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/codespitz85/listen3/index.html" />
-        <option value="$PROJECT_DIR$/codespitz84/src/listen3/Calc.java" />
-        <option value="$PROJECT_DIR$/codespitz85/listen3/index.js" />
-        <option value="$PROJECT_DIR$/codespitz85/listen3/context/model/Iterable.js" />
-        <option value="$PROJECT_DIR$/codespitz85/listen3/switch/index.js" />
-        <option value="$PROJECT_DIR$/codespitz85/listen3/context/model/Iterator.js" />
-        <option value="$PROJECT_DIR$/codespitz85/listen3/context/model/Sequence.js" />
-        <option value="$PROJECT_DIR$/codespitz85/listen3/context/model/Continuation.js" />
-        <option value="$PROJECT_DIR$/codespitz85/listen3/context/model/Context.js" />
-        <option value="$PROJECT_DIR$/codespitz85/listen3/context/index.html" />
-        <option value="$PROJECT_DIR$/codespitz85/listen3/context/model/ContextIterable.js" />
-        <option value="$PROJECT_DIR$/codespitz85/listen3/context/index.js" />
-        <option value="$PROJECT_DIR$/test.http" />
         <option value="$PROJECT_DIR$/codespitz83/src/theater1/TicketOffices.java" />
         <option value="$PROJECT_DIR$/codespitz83/src/program/Main.java" />
         <option value="$PROJECT_DIR$/codespitz80/line-game/index.js" />
@@ -278,7 +252,6 @@
         <option value="$PROJECT_DIR$/assembly/session2/custom-loading/custom-loading.html" />
         <option value="$PROJECT_DIR$/test/server.js" />
         <option value="$PROJECT_DIR$/assembly/session3/with-glue/without-glue.c" />
-        <option value="$PROJECT_DIR$/assembly/session3/with-glue/with-glue.html" />
         <option value="$PROJECT_DIR$/assembly/session3/with-glue/with-glue.js" />
         <option value="$PROJECT_DIR$/assembly/session3/with-glue/with-glue.c" />
         <option value="$PROJECT_DIR$/assembly/session3/without-glue/js-without-glue.html" />
@@ -294,16 +267,30 @@
         <option value="$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html" />
         <option value="$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp" />
         <option value="$PROJECT_DIR$/assembly/session3/without-glue/without-glue.html" />
-        <option value="$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/store/initializeWasm.js" />
         <option value="$PROJECT_DIR$/assembly/session3/book/src/components/BalancesBar/BalancesBar.js" />
         <option value="$PROJECT_DIR$/assembly/session3/book/src/components/BalancesBar/BalanceCard.js" />
         <option value="$PROJECT_DIR$/assembly/session3/book/src/components/App.js" />
         <option value="$PROJECT_DIR$/assembly/common/load-wasm.js" />
         <option value="$PROJECT_DIR$/assembly/session3/book/src/components/ChartsTab/ChartsTab.js" />
-        <option value="$PROJECT_DIR$/assembly/session3/book/src/store/WasmTransactions.js" />
-        <option value="$PROJECT_DIR$/assembly/session3/book/lib/main.c" />
-        <option value="$PROJECT_DIR$/assembly/session3/book/src/store/initializeWasm.js" />
         <option value="$PROJECT_DIR$/assembly/session3/book/src/store/store.js" />
+        <option value="$PROJECT_DIR$/assembly/session3/book/src/store/WasmTransactions.js" />
+        <option value="$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/store/WasmTransactions.js" />
+        <option value="$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/store/initializeWasm.js" />
+        <option value="$PROJECT_DIR$/assembly/session3/book/src/store/initializeWasm.js" />
+        <option value="$PROJECT_DIR$/assembly/session3/with-glue/with-glue.html" />
+        <option value="$PROJECT_DIR$/assembly/session3/book/lib/main.c" />
+        <option value="$PROJECT_DIR$/assembly/session4/output-wasm/README.md" />
+        <option value="$PROJECT_DIR$/assembly/session4/output-wasm/Makefile" />
+        <option value="$PROJECT_DIR$/assembly/session4/output-native/build/Makefile" />
+        <option value="$PROJECT_DIR$/assembly/session4/output-native/src/main.cpp" />
+        <option value="$PROJECT_DIR$/assembly/session4/output-native/src/piece.h" />
+        <option value="$PROJECT_DIR$/assembly/session4/output-native/src/board.h" />
+        <option value="$PROJECT_DIR$/assembly/session4/output-wasm/src/board.h" />
+        <option value="$PROJECT_DIR$/assembly/session4/output-wasm/src/piece.h" />
+        <option value="$PROJECT_DIR$/assembly/session4/output-native/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/assembly/session4/output-wasm/public/index.html" />
+        <option value="$PROJECT_DIR$/assembly/session4/output-wasm/src/main.cpp" />
+        <option value="$PROJECT_DIR$/assembly/session4/output-wasm/src/piece.cpp" />
       </list>
     </option>
   </component>
@@ -318,8 +305,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="1334" />
+    <option name="width" value="1680" />
+    <option name="height" value="944" />
   </component>
   <component name="ProjectId" id="1R2DUnnAYf1Dvf0rCZYcy1lgqnv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -328,8 +315,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,141 +331,29 @@
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
               <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="session4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
               <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-07-cook-the-books" type="462c0819:PsiDirectoryNode" />
+              <item name="session4" type="462c0819:PsiDirectoryNode" />
+              <item name="output-wasm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
               <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-07-cook-the-books" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-07-cook-the-books" type="462c0819:PsiDirectoryNode" />
+              <item name="session4" type="462c0819:PsiDirectoryNode" />
+              <item name="output-wasm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-07-cook-the-books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session2" type="462c0819:PsiDirectoryNode" />
-              <item name="without-glue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session3" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session3" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session3" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session3" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session3" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session3" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session3" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="BalancesBar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session3" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ChartsTab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session3" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,7 +366,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568856077559" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assembly/session3/book/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assembly/session4/output-native" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -509,11 +382,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assembly/session4/output-native/build/CMakeFiles" />
       <recent name="$PROJECT_DIR$/assembly/session3/book/src/assets" />
       <recent name="$PROJECT_DIR$/assembly/session3/book/src" />
       <recent name="$PROJECT_DIR$/assembly" />
       <recent name="$PROJECT_DIR$/assembly/session2/compile-test" />
-      <recent name="$PROJECT_DIR$/assembly/session1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="listen4.command" />
@@ -523,11 +396,11 @@
       <recent name="program.paper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assembly/session4/output-native" />
+      <recent name="$PROJECT_DIR$/assembly/session4" />
+      <recent name="$PROJECT_DIR$/assembly/session4/output-native/cmake" />
       <recent name="$PROJECT_DIR$/assembly/session3/book/src/assets" />
       <recent name="$PROJECT_DIR$/assembly/session3/book" />
-      <recent name="$PROJECT_DIR$/assembly/session3/book/src" />
-      <recent name="$PROJECT_DIR$/assembly/session3/book/src/lib" />
-      <recent name="$PROJECT_DIR$/assembly/session3/embind" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -1055,7 +928,14 @@
       <workItem from="1601452765972" duration="10000" />
       <workItem from="1601463998136" duration="8000" />
       <workItem from="1601541321918" duration="5426000" />
-      <workItem from="1601644841452" duration="15679000" />
+      <workItem from="1601644841452" duration="19699000" />
+      <workItem from="1601901835464" duration="2543000" />
+      <workItem from="1601905856449" duration="860000" />
+      <workItem from="1601944172433" duration="46000" />
+      <workItem from="1602235301917" duration="3559000" />
+      <workItem from="1602239907530" duration="7490000" />
+      <workItem from="1602834251549" duration="197000" />
+      <workItem from="1603111639765" duration="989000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -1253,11 +1133,25 @@
       <option name="project" value="LOCAL" />
       <updated>1601646111929</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="WebAssembly session3 from chapter7 done.">
+      <created>1601822202875</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1601822202875</updated>
+    </task>
+    <task id="LOCAL-00030" summary="WebAssembly session3 from chapter7 done.">
+      <created>1601822274334</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1601822274334</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198756000" />
+    <option name="totallyTimeSpent" value="218460000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1269,10 +1163,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1334" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1333" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10683082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123907864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1287,7 +1181,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.244" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.24879228" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.12892829" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -1310,6 +1204,45 @@
       <window_info anchor="right" id="News Feed" order="10" />
       <window_info anchor="right" x="0" y="0" width="370" height="742" id="Documentation" order="11" side_tool="true" weight="0.32967034" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17704518" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.18855761" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31455398" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29411766" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.244" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25586855" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.20450886" />
+      <window_info anchor="bottom" id="Reviews" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.25141016" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="15" />
+      <window_info anchor="bottom" id="Log Analyzer" order="16" />
+      <window_info anchor="bottom" id="SOQL Query" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24969475" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32967034" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="News Feed" order="10" />
+      <window_info anchor="right" x="0" y="0" width="370" height="742" id="Documentation" order="11" side_tool="true" weight="0.32967034" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1377,7 +1310,8 @@
     <MESSAGE value="WebAssembly session2 from chapter3 to chapter5" />
     <MESSAGE value="WebAssembly session3 from chapter6" />
     <MESSAGE value="WebAssembly session3 from chapter6 done." />
-    <option name="LAST_COMMIT_MESSAGE" value="WebAssembly session3 from chapter6 done." />
+    <MESSAGE value="WebAssembly session3 from chapter7 done." />
+    <option name="LAST_COMMIT_MESSAGE" value="WebAssembly session3 from chapter7 done." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1393,95 +1327,24 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assembly/session2/compile-test/index.html">
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/store/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/compile-test/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/server.js" />
-    <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.wasm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-06-interact-with-js/js-with-glue.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="43" lean-forward="true" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/with-glue/with-glue.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-06-interact-with-js/js-without-glue.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-06-interact-with-js/js-with-glue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="71" lean-forward="true" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-912">
-          <caret line="174" column="24" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-06-interact-with-js/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/embind/embind.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/embind/embind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="465">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1491,280 +1354,338 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/.vscode/tasks.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/assets/memory.wasm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/assets/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/with-glue/with-glue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="277" column="56" lean-forward="true" selection-start-line="277" selection-start-column="56" selection-end-line="277" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/config/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8631">
-          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/book/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/store/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/store/WasmTransactions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/store/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346">
-          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/store/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="360">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/without-glue/without-glue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/store/initializeWasm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session2/without-glue/without-glue.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" selection-start-line="6" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/components/BalancesBar/BalanceCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/components/BalancesBar/BalancesBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/book/config/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/common/load-wasm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/assets/memory.wasm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/components/ChartsTab/ChartsTab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/lib/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="20" lean-forward="true" selection-end-line="225" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/assets/main.wasm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        <state relative-caret-position="240">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/store/WasmTransactions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="6">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/store/initializeWasm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/emscripton/emsdk/emsdk_env.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session3/book/lib/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="39" selection-start-line="31" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="417">
+          <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/store/store.js">
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-08-tetris/output-wasm/src/board.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-08-tetris/output-wasm/src/board.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1239">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-08-tetris/output-wasm/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-08-tetris/output-wasm/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-08-tetris/output-wasm/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/build/CMakeFiles/CMakeOutput.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3212">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/build/CMakeFiles/SDL2/sdl2-config.cmake" />
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/src/game.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/src/piece.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/build/build/Makefile" />
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/src/board.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/cmake/FindSDL2_ttf.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/public/index.wasm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-08-tetris/output-native/cmake/FindSDL2_ttf.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/build/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/build/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/src/board.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/src/board.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/.vscode/tasks.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/src/constants.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/public/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session2/with-glue/with-glue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/embind/embind.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/embind/embind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="435">
+            <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/public/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/without-glue/without-glue.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session3/without-glue/without-glue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/src/board.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-09-node/webpack-example/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#117#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-09-node/webpack-example/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-09-node/webpack-example/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="429">
+            <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-native/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="89" column="34" lean-forward="true" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/src/piece.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/src/piece.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="197" column="10" lean-forward="true" selection-start-line="197" selection-start-column="10" selection-end-line="197" selection-end-column="10" />
         </state>
       </provider>
     </entry>
