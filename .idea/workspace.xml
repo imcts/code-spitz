@@ -5,36 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/cmake/FindSDL2_ttf.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/resources/PressStart2P.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/board.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/board.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/constants.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/game.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/game.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/piece.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-native/src/piece.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/public/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/public/index.wasm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/public/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/src/board.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/src/board.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/src/constants.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/src/piece.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assembly/session4/output-wasm/src/piece.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/generic/GTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/generic/GenericListMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/emscripton/emsdk" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/emscripton/emsdk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/example" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/store/initializeWasm.js" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/store/initializeWasm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/test/Test.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/codespitz82/out/" />
     <ignored path="$PROJECT_DIR$/codespitz82/app/.gradle/" />
@@ -141,10 +117,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/src/piece.cpp">
+        <entry file="file://$PROJECT_DIR$/java/src/generic/GTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="197" column="10" lean-forward="true" selection-start-line="197" selection-start-column="10" selection-end-line="197" selection-end-column="10" />
+            <state relative-caret-position="15">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -240,10 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/codespitz83/src/theater1/TicketOffices.java" />
-        <option value="$PROJECT_DIR$/codespitz83/src/program/Main.java" />
-        <option value="$PROJECT_DIR$/codespitz80/line-game/index.js" />
-        <option value="$PROJECT_DIR$/codespitz86/listen2/index.js" />
         <option value="$PROJECT_DIR$/assembly/index.html" />
         <option value="$PROJECT_DIR$/assembly/test.c" />
         <option value="$PROJECT_DIR$/assembly/session2/with-glue/with-glue.html" />
@@ -291,6 +266,10 @@
         <option value="$PROJECT_DIR$/assembly/session4/output-wasm/public/index.html" />
         <option value="$PROJECT_DIR$/assembly/session4/output-wasm/src/main.cpp" />
         <option value="$PROJECT_DIR$/assembly/session4/output-wasm/src/piece.cpp" />
+        <option value="$PROJECT_DIR$/codespitz83/src/generic/GenericListMain.java" />
+        <option value="$PROJECT_DIR$/codespitz83/src/generic/GTest.java" />
+        <option value="$PROJECT_DIR$/java/generic/GTest.java" />
+        <option value="$PROJECT_DIR$/java/src/generic/GTest.java" />
       </list>
     </option>
   </component>
@@ -303,10 +282,10 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="944" />
+    <option name="width" value="2560" />
+    <option name="height" value="1334" />
   </component>
   <component name="ProjectId" id="1R2DUnnAYf1Dvf0rCZYcy1lgqnv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -325,28 +304,7 @@
             <path>
               <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session4" type="462c0819:PsiDirectoryNode" />
-              <item name="output-wasm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-spitz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-spitz" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-              <item name="session4" type="462c0819:PsiDirectoryNode" />
-              <item name="output-wasm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -381,12 +339,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assembly/session4/output-native/build/CMakeFiles" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assembly/session4/output-native" />
+      <recent name="$PROJECT_DIR$/assembly/session4" />
+      <recent name="$PROJECT_DIR$/assembly/session4/output-native/cmake" />
       <recent name="$PROJECT_DIR$/assembly/session3/book/src/assets" />
-      <recent name="$PROJECT_DIR$/assembly/session3/book/src" />
-      <recent name="$PROJECT_DIR$/assembly" />
-      <recent name="$PROJECT_DIR$/assembly/session2/compile-test" />
+      <recent name="$PROJECT_DIR$/assembly/session3/book" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="listen4.command" />
@@ -395,12 +353,12 @@
       <recent name="program.programmer" />
       <recent name="program.paper" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assembly/session4/output-native" />
-      <recent name="$PROJECT_DIR$/assembly/session4" />
-      <recent name="$PROJECT_DIR$/assembly/session4/output-native/cmake" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java/src" />
+      <recent name="$PROJECT_DIR$/java" />
+      <recent name="$PROJECT_DIR$/assembly/session4/output-native/build/CMakeFiles" />
       <recent name="$PROJECT_DIR$/assembly/session3/book/src/assets" />
-      <recent name="$PROJECT_DIR$/assembly/session3/book" />
+      <recent name="$PROJECT_DIR$/assembly/session3/book/src" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -639,36 +597,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.test#1">
+  <component name="RunManager" selected="Application.GTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Iterate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Iterate" />
-      <module name="code-spitz.codespitz84" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="code-spitz.codespitz84" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listen4.Main" />
-      <module name="code-spitz.codespitz84" />
+    <configuration name="GTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.GTest" />
+      <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listen4.visitor.*" />
+          <option name="PATTERN" value="generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -714,19 +656,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Iterate" />
       <item itemvalue="HTTP Request.note#1" />
       <item itemvalue="HTTP Request.test#1" />
+      <item itemvalue="Application.GTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GTest" />
         <item itemvalue="HTTP Request.test#1" />
         <item itemvalue="HTTP Request.note#1" />
-        <item itemvalue="Application.Iterate" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -936,6 +874,11 @@
       <workItem from="1602239907530" duration="7490000" />
       <workItem from="1602834251549" duration="197000" />
       <workItem from="1603111639765" duration="989000" />
+      <workItem from="1603155876479" duration="297000" />
+      <workItem from="1603174626126" duration="4526000" />
+      <workItem from="1603181080032" duration="726000" />
+      <workItem from="1603183397496" duration="13179000" />
+      <workItem from="1603770061693" duration="2061000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -1147,11 +1090,18 @@
       <option name="project" value="LOCAL" />
       <updated>1601822274334</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="assembly study ended">
+      <created>1603155911679</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1603155911679</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218460000" />
+    <option name="totallyTimeSpent" value="239249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1163,10 +1113,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1333" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1334" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123907864" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22557585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1175,19 +1125,19 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.18855761" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31455398" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31400967" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29411766" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32930756" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.244" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.12892829" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.19483568" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.20450886" />
       <window_info anchor="bottom" id="Reviews" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.25141016" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.25120774" />
       <window_info anchor="bottom" id="Anonymous Apex" order="15" />
       <window_info anchor="bottom" id="Log Analyzer" order="16" />
       <window_info anchor="bottom" id="SOQL Query" order="17" />
@@ -1311,7 +1261,8 @@
     <MESSAGE value="WebAssembly session3 from chapter6" />
     <MESSAGE value="WebAssembly session3 from chapter6 done." />
     <MESSAGE value="WebAssembly session3 from chapter7 done." />
-    <option name="LAST_COMMIT_MESSAGE" value="WebAssembly session3 from chapter7 done." />
+    <MESSAGE value="assembly study ended" />
+    <option name="LAST_COMMIT_MESSAGE" value="assembly study ended" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1327,43 +1278,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assembly/example/chapter-07-cook-the-books/src/store/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/with-glue/with-glue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session3/book/src/assets/main.wasm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1661,13 +1575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
@@ -1684,8 +1591,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/src/piece.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="197" column="10" lean-forward="true" selection-start-line="197" selection-start-column="10" selection-end-line="197" selection-end-column="10" />
+        <state relative-caret-position="2745">
+          <caret line="183" column="8" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly/session4/output-wasm/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespitz83/src/theater2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/generic/GenericListMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2649#2650#0" expanded="true" />
+            <element signature="e#2702#2703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="137" column="48" lean-forward="true" selection-start-line="137" selection-start-column="48" selection-end-line="137" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/generic/GTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
