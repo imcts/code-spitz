@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/codespitz83/src/program/Main.java" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/generic/GTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/generic/GenericListMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen1/for-loog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen1/recursion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen1/tail-recursion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen2/for-loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen2/for-loop.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen2/recursion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen2/recursion.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen2/tail-recursion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen2/tail-recursion.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code-spitz.codespitz83/test/Test.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/codespitz82/out/" />
-    <ignored path="$PROJECT_DIR$/codespitz82/app/.gradle/" />
-    <ignored path="$PROJECT_DIR$/codespitz82/lib/.gradle/" />
-    <ignored path="$PROJECT_DIR$/codespitz82/lib/out/" />
-    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,9 +29,7 @@
     <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -113,22 +113,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="code-spitz" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/generic/GTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -216,6 +200,14 @@
     </option>
     <option name="RESET_MODE" value="SOFT" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -279,9 +271,6 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="2560" />
@@ -314,6 +303,10 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -324,7 +317,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568856077559" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assembly/session4/output-native" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codespitz89/listen2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -333,25 +326,18 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v8.1.3/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.14550781" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codespitz89/listen2" />
       <recent name="$PROJECT_DIR$/assembly/session4/output-native" />
       <recent name="$PROJECT_DIR$/assembly/session4" />
       <recent name="$PROJECT_DIR$/assembly/session4/output-native/cmake" />
       <recent name="$PROJECT_DIR$/assembly/session3/book/src/assets" />
-      <recent name="$PROJECT_DIR$/assembly/session3/book" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="listen4.command" />
-      <recent name="listen3" />
-      <recent name="listen3.policy" />
-      <recent name="program.programmer" />
-      <recent name="program.paper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java/src" />
@@ -359,6 +345,13 @@
       <recent name="$PROJECT_DIR$/assembly/session4/output-native/build/CMakeFiles" />
       <recent name="$PROJECT_DIR$/assembly/session3/book/src/assets" />
       <recent name="$PROJECT_DIR$/assembly/session3/book/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="listen4.command" />
+      <recent name="listen3" />
+      <recent name="listen3.policy" />
+      <recent name="program.programmer" />
+      <recent name="program.paper" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -585,18 +578,6 @@
       </list>
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.GTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -620,6 +601,19 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -656,9 +650,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.GTest" />
       <item itemvalue="HTTP Request.note#1" />
       <item itemvalue="HTTP Request.test#1" />
-      <item itemvalue="Application.GTest" />
     </list>
     <recent_temporary>
       <list>
@@ -668,6 +662,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -879,6 +874,8 @@
       <workItem from="1603181080032" duration="726000" />
       <workItem from="1603183397496" duration="13179000" />
       <workItem from="1603770061693" duration="2061000" />
+      <workItem from="1617206536667" duration="859000" />
+      <workItem from="1617207499427" duration="10657000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -1195,29 +1192,14 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -1236,6 +1218,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="for rebase 1" />
@@ -1263,6 +1246,10 @@
     <MESSAGE value="WebAssembly session3 from chapter7 done." />
     <MESSAGE value="assembly study ended" />
     <option name="LAST_COMMIT_MESSAGE" value="assembly study ended" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
