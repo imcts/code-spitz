@@ -7,18 +7,16 @@
     <bookmark url="file://$PROJECT_DIR$/codespitz83/src/program/Main.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codespitz89/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen1/for-loog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen1/recursion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen1/tail-recursion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen2/for-loop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen2/for-loop.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen2/recursion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen2/recursion.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen2/tail-recursion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen2/tail-recursion.test.js" afterDir="false" />
+    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="codespitz-89">
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen3/for-loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen3/for-loop.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen3/tail-recursion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen3/tail-recursion.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz89/listen2/for-loop.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen2/for-loop.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz89/listen2/recursion.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen2/recursion.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz89/listen2/tail-recursion.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen2/tail-recursion.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,6 +308,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kakao/Documents/dolen/study/code-spitz/design-pattern/decorator-opserver/index.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -317,7 +317,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568856077559" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/codespitz89/listen2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codespitz89/listen3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -333,11 +333,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codespitz89/listen3" />
       <recent name="$PROJECT_DIR$/codespitz89/listen2" />
       <recent name="$PROJECT_DIR$/assembly/session4/output-native" />
       <recent name="$PROJECT_DIR$/assembly/session4" />
       <recent name="$PROJECT_DIR$/assembly/session4/output-native/cmake" />
-      <recent name="$PROJECT_DIR$/assembly/session3/book/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java/src" />
@@ -578,7 +578,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GTest">
+  <component name="RunManager" selected="npm.test">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -605,15 +605,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -649,10 +647,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/codespitz89/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.GTest" />
       <item itemvalue="HTTP Request.note#1" />
       <item itemvalue="HTTP Request.test#1" />
+      <item itemvalue="npm.test" />
     </list>
     <recent_temporary>
       <list>
@@ -875,7 +884,10 @@
       <workItem from="1603183397496" duration="13179000" />
       <workItem from="1603770061693" duration="2061000" />
       <workItem from="1617206536667" duration="859000" />
-      <workItem from="1617207499427" duration="10657000" />
+      <workItem from="1617207499427" duration="10802000" />
+      <workItem from="1617896246849" duration="11163000" />
+      <workItem from="1617907873568" duration="8239000" />
+      <workItem from="1617948183148" duration="9179000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -1094,7 +1106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603155911679</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="codespitz-89">
+      <created>1617245530489</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1617245530489</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1245,7 +1264,8 @@
     <MESSAGE value="WebAssembly session3 from chapter6 done." />
     <MESSAGE value="WebAssembly session3 from chapter7 done." />
     <MESSAGE value="assembly study ended" />
-    <option name="LAST_COMMIT_MESSAGE" value="assembly study ended" />
+    <MESSAGE value="codespitz-89" />
+    <option name="LAST_COMMIT_MESSAGE" value="codespitz-89" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

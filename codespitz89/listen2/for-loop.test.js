@@ -1,6 +1,6 @@
 import arrayStringify from './for-loop'
 
-describe('listen2 - for-loop', () => {
+xdescribe('listen2 - for-loop', () => {
   it('배열이 아닌 경우', () => {
     [1, '', true, undefined, null, Symbol(), {}].forEach(v => {
       try {
