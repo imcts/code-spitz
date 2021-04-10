@@ -30,10 +30,9 @@ const arrayStringify = (() => {
     let i = 0;
     let limit = arr.length - 1;
     let str = '';
-    let done = false;
     let stack = [];
 
-    while (!done) {
+    while (true) {
       const value = array[i];
       const acc = !i ? `${str}[` : str;
 
@@ -66,7 +65,7 @@ const arrayStringify = (() => {
             stack = stack;
           } else {
             str = `${acc}]`;
-            done = true;
+            break;
           }
         }
       }

@@ -7,16 +7,9 @@
     <bookmark url="file://$PROJECT_DIR$/codespitz83/src/program/Main.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="codespitz-89">
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen3/for-loop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen3/for-loop.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen3/tail-recursion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen3/tail-recursion.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="codespitz-89 - listen 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz89/listen2/for-loop.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen2/for-loop.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz89/listen2/recursion.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen2/recursion.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz89/listen2/tail-recursion.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen2/tail-recursion.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz89/listen3/for-loop.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen3/for-loop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -605,17 +598,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="note#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test/note.http">
       <method v="2" />
     </configuration>
@@ -887,7 +869,8 @@
       <workItem from="1617207499427" duration="10802000" />
       <workItem from="1617896246849" duration="11163000" />
       <workItem from="1617907873568" duration="8239000" />
-      <workItem from="1617948183148" duration="9179000" />
+      <workItem from="1617948183148" duration="9478000" />
+      <workItem from="1618036509934" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -1113,7 +1096,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617245530489</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="codespitz-89 - listen 3">
+      <created>1617958023976</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1617958023976</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1240,7 +1230,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="for rebase 1" />
     <MESSAGE value="test rebase" />
     <MESSAGE value="rebase again" />
     <MESSAGE value="콘솔 삭제." />
@@ -1265,7 +1254,8 @@
     <MESSAGE value="WebAssembly session3 from chapter7 done." />
     <MESSAGE value="assembly study ended" />
     <MESSAGE value="codespitz-89" />
-    <option name="LAST_COMMIT_MESSAGE" value="codespitz-89" />
+    <MESSAGE value="codespitz-89 - listen 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="codespitz-89 - listen 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
