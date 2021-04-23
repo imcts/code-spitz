@@ -213,4 +213,6 @@ const stringify = (() => {
   }
 })();
 
+stringify({a: [1, '2', Symbol(), null, true, false], b: [], c: 3, e: {f: {}, g: [], h: () => {}}}) === JSON.stringify({a: [1, '2', Symbol(), null, true, false], b: [], c: 3, e: {f: {}, g: [], h: () => {}}});
+
 export default stringify
