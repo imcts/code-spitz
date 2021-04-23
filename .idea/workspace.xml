@@ -8,8 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="codespitz-89 - listen 3">
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen4/for-loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen4/for-loop.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen4/tail-recursion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen4/tail-recursion.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen5/for-loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen5/for-loop.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen5/generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen5/tail-recursion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen5/tail-recursion.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz89/listen3/for-loop.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen3/for-loop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz89/listen3/for-loop.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen3/for-loop.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz89/listen3/tail-recursion.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen3/tail-recursion.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +321,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568856077559" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/codespitz89/listen3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codespitz89/listen5" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -326,11 +337,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codespitz89/listen5" />
+      <recent name="$PROJECT_DIR$/codespitz89/listen4" />
       <recent name="$PROJECT_DIR$/codespitz89/listen3" />
       <recent name="$PROJECT_DIR$/codespitz89/listen2" />
       <recent name="$PROJECT_DIR$/assembly/session4/output-native" />
-      <recent name="$PROJECT_DIR$/assembly/session4" />
-      <recent name="$PROJECT_DIR$/assembly/session4/output-native/cmake" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java/src" />
@@ -594,6 +605,19 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -870,7 +894,15 @@
       <workItem from="1617896246849" duration="11163000" />
       <workItem from="1617907873568" duration="8239000" />
       <workItem from="1617948183148" duration="9478000" />
-      <workItem from="1618036509934" duration="1006000" />
+      <workItem from="1618036509934" duration="3916000" />
+      <workItem from="1618318923680" duration="70000" />
+      <workItem from="1618327338677" duration="183000" />
+      <workItem from="1618474210735" duration="338000" />
+      <workItem from="1618493467710" duration="40000" />
+      <workItem from="1618590128434" duration="5078000" />
+      <workItem from="1618642289894" duration="7000" />
+      <workItem from="1618650589971" duration="3386000" />
+      <workItem from="1619072942064" duration="33436000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -1103,7 +1135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617958023976</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="codespitz-89 - listen 3">
+      <created>1618039064187</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1618039064187</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

@@ -1,6 +1,6 @@
 import arrayStringify from './tail-recursion'
 
-describe('listen3 - tail-recursion', () => {
+xdescribe('listen3 - tail-recursion', () => {
   it('배열이 아닌 경우', () => {
     [1, '', true, undefined, null, Symbol(), {}].forEach(v => {
       try {
