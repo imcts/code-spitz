@@ -8,8 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="codespitz-89 - listen 4, 5">
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen5/generator2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen6/for-loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen6/for-loop.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen6/tail-recursion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen6/tail-recursion.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz89/listen5/for-loop.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen5/for-loop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz89/listen5/for-loop.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen5/for-loop.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codespitz89/listen5/generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen5/generator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz89/listen5/tail-recursion.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen5/tail-recursion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codespitz89/listen5/tail-recursion.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen5/tail-recursion.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +319,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568856077559" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/codespitz89/listen5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codespitz89/listen6" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -326,11 +335,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codespitz89/listen6" />
       <recent name="$PROJECT_DIR$/codespitz89/listen5" />
       <recent name="$PROJECT_DIR$/codespitz89/listen4" />
       <recent name="$PROJECT_DIR$/codespitz89/listen3" />
       <recent name="$PROJECT_DIR$/codespitz89/listen2" />
-      <recent name="$PROJECT_DIR$/assembly/session4/output-native" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java/src" />
@@ -598,6 +607,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="note#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test/note.http">
       <method v="2" />
     </configuration>
@@ -610,6 +632,12 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="generator2" type="NodeJSConfigurationType" path-to-js-file="codespitz89/listen5/generator2.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="generator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codespitz89/listen5/generator.js" working-dir="$PROJECT_DIR$/codespitz89/listen5">
+      <method v="2" />
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -643,10 +671,13 @@
       <item itemvalue="Application.GTest" />
       <item itemvalue="HTTP Request.note#1" />
       <item itemvalue="HTTP Request.test#1" />
+      <item itemvalue="Node.js.generator2" />
+      <item itemvalue="Node.js.generator.js" />
       <item itemvalue="npm.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.generator.js" />
         <item itemvalue="Application.GTest" />
         <item itemvalue="HTTP Request.test#1" />
         <item itemvalue="HTTP Request.note#1" />
@@ -879,7 +910,14 @@
       <workItem from="1618642289894" duration="7000" />
       <workItem from="1618650589971" duration="3386000" />
       <workItem from="1619072942064" duration="33801000" />
-      <workItem from="1619194464275" duration="1088000" />
+      <workItem from="1619194464275" duration="5515000" />
+      <workItem from="1619405361975" duration="30000" />
+      <workItem from="1619412225192" duration="5601000" />
+      <workItem from="1619519629007" duration="18000" />
+      <workItem from="1619529872368" duration="4634000" />
+      <workItem from="1619540533990" duration="656000" />
+      <workItem from="1619710948469" duration="5148000" />
+      <workItem from="1619852064023" duration="22718000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -1133,7 +1171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619165663722</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="dd">
+      <created>1619196074209</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1619196074209</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1260,7 +1305,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rebase again" />
     <MESSAGE value="콘솔 삭제." />
     <MESSAGE value="콘솔 삭제 후 다시 저금." />
     <MESSAGE value="리베이스 'ㅁ '!" />
@@ -1285,7 +1329,32 @@
     <MESSAGE value="codespitz-89" />
     <MESSAGE value="codespitz-89 - listen 3" />
     <MESSAGE value="codespitz-89 - listen 4, 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="codespitz-89 - listen 4, 5" />
+    <MESSAGE value="dd" />
+    <option name="LAST_COMMIT_MESSAGE" value="dd" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/codespitz89/listen5/tail-recursion.js</url>
+          <line>215</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/codespitz89/listen5/tail-recursion.js</url>
+          <line>75</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/codespitz89/listen5/tail-recursion.js</url>
+          <line>65</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

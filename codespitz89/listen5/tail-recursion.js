@@ -70,7 +70,9 @@ const stringify = (() => {
       }
     }
     static toString (type, parent, stack) {
-      const [START, END] = type === Type.ARRAY ? '[]' : '{}';
+      const [START, END] = type === Type.ARRAY
+        ? '[]'
+        : type === Type.OBJECT ? '{}' : ['', ''];
       let result = '';
       for (const string of stack) {
         if (string) {
@@ -92,6 +94,32 @@ const stringify = (() => {
   const Type = class {
     static ARRAY = 'array';
     static OBJECT = 'object';
+    static VALUE = 'value';
+  }
+  function * objectValueGenerator (parentKey, value) {
+    yield {
+      type: Type.VALUE,
+      data: {
+        array: Validator.isArray(value),
+        object: Validator.isObject(value),
+        variable: Validator.isVariable(value),
+        key: parentKey,
+        value
+      }
+    };
+    return {type: Type.VALUE}
+  }
+  function * valueGenerator (value) {
+    yield {
+      type: Type.VALUE,
+      data: {
+        array: Validator.isArray(value),
+        object: Validator.isObject(value),
+        variable: Validator.isVariable(value),
+        value
+      }
+    };
+    return {type: Type.VALUE}
   }
   function * objectGenerator (object) {
     for (const key in object) {
@@ -102,6 +130,7 @@ const stringify = (() => {
           data: {
             array: Validator.isArray(value),
             object: Validator.isObject(value),
+            variable: Validator.isVariable(value),
             key,
             value
           }
@@ -117,17 +146,36 @@ const stringify = (() => {
         data: {
           array: Validator.isArray(value),
           object: Validator.isObject(value),
+          variable: Validator.isVariable(value),
           value
         }
       }
     }
     return {type: Type.ARRAY};
   }
-  function * generator (data) {
-    if (Validator.isArray(data)) {
-      return yield * arrayGenerator(data);
+
+  function * generator (data, parentKey) {
+    if (Validator.isObjectType(data)) {
+      if (Validator.isJSONOverridden(data)) {
+        const value = data.toJSON();
+        if (Validator.isObjectType(value)) {
+          if (Validator.isArray(value)) {
+            return yield * arrayGenerator(value);
+          } else {
+            return yield * objectGenerator(value);
+          }
+        } else {
+          return yield * objectValueGenerator(parentKey, value);
+        }
+      } else {
+        if (Validator.isArray(data)) {
+          return yield * arrayGenerator(data);
+        } else {
+          return yield * objectGenerator(data);
+        }
+      }
     } else {
-      return yield * objectGenerator(data);
+      return yield * valueGenerator(data);
     }
   }
   const Validator = class {
@@ -136,11 +184,20 @@ const stringify = (() => {
     static #OBJECT = 'object';
     static #UNDEFINED = undefined;
 
+    static isJSONOverridden (data) {
+      return this.isObjectType(data) && this.isFunction(data.toJSON)
+    }
+    static isObjectType (data) {
+      return this.isArray(data) || this.isObject(data);
+    }
     static isArray (data) {
       return Array.isArray(data);
     }
     static isObject (data) {
       return data && !this.isArray(data) && typeof data === this.#OBJECT;
+    }
+    static isVariable (data) {
+      return !this.isObject(data);
     }
     static isFunction (data) {
       return typeof data === this.#FUNCTION;
@@ -153,9 +210,6 @@ const stringify = (() => {
     }
     static isUndefinable (data) {
       return this.isSymbol(data) || this.isUndefined(data) || this.isFunction(data);
-    }
-    static isSingularValue (data) {
-      return !(this.isArray(data) || this.isObject(data))
     }
   }
   const stringify = (iterator, parent, stack, type) => {
@@ -174,9 +228,8 @@ const stringify = (() => {
       const {data} = value;
       switch (true) {
         case data.array:
-          return stringify(generator(data.value), {iterator, parent, data, stack}, [], type);
         case data.object:
-          return stringify(generator(data.value), {iterator, parent, data, stack}, [], type);
+          return stringify(generator(data.value, data.key), {iterator, parent, data, stack}, [], type);
         default:
           stack.push(Compiler.dataToString(data));
           return stringify(iterator, parent, stack, type);
@@ -186,15 +239,25 @@ const stringify = (() => {
   return data => {
     if (Validator.isUndefinable(data)) {
       return undefined;
-    }
-    if (Validator.isSingularValue(data)) {
-      return Compiler.toSingleString(data);
     } else {
       return stringify(generator(data), null, [], '');
     }
   }
 })();
 
-stringify({a: [1, '2', Symbol(), null, true, false], b: [], c: 3, e: {f: {}, g: [], h: () => {}}}) === JSON.stringify({a: [1, '2', Symbol(), null, true, false], b: [], c: 3, e: {f: {}, g: [], h: () => {}}});
+const arr1 = [];
+arr1.toJSON = () => {
+  return 1;
+}
+const arr2 = [];
+arr2.toJSON = () => {
+  return {a: 3};
+}
+
+stringify(
+  {arr1, arr2, a: [1, '2', Symbol(), null, true, false], b: [], c: 3, e: {f: {}, g: [], h: () => {}}, i: {j: 4, toJSON () {return 4}}, k: {k: 5, toJSON () {return {k: 5, l: 6}}}}
+) === JSON.stringify(
+  {arr1, arr2, a: [1, '2', Symbol(), null, true, false], b: [], c: 3, e: {f: {}, g: [], h: () => {}}, i: {j: 4, toJSON () {return 4}}, k: {k: 5, toJSON () {return {k: 5, l: 6}}}}
+)
 
 export default stringify

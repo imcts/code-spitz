@@ -10,12 +10,12 @@ describe('listen5 - for-loop', () => {
     expect(stringify(undefined)).toBe(JSON.stringify(undefined));
   });
 
-  xit('빈 객체나 배열인 경우', () => {
+  it('빈 객체나 배열인 경우', () => {
     expect(stringify([])).toBe(JSON.stringify([]))
     expect(stringify({})).toBe(JSON.stringify({}))
   });
 
-  xit('1 차원 배열인 경우', () => {
+  it('1 차원 배열인 경우', () => {
     expect(stringify([1])).toBe(JSON.stringify([1]))
     expect(stringify([1, 2])).toBe(JSON.stringify([1, 2]))
     expect(stringify(['1'])).toBe(JSON.stringify(['1']))
@@ -62,6 +62,31 @@ describe('listen5 - for-loop', () => {
     expect(stringify({a: {b: 1, c: {}}, d: 3, e: 5})).toBe(JSON.stringify({a: {b: 1, c: {}}, d: 3, e: 5}))
     expect(stringify({a: {b: 1, c: [], f: [6, 7, 8, 9, 10]}, d: 3, e: 5})).toBe(JSON.stringify({a: {b: 1, c: [], f: [6, 7, 8, 9, 10]}, d: 3, e: 5}))
     expect(stringify({a: []})).toBe(JSON.stringify({a: []}))
-    expect(stringify({a: [1, '2', Symbol(), null, true, false], b: [], c: 3, e: {f: {}, g: [], h: () => {}}})).toBe(JSON.stringify({a: [1, '2', Symbol(), null, true, false], b: [], c: 3, e: {f: {}, g: [], h: () => {}}}))
   });
+
+  it('toJSON 객체인 경우', () => {
+    expect(stringify({a: 1, toJSON () { return 3; }})).toBe(JSON.stringify({a: 1, toJSON(){ return 3; }}))
+    expect(stringify({a: 1, toJSON () { return {}; }})).toBe(JSON.stringify({a: 1, toJSON(){ return {}; }}))
+    expect(stringify({a: {b: 1, toJSON () {return 3}}})).toBe(JSON.stringify({a: {b: 1, toJSON () {return 3}}}))
+    expect(stringify({a: 1, toJSON () { return {b: 2}; }})).toBe(JSON.stringify({a: 1, toJSON(){ return {b: 2}; }}))
+    expect(stringify({a: 1, toJSON () { return [1, 2, 3, {b: 2}]; }})).toBe(JSON.stringify({a: 1, toJSON(){ return [1, 2, 3, {b: 2}];}}))
+    const arr = [];
+    arr.toJSON = () => {
+      return {a: 3};
+    }
+    expect(stringify(arr)).toBe(JSON.stringify(arr));
+  });
+
+  it('finally', () => {
+    expect
+    (stringify(
+      {a: [1, '2', Symbol(), null, true, false], b: [], c: 3, e: {f: {}, g: [], h: () => {}}, i: {j: 4, toJSON () {return 4}}, k: {k: 5, toJSON () {return {k: 5, l: 6}}}}
+      )
+    )
+    .toBe(
+      JSON.stringify(
+        {a: [1, '2', Symbol(), null, true, false], b: [], c: 3, e: {f: {}, g: [], h: () => {}}, i: {j: 4, toJSON () {return 4}}, k: {k: 5, toJSON () {return {k: 5, l: 6}}}}
+      )
+    )
+  })
 })
