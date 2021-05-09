@@ -7,18 +7,12 @@
     <bookmark url="file://$PROJECT_DIR$/codespitz83/src/program/Main.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="codespitz-89 - listen 4, 5">
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen5/generator2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen6/for-loop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen6/for-loop.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen6/tail-recursion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codespitz89/listen6/tail-recursion.test.js" afterDir="false" />
+    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="codespitz-89 - listen6 &#10;- stringify: toJSON케이스까지 정복&#10;- 배열 문자열 JSON.parser 작성">
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen7/for-loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen7/for-loop.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen7/tail-recursion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codespitz89/listen7/tail-recursion.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz89/listen5/for-loop.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen5/for-loop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz89/listen5/for-loop.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen5/for-loop.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz89/listen5/generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen5/generator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz89/listen5/tail-recursion.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen5/tail-recursion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz89/listen5/tail-recursion.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz89/listen5/tail-recursion.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +313,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568856077559" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/codespitz89/listen6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codespitz89/listen7" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -335,11 +329,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codespitz89/listen7" />
       <recent name="$PROJECT_DIR$/codespitz89/listen6" />
       <recent name="$PROJECT_DIR$/codespitz89/listen5" />
       <recent name="$PROJECT_DIR$/codespitz89/listen4" />
       <recent name="$PROJECT_DIR$/codespitz89/listen3" />
-      <recent name="$PROJECT_DIR$/codespitz89/listen2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java/src" />
@@ -917,7 +911,12 @@
       <workItem from="1619529872368" duration="4634000" />
       <workItem from="1619540533990" duration="656000" />
       <workItem from="1619710948469" duration="5148000" />
-      <workItem from="1619852064023" duration="22718000" />
+      <workItem from="1619852064023" duration="22956000" />
+      <workItem from="1619968088456" duration="556000" />
+      <workItem from="1620104383021" duration="20000" />
+      <workItem from="1620214018796" duration="4571000" />
+      <workItem from="1620486564574" duration="13204000" />
+      <workItem from="1620546439498" duration="5382000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -1178,7 +1177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619196074209</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="codespitz-89 - listen6 &#10;- stringify: toJSON케이스까지 정복&#10;- 배열 문자열 JSON.parser 작성">
+      <created>1619940452438</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1619940452438</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1305,7 +1311,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="콘솔 삭제." />
     <MESSAGE value="콘솔 삭제 후 다시 저금." />
     <MESSAGE value="리베이스 'ㅁ '!" />
     <MESSAGE value="재적용." />
@@ -1330,31 +1335,8 @@
     <MESSAGE value="codespitz-89 - listen 3" />
     <MESSAGE value="codespitz-89 - listen 4, 5" />
     <MESSAGE value="dd" />
-    <option name="LAST_COMMIT_MESSAGE" value="dd" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/codespitz89/listen5/tail-recursion.js</url>
-          <line>215</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/codespitz89/listen5/tail-recursion.js</url>
-          <line>75</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/codespitz89/listen5/tail-recursion.js</url>
-          <line>65</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="codespitz-89 - listen6 &#10;- stringify: toJSON케이스까지 정복&#10;- 배열 문자열 JSON.parser 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="codespitz-89 - listen6 &#10;- stringify: toJSON케이스까지 정복&#10;- 배열 문자열 JSON.parser 작성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
