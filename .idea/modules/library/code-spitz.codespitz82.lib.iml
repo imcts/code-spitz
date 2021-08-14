@@ -3,7 +3,7 @@
   <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="codespitz82" externalSystemModuleVersion="unspecified" linkedProjectId=":lib" linkedProjectPath="$MODULE_DIR$/../../../codespitz82/lib" rootProjectPath="$MODULE_DIR$/../../../codespitz82" />
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JavaScript " useProjectSettings="false">
+      <configuration version="3" platform="JavaScript " allPlatforms="JS []" useProjectSettings="false">
         <testOutputPath>$MODULE_DIR$/../../../codespitz82/lib/build/classes/kotlin/test/lib_test.js</testOutputPath>
         <compilerSettings />
         <compilerArguments>
@@ -28,14 +28,14 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../../codespitz82/lib/out/production/classes" />
-    <output-test url="file://$MODULE_DIR$/../../../codespitz82/lib/out/test/classes" />
+    <output url="file://$MODULE_DIR$/../../../codespitz82/lib/build/classes/java/main" />
+    <output-test url="file://$MODULE_DIR$/../../../codespitz82/lib/build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../codespitz82/lib">
-      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/main/kotlin" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/test/kotlin" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/main/kotlin" type="kotlin-source" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/test/kotlin" type="kotlin-test" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/main/resources" type="kotlin-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/src/test/resources" type="kotlin-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../../codespitz82/lib/out" />

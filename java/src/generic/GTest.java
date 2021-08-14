@@ -22,9 +22,9 @@ public class GTest {
         list.forEach(System.out::println);
     }
 
-    void genericExtends () {
+    void genericExtends (List<? extends A> list) {
         // The expression of the extends enumerates every type of the list of the subtypes.
-        List<? extends A> list = new ArrayList<>();
+//        List<? extends A> list = new ArrayList<>();
 
         // The list is pointing kinds of below.
         List<A> aList;
