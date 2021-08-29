@@ -7,21 +7,9 @@
     <bookmark url="file://$PROJECT_DIR$/codespitz83/src/program/Main.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="codespitz-89 - listen6 &#10;- stringify: toJSON케이스까지 정복&#10;- 배열 문자열 JSON.parser 작성">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/generic/genericTypescript.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/study/JH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/code-spitz.codespitz82.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/library/code-spitz.codespitz82.lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/library/code-spitz.codespitz82.lib.iml" afterDir="false" />
+    <list default="true" id="ea2a5542-1d4e-4fcd-970b-ba1054557a27" name="Default Changelist" comment="제네릭 타입스크립트 추가">
+      <change afterPath="$PROJECT_DIR$/java/src/generic/genericExtends.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz82/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz82/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codespitz82/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/codespitz82/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/generic/GTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/generic/GTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/generic/GenericListMain.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -917,6 +905,8 @@
       <workItem from="1627998065654" duration="6379000" />
       <workItem from="1628339765169" duration="698000" />
       <workItem from="1628935135997" duration="1746000" />
+      <workItem from="1628952744626" duration="122000" />
+      <workItem from="1630220134980" duration="561000" />
     </task>
     <task id="LOCAL-00001" summary="for rebase 1">
       <created>1556775525767</created>
@@ -1184,7 +1174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619940452438</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="제네릭 타입스크립트 추가">
+      <created>1628952757423</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1628952757423</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1311,7 +1308,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="콘솔 삭제 후 다시 저금." />
     <MESSAGE value="리베이스 'ㅁ '!" />
     <MESSAGE value="재적용." />
     <MESSAGE value="리베이스성공" />
@@ -1336,7 +1332,8 @@
     <MESSAGE value="codespitz-89 - listen 4, 5" />
     <MESSAGE value="dd" />
     <MESSAGE value="codespitz-89 - listen6 &#10;- stringify: toJSON케이스까지 정복&#10;- 배열 문자열 JSON.parser 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="codespitz-89 - listen6 &#10;- stringify: toJSON케이스까지 정복&#10;- 배열 문자열 JSON.parser 작성" />
+    <MESSAGE value="제네릭 타입스크립트 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="제네릭 타입스크립트 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
