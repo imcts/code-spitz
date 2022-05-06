@@ -647,19 +647,16 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.GTest" />
-      <item itemvalue="HTTP Request.note#1" />
-      <item itemvalue="HTTP Request.test#1" />
+      <item itemvalue="HTTP 요청.note#1" />
+      <item itemvalue="HTTP 요청.test#1" />
       <item itemvalue="Node.js.generator2" />
       <item itemvalue="Node.js.generator.js" />
       <item itemvalue="npm.test" />
+      <item itemvalue="애플리케이션.GTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.generator.js" />
-        <item itemvalue="Application.GTest" />
-        <item itemvalue="HTTP Request.test#1" />
-        <item itemvalue="HTTP Request.note#1" />
       </list>
     </recent_temporary>
   </component>
