@@ -3,7 +3,6 @@ if (typeof kotlin === 'undefined') {
 }
 var lib = function (_, Kotlin) {
   'use strict';
-  var println = Kotlin.kotlin.io.println_s8jyv4$;
 }(typeof lib === 'undefined' ? {} : lib, kotlin);
 
 //# sourceMappingURL=lib.js.map

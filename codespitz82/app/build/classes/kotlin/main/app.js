@@ -3,7 +3,6 @@ if (typeof kotlin === 'undefined') {
 }
 var app = function (_, Kotlin) {
   'use strict';
-  var println = Kotlin.kotlin.io.println_s8jyv4$;
   var throwCCE = Kotlin.throwCCE;
   var Unit = Kotlin.kotlin.Unit;
   var replace = Kotlin.kotlin.text.replace_680rmw$;
@@ -11,12 +10,12 @@ var app = function (_, Kotlin) {
   var equals = Kotlin.equals;
   var split = Kotlin.kotlin.text.split_o64adg$;
   var isBlank = Kotlin.kotlin.text.isBlank_gw00vp$;
+  var Kind_CLASS = Kotlin.Kind.CLASS;
   var StringBuilder_init = Kotlin.kotlin.text.StringBuilder_init_za3lpa$;
   var ensureNotNull = Kotlin.ensureNotNull;
   var Regex_init = Kotlin.kotlin.text.Regex_init_61zpoe$;
   function app$lambda(it) {
     var tmp$, tmp$_0, tmp$_1;
-    println('here!');
     if ((Kotlin.isType(tmp$ = it, KeyboardEvent) ? tmp$ : throwCCE()).keyCode !== 13)
       return;
     var input = Kotlin.isType(tmp$_0 = it.target, HTMLInputElement) ? tmp$_0 : throwCCE();
@@ -27,7 +26,7 @@ var app = function (_, Kotlin) {
   }
   function app() {
     var tmp$, tmp$_0;
-    (tmp$ = document.querySelector('#base')) != null ? (tmp$.innerHTML = '<input id="input"/><div id="result"><\/div>') : null;
+    (tmp$ = document.querySelector('#base')) != null ? (tmp$.innerHTML = '<input id="input/><div id="result"><\/div>') : null;
     (tmp$_0 = document.querySelector('#input')) != null ? (tmp$_0.addEventListener('keyup', app$lambda), Unit) : null;
   }
   var cleanUp;
@@ -109,6 +108,15 @@ var app = function (_, Kotlin) {
     }
     return ex(r);
   }
+  function A(a) {
+    this.a_0 = null;
+    this.a_0 = a;
+  }
+  A.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'A',
+    interfaces: []
+  };
   function main() {
     app();
   }
@@ -130,6 +138,7 @@ var app = function (_, Kotlin) {
   });
   _.ex_61zpoe$ = ex;
   _.calc_61zpoe$ = calc;
+  _.A = A;
   _.main = main;
   cleanUp = Regex_init('[^.\\d-+*\\/]');
   mulDiv = Regex_init('((?:\\+-)?[.\\d]+)([*\\/])((?:\\+-)?[.\\d]+)');

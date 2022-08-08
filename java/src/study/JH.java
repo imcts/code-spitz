@@ -53,6 +53,8 @@ class D implements Flyer {
 }
 
 public class JH {
+
+    private final int a = 3;
     public static void main(String[] args) {
 //        JH.view(new Base());  // 나는 두잉이야!!
         JH.view(new A());  // 먹어. 나는 A 이야!!
@@ -64,4 +66,8 @@ public class JH {
         base.doing();
         base.something();
     }
+}
+
+class CH extends JH {
+    private final int a = 3;
 }

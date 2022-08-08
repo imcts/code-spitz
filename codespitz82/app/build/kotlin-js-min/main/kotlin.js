@@ -3411,9 +3411,6 @@
     };
     BufferedOutputToConsoleLog.$metadata$ = {kind: Kind_CLASS, simpleName: 'BufferedOutputToConsoleLog', interfaces: [BufferedOutput]};
     var output;
-    function println_0(message) {
-      output.println_s8jyv4$(message);
-    }
     function CoroutineImpl(resultContinuation) {
       this.resultContinuation_0 = resultContinuation;
       this.state_0 = 0;
@@ -6392,7 +6389,6 @@
     package$io.NodeJsOutput = NodeJsOutput;
     package$io.BufferedOutput = BufferedOutput;
     package$io.BufferedOutputToConsoleLog = BufferedOutputToConsoleLog;
-    package$io.println_s8jyv4$ = println_0;
     var package$coroutines = package$kotlin.coroutines || (package$kotlin.coroutines = {});
     package$coroutines.CoroutineImpl = CoroutineImpl;
     Object.defineProperty(package$coroutines, 'CompletedContinuation', {get: CompletedContinuation_getInstance});
