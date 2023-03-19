@@ -3,8 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/assembly/emscripton/emsdk" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/assembly/emscripton/emsdk/releases" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/assembly/example" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/codespitz-s84" vcs="Git" />
   </component>
 </project>
