@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="code-spitz.codespitz82.app" target="12" />
-      <module name="code-spitz.codespitz82.lib" target="12" />
+      <module name="code-spitz.codespitz82.app" target="11" />
+      <module name="code-spitz.codespitz82.lib" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
